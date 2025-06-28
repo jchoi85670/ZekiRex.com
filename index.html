@@ -75,6 +75,42 @@
       font-weight: bold;
     }
 
+    .info-section {
+      display: flex;
+      justify-content: space-between;
+      padding: 80px 40px;
+      background-color: #f7f7f7;
+      flex-wrap: wrap;
+    }
+
+    .info-left {
+      flex: 1 1 300px;
+      font-size: 20px;
+      font-weight: bold;
+      color: #2a2a2a;
+      margin-bottom: 20px;
+    }
+
+    .info-left .orange-line {
+      margin: 10px 0;
+      margin-left: 0;
+    }
+
+    .info-right {
+      flex: 2 1 400px;
+      font-size: 16px;
+      color: #4a4a4a;
+      line-height: 1.7;
+    }
+
+    .info-right a {
+      display: inline-block;
+      margin-top: 20px;
+      color: #f26739;
+      font-weight: 500;
+      text-decoration: none;
+    }
+
     @media screen and (max-width: 768px) {
       .container {
         padding: 60px 20px;
@@ -86,6 +122,11 @@
 
       p {
         font-size: 16px;
+      }
+
+      .info-section {
+        flex-direction: column;
+        gap: 30px;
       }
     }
   </style>
@@ -101,13 +142,23 @@
 
   <section class="container">
     <div class="text">
-      <h1>ZekiRex unlocks your potential.</h1>
+      <h1><span style="color:#f26739">ZekiRex</span> unlocks your potential.</h1>
       <div class="orange-line"></div>
       <p>At ZekiRex, we combine data-driven strategies, intelligent lifecycle tracking, and proprietary algorithms to transform the way you grow and protect wealth. Our platform empowers investors to capitalize on opportunities from IPO to long-term compounding — while managing risk in volatile markets.</p>
       <p>From active income strategies to long-term innovation investing,<br>
       ZekiRex is where <span class="bold">conviction meets execution</span>.</p>
     </div>
   </section>
+
+  <section class="info-section">
+    <div class="info-left">
+      Empowering Financial Success<br> Together
+      <div class="orange-line"></div>
+    </div>
+    <div class="info-right">
+      ZekiRex offers a unique approach to investing and trading, combining weekly income generation with long-term growth strategies. Our modern platform and philosophy make it easy for individuals to take control of their finances and achieve their financial goals. With ZekiRex, you can invest with confidence and build a successful financial future.<br>
+      <a href="#">About us →</a>
+    </div>
+  </section>
 </body>
 </html>
-
