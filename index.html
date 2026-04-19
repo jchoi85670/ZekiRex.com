@@ -1,135 +1,171 @@
+import os
+
+html_content = """
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ZekiRex | Smart Investing Platform</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #ffffff;
-      color: #111111;
-    }
-    .top-right-logo {
-      position: fixed;
-      top: 20px;
-      right: 20px;
-      width: 104px; /* 1.3x of 80px */
-      z-index: 1000;
-    }
-    header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 30px 60px;
-    }
-    .hero {
-      max-width: 1200px;
-      margin: 40px auto;
-      padding: 0 60px;
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: space-between;
-    }
-    .hero-text {
-      flex: 1;
-      min-width: 320px;
-      padding-right: 40px;
-    }
-    .hero-text h1 {
-      font-size: 48px;
-      font-weight: bold;
-      margin-bottom: 30px;
-    }
-    .hero-text p {
-      font-size: 22px;
-      line-height: 1.6;
-      color: #333333;
-    }
-    .hero-img {
-      flex: 1;
-      min-width: 320px;
-      text-align: center;
-    }
-    .hero-img img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 12px;
-    }
-    .section {
-      max-width: 1200px;
-      margin: 80px auto;
-      padding: 0 60px;
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: space-between;
-    }
-    .section-text {
-      flex: 1;
-      min-width: 320px;
-      padding-right: 40px;
-    }
-    .section-text h2 {
-      font-size: 40px;
-      font-weight: bold;
-      margin-bottom: 24px;
-    }
-    .section-text p {
-      font-size: 21px;
-      line-height: 1.6;
-      color: #333333;
-    }
-    .section-img {
-      flex: 1;
-      min-width: 320px;
-      text-align: center;
-    }
-    .section-img img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 12px;
-    }
-    footer {
-      text-align: center;
-      padding: 40px;
-      color: #666666;
-      font-size: 16px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZekiRex™ | Market Intelligence</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: #f4f7f9;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 50px;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        h1 {
+            color: #0a192f;
+            font-size: 2.8em;
+            margin-bottom: 5px;
+            letter-spacing: -1px;
+        }
+        .subtitle {
+            color: #007bff;
+            font-size: 1.2em;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        .founded {
+            font-size: 0.9em;
+            color: #777;
+            font-style: italic;
+        }
+        blockquote {
+            background-color: #f8f9fa;
+            border-left: 5px solid #007bff;
+            margin: 30px 0;
+            padding: 20px 30px;
+            font-size: 1.25em;
+            color: #444;
+            font-style: italic;
+            line-height: 1.5;
+        }
+        h3 {
+            color: #0a192f;
+            border-bottom: 2px solid #e1e8ed;
+            padding-bottom: 10px;
+            margin-top: 40px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 1em;
+        }
+        thead tr {
+            background-color: #0a192f;
+            color: #ffffff;
+            text-align: left;
+        }
+        th, td {
+            padding: 15px;
+            border: 1px solid #dee2e6;
+        }
+        tbody tr:nth-of-type(even) {
+            background-color: #f9f9f9;
+        }
+        .cta-container {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .cta-button {
+            background-color: #007bff;
+            color: white;
+            padding: 18px 35px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: background-color 0.3s ease;
+            display: inline-block;
+        }
+        .cta-button:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            margin-top: 60px;
+            text-align: center;
+            font-size: 0.85em;
+            color: #999;
+        }
+    </style>
 </head>
 <body>
-  <img src="29DE4C9B-3E4F-4B6F-8748-CE7CC88A5A38.png" alt="ZekiRex Logo" class="top-right-logo">
+    <div class="container">
+        <header>
+            <h1>ZekiRex™</h1>
+            <div class="subtitle">Market Interpretation & Actionable Trading Intelligence</div>
+            <div class="founded">Founded on June 20, 2025</div>
+        </header>
 
-  <header>
-    <div></div>
-  </header>
+        <section>
+            <p>Welcome to <strong>ZekiRex™</strong>, your definitive source for high-precision, data-driven investment intelligence. Our philosophy is simple:</p>
+           
+            <blockquote>
+                "The market is not for prediction—it’s for interpretation and reaction."
+            </blockquote>
+           
+            <p>We provide the tools and analysis you need to identify opportunities and manage risk systematically.</p>
+        </section>
 
-  <section class="hero">
-    <div class="hero-text">
-      <h1>ZekiRex Unlocks Your Investment Potential</h1>
-      <p>Where conviction meets execution in wealth creation. Our data-driven platform combines intelligent lifecycle tracking and proprietary algorithms to transform how you grow and protect wealth—from IPO opportunities to long-term compounding.</p>
-    </div>
-    <div class="hero-img">
-      <img src="Future Stock Market Trends.png" alt="Futureforward Graph">
-    </div>
-  </section>
+        <section>
+            <h3>Ideal For</h3>
+            <p>Our platform is built for those who seek a rigorous, systematic, and data-backed approach to capital management, with a primary focus on:</p>
+           
+            <table>
+                <thead>
+                    <tr>
+                        <th>Target Audience</th>
+                        <th>Strategic Focus</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Serious Stock Traders</strong></td>
+                        <td>U.S. & Korea Market Data Analysis</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Ambitious AI Investors</strong></td>
+                        <td>Machine Learning & Quantitative Strategies</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Systematic Portfolio Managers</strong></td>
+                        <td>Risk Management & Asset Allocation</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
 
-  <section class="section">
-    <div class="section-text">
-      <h2>Powered by Proprietary Technology</h2>
-      <p>At ZekiRex, we've built cutting-edge technology that gives investors an edge in today's complex markets. Our proprietary algorithms analyze vast datasets of market movements and investor behavior patterns that would be impossible to process manually.<br><br>
-      The platform’s intelligent lifecycle tracking adapts your investment strategies as market conditions evolve, ensuring your portfolio remains optimized through changing economic cycles. This dynamic approach integrates real-time data for swift portfolio adjustments when opportunities or risks emerge.</p>
-    </div>
-    <div class="section-img">
-      <img src="Algorithmic Trends in Blue Waves.png" alt="Algorithmic Insights">
-    </div>
-  </section>
+        <section>
+            <h3>Transform Information into Advantage</h3>
+            <p>Stop guessing and start interpreting. Join <strong>ZekiRex™</strong> today for AI-powered market analysis and actionable trading insights that turn complexity into market advantage.</p>
+        </section>
 
-  <footer>
-    &copy; 2025 ZekiRex. All rights reserved.
-  </footer>
+        <div class="cta-container">
+            <a href="#" class="cta-button">Explore ZekiRex™ Intelligence</a>
+        </div>
+
+        <footer>
+            &copy; 2026 ZekiRex™. All rights reserved. Content provided for informational purposes only.
+        </footer>
+    </div>
 </body>
 </html>
+"""
+
+with open('zekirex_landing_page.html', 'w', encoding='utf-8') as f:
+    f.write(html_content)
