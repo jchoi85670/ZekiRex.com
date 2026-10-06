@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Unsubscribe — ZekiRex</title>
+<link rel="icon" href="/assets/logo.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="/assets/site.css">
+<style>
+.bye{max-width:560px}
+.bye .now{display:block;width:100%;padding:16px;font-size:18px;font-weight:700;border:0;border-radius:10px;background:#171A23;color:#fff;cursor:pointer;margin:18px 0 8px}
+.bye .why{color:#565D6E;font-size:14px;margin:22px 0 10px}
+.bye .rs{display:flex;flex-wrap:wrap;gap:8px}
+.bye .r{padding:10px 14px;font-size:15px;border:1px solid #C9CFDA;border-radius:999px;background:#fff;color:#171A23;cursor:pointer}
+.bye .r:hover,.bye .now:hover{opacity:.85}
+.bye textarea{width:100%;min-height:90px;font:inherit;font-size:15px;padding:10px;border:1px solid #C9CFDA;border-radius:8px;box-sizing:border-box}
+.bye .send{margin-top:8px;padding:10px 18px;border:0;border-radius:8px;background:#171A23;color:#fff;font-size:15px;cursor:pointer}
+.bye .muted{color:#565D6E;font-size:14px}
+.hide{display:none}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap">
+<a class="brand" href="/en/"><img src="/assets/logo.png" alt=""><b class="wm">Zeki<span>Rex</span></b></a>
+<div class="hdr-right"><a href="/">한국어</a></div>
+</div></header>
+<main class="page"><div class="wrap bye">
+<section id="ask">
+<h1>Unsubscribe</h1>
+<p><b>One tap</b> on any button below and you are off the list.</p>
+<button class="now" data-r="">Unsubscribe now</button>
+<p class="why">Picking a reason also unsubscribes you in that one tap. It helps us improve (optional).</p>
+<div class="rs"><button class="r" data-r="often">Too often</button><button class="r" data-r="long">Too long</button><button class="r" data-r="fit">Not relevant to me</button><button class="r" data-r="hard">Hard to read</button><button class="r" data-r="lang">Wrong language</button><button class="r" data-r="else">I get this elsewhere</button><button class="r" data-r="just">No reason</button></div>
+</section>
+<section id="done" class="hide">
+<h1>You are unsubscribed</h1>
+<p>You will not receive the next send. Thank you for reading.</p>
+<p class="why">Anything else you want to tell us? (optional)</p>
+<textarea id="x" maxlength="500"></textarea>
+<button class="send" id="sendx">Send</button>
+<p id="sent" class="muted hide">Received. Thank you.</p>
+<p class="muted" style="margin-top:28px">Changed your mind? Subscribe again at <a href="/en/#subscribe">zekirex.com</a>.</p>
+</section>
+<section id="bad" class="hide"><h1>Unsubscribe</h1><p>This link is incomplete. Tap “unsubscribe” at the end of the email again, or email <a href="mailto:newsletter@zekirex.com?subject=unsubscribe">newsletter@zekirex.com</a> with the subject unsubscribe.</p></section>
+<p id="fail" class="muted hide">We could not save that. Try again shortly, or email newsletter@zekirex.com with the subject unsubscribe.</p>
+</div></main>
+<footer class="site"><div class="wrap">
+<div class="brandf">Zeki<span>Rex</span></div>
+<div class="links"><a href="/en/">Home</a><a href="/en/privacy.html">Privacy</a></div>
+<div class="mono" style="color:#AEB8CF;font-size:13px">© 2025–2026 ZekiRex™ · Founded June 20, 2025</div>
+</div></footer>
+<script>
+(function(){
+  var EP = 'https://script.google.com/macros/s/AKfycbx6WVS3oVKRtgoGWDHZrqp-rk5OEvBvodjFzIP4pl_g41OBy4_sPhZnEh5H8kureGeP/exec';
+  var q = new URLSearchParams(location.search);
+  var tok = (q.get('t') || '').trim();
+  var $ = function(id){return document.getElementById(id);};
+  if (!EP || !/^[0-9a-fA-F-]{16,64}$/.test(tok)) { $('ask').classList.add('hide'); $('bad').classList.remove('hide'); return; }
+  var picked = '';
+  function post(fields){
+    var b = new URLSearchParams(fields); b.set('t', tok); b.set('l', 'en');
+    return fetch(EP, {method:'POST', mode:'no-cors', body:b});
+  }
+  function go(r){
+    picked = r;
+    document.querySelectorAll('#ask button').forEach(function(x){x.disabled = true;});
+    post({a:'unsub', r:r}).then(function(){
+      $('ask').classList.add('hide'); $('done').classList.remove('hide');
+    }).catch(function(){
+      $('fail').classList.remove('hide');
+      document.querySelectorAll('#ask button').forEach(function(x){x.disabled = false;});
+    });
+  }
+  document.querySelectorAll('#ask button').forEach(function(b){
+    b.addEventListener('click', function(){ go(b.getAttribute('data-r') || ''); });
+  });
+  $('sendx').addEventListener('click', function(){
+    var x = $('x').value.trim(); if (!x) return;
+    $('sendx').disabled = true;
+    post({a:'reason', r:picked, x:x}).then(function(){ $('sent').classList.remove('hide'); })
+      .catch(function(){ $('sendx').disabled = false; $('fail').classList.remove('hide'); });
+  });
+})();
+</script>
+</body>
+</html>
