@@ -18,7 +18,15 @@
 .bye textarea{width:100%;min-height:90px;font:inherit;font-size:15px;padding:10px;border:1px solid #C9CFDA;border-radius:8px;box-sizing:border-box}
 .bye .send{margin-top:8px;padding:10px 18px;border:0;border-radius:8px;background:#171A23;color:#fff;font-size:15px;cursor:pointer}
 .bye .muted{color:#565D6E;font-size:14px}
-.hide{display:none}
+.bye .card{display:flex;gap:14px;align-items:flex-start;padding:18px 20px;border:1px solid #CFE3D6;background:#F3FAF5;border-radius:12px;margin:8px 0 6px}
+.bye .ck{flex:0 0 32px;height:32px;border-radius:50%;background:#1F7A4D;color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center;font-size:18px}
+.bye .card h1{margin:0 0 4px;font-size:26px}
+.bye .card p{margin:2px 0}
+.bye .toggle{display:block;background:none;border:0;padding:0;color:#171A23;font-size:15px;font-weight:600;cursor:pointer;text-decoration:underline;margin-top:22px}
+.bye .cnt{text-align:right;color:#8A90A0;font-size:12px;margin-top:4px}
+.bye .send[disabled]{opacity:.4;cursor:default}
+.bye .again{display:inline-block;margin-top:30px;padding:10px 16px;border:1px solid #C9CFDA;border-radius:8px;color:#171A23;text-decoration:none;font-size:14px}
+.hide{display:none !important}
 </style>
 </head>
 <body>
@@ -35,13 +43,20 @@
 <div class="rs"><button class="r" data-r="often">Too often</button><button class="r" data-r="long">Too long</button><button class="r" data-r="fit">Not relevant to me</button><button class="r" data-r="hard">Hard to read</button><button class="r" data-r="lang">Wrong language</button><button class="r" data-r="else">I get this elsewhere</button><button class="r" data-r="just">No reason</button></div>
 </section>
 <section id="done" class="hide">
+<div class="card"><div class="ck">✓</div><div>
 <h1>You are unsubscribed</h1>
-<p>You will not receive the next send. Thank you for reading.</p>
-<p class="why">Anything else you want to tell us? (optional)</p>
-<textarea id="x" maxlength="500"></textarea>
-<button class="send" id="sendx">Send</button>
-<p id="sent" class="muted hide">Received. Thank you.</p>
-<p class="muted" style="margin-top:28px">Changed your mind? Subscribe again at <a href="/en/#subscribe">zekirex.com</a>.</p>
+<p>You will not receive the next send.</p>
+<p id="pickedline" class="muted hide">Your reason: <b id="pickedlab"></b></p>
+</div></div>
+<p class="muted">Thank you for reading.</p>
+<button class="toggle" id="openx">▸ Leave a note (optional)</button>
+<div id="note" class="hide">
+<textarea id="x" maxlength="500" placeholder="What could we have done better?"></textarea>
+<div class="cnt"><span id="n">0</span> / 500</div>
+<button class="send" id="sendx" disabled>Send</button>
+</div>
+<div id="sent" class="card hide"><div class="ck">✓</div><div><p><b>Got it — thank you.</b></p><p class="muted">We will use it to improve.</p></div></div>
+<a class="again" href="/en/#subscribe">Subscribed by mistake? Resubscribe</a>
 </section>
 <section id="bad" class="hide"><h1>Unsubscribe</h1><p>This link is incomplete. Tap “unsubscribe” at the end of the email again, or email <a href="mailto:newsletter@zekirex.com?subject=unsubscribe">newsletter@zekirex.com</a> with the subject unsubscribe.</p></section>
 <p id="fail" class="muted hide">We could not save that. Try again shortly, or email newsletter@zekirex.com with the subject unsubscribe.</p>
@@ -59,6 +74,7 @@
   var $ = function(id){return document.getElementById(id);};
   if (!EP || !/^[A-Za-z0-9_-]{8,64}$/.test(tok)) { $('ask').classList.add('hide'); $('bad').classList.remove('hide'); return; }
   var picked = '';
+  var LAB = {"often": "Too often", "long": "Too long", "fit": "Not relevant to me", "hard": "Hard to read", "lang": "Wrong language", "else": "I get this elsewhere", "just": "No reason"};
   function post(fields){
     var b = new URLSearchParams(fields); b.set('t', tok); b.set('l', 'en');
     return fetch(EP, {method:'POST', mode:'no-cors', body:b});
@@ -68,6 +84,8 @@
     document.querySelectorAll('#ask button').forEach(function(x){x.disabled = true;});
     post({a:'unsub', r:r}).then(function(){
       $('ask').classList.add('hide'); $('done').classList.remove('hide');
+      if (r && LAB[r]) { $('pickedlab').textContent = LAB[r]; $('pickedline').classList.remove('hide'); }
+      window.scrollTo(0, 0);
     }).catch(function(){
       $('fail').classList.remove('hide');
       document.querySelectorAll('#ask button').forEach(function(x){x.disabled = false;});
@@ -76,11 +94,20 @@
   document.querySelectorAll('#ask button').forEach(function(b){
     b.addEventListener('click', function(){ go(b.getAttribute('data-r') || ''); });
   });
+  $('openx').addEventListener('click', function(){
+    $('openx').classList.add('hide'); $('note').classList.remove('hide'); $('x').focus();
+  });
+  $('x').addEventListener('input', function(){
+    $('n').textContent = $('x').value.length; $('sendx').disabled = !$('x').value.trim();
+  });
   $('sendx').addEventListener('click', function(){
     var x = $('x').value.trim(); if (!x) return;
-    $('sendx').disabled = true;
-    post({a:'reason', r:picked, x:x}).then(function(){ $('sent').classList.remove('hide'); })
-      .catch(function(){ $('sendx').disabled = false; $('fail').classList.remove('hide'); });
+    $('sendx').disabled = true; $('sendx').textContent = 'Sending…';
+    post({a:'reason', r:picked, x:x}).then(function(){
+      $('note').classList.add('hide'); $('sent').classList.remove('hide');
+    }).catch(function(){
+      $('sendx').disabled = false; $('sendx').textContent = 'Send'; $('fail').classList.remove('hide');
+    });
   });
 })();
 </script>

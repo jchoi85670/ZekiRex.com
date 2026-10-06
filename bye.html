@@ -18,7 +18,15 @@
 .bye textarea{width:100%;min-height:90px;font:inherit;font-size:15px;padding:10px;border:1px solid #C9CFDA;border-radius:8px;box-sizing:border-box}
 .bye .send{margin-top:8px;padding:10px 18px;border:0;border-radius:8px;background:#171A23;color:#fff;font-size:15px;cursor:pointer}
 .bye .muted{color:#565D6E;font-size:14px}
-.hide{display:none}
+.bye .card{display:flex;gap:14px;align-items:flex-start;padding:18px 20px;border:1px solid #CFE3D6;background:#F3FAF5;border-radius:12px;margin:8px 0 6px}
+.bye .ck{flex:0 0 32px;height:32px;border-radius:50%;background:#1F7A4D;color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center;font-size:18px}
+.bye .card h1{margin:0 0 4px;font-size:26px}
+.bye .card p{margin:2px 0}
+.bye .toggle{display:block;background:none;border:0;padding:0;color:#171A23;font-size:15px;font-weight:600;cursor:pointer;text-decoration:underline;margin-top:22px}
+.bye .cnt{text-align:right;color:#8A90A0;font-size:12px;margin-top:4px}
+.bye .send[disabled]{opacity:.4;cursor:default}
+.bye .again{display:inline-block;margin-top:30px;padding:10px 16px;border:1px solid #C9CFDA;border-radius:8px;color:#171A23;text-decoration:none;font-size:14px}
+.hide{display:none !important}
 </style>
 </head>
 <body>
@@ -35,13 +43,20 @@
 <div class="rs"><button class="r" data-r="often">너무 자주 와요</button><button class="r" data-r="long">너무 길어요</button><button class="r" data-r="fit">내용이 저와 안 맞아요</button><button class="r" data-r="hard">읽기 어려워요</button><button class="r" data-r="lang">언어가 맞지 않아요</button><button class="r" data-r="else">다른 곳에서 봐요</button><button class="r" data-r="just">그냥요</button></div>
 </section>
 <section id="done" class="hide">
+<div class="card"><div class="ck">✓</div><div>
 <h1>해지되었습니다</h1>
-<p>다음 발송부터 받지 않으십니다. 그동안 읽어 주셔서 고맙습니다.</p>
-<p class="why">더 하실 말씀이 있으면 적어 주세요 (선택).</p>
-<textarea id="x" maxlength="500"></textarea>
-<button class="send" id="sendx">보내기</button>
-<p id="sent" class="muted hide">받았습니다. 고맙습니다.</p>
-<p class="muted" style="margin-top:28px">실수였다면 <a href="/#subscribe">zekirex.com</a>에서 다시 구독하실 수 있습니다.</p>
+<p>다음 발송부터 받지 않으십니다.</p>
+<p id="pickedline" class="muted hide">고르신 이유: <b id="pickedlab"></b></p>
+</div></div>
+<p class="muted">그동안 읽어 주셔서 고맙습니다.</p>
+<button class="toggle" id="openx">▸ 한 줄 남기기 (선택)</button>
+<div id="note" class="hide">
+<textarea id="x" maxlength="500" placeholder="어떤 점이 아쉬우셨나요?"></textarea>
+<div class="cnt"><span id="n">0</span> / 500</div>
+<button class="send" id="sendx" disabled>보내기</button>
+</div>
+<div id="sent" class="card hide"><div class="ck">✓</div><div><p><b>보내 주신 말씀 잘 받았습니다.</b></p><p class="muted">고치는 데 쓰겠습니다.</p></div></div>
+<a class="again" href="/#subscribe">실수였다면 다시 구독하기</a>
 </section>
 <section id="bad" class="hide"><h1>구독 해지</h1><p>링크가 완전하지 않습니다. 받으신 메일 맨 끝의 「구독 해지」를 다시 눌러 주시거나, <a href="mailto:newsletter@zekirex.com?subject=unsubscribe">newsletter@zekirex.com</a> 로 제목이 unsubscribe 인 메일을 보내 주세요.</p></section>
 <p id="fail" class="muted hide">저장하지 못했습니다. 잠시 뒤 다시 누르시거나 newsletter@zekirex.com 로 제목 unsubscribe 메일을 보내 주세요.</p>
@@ -59,6 +74,7 @@
   var $ = function(id){return document.getElementById(id);};
   if (!EP || !/^[A-Za-z0-9_-]{8,64}$/.test(tok)) { $('ask').classList.add('hide'); $('bad').classList.remove('hide'); return; }
   var picked = '';
+  var LAB = {"often": "너무 자주 와요", "long": "너무 길어요", "fit": "내용이 저와 안 맞아요", "hard": "읽기 어려워요", "lang": "언어가 맞지 않아요", "else": "다른 곳에서 봐요", "just": "그냥요"};
   function post(fields){
     var b = new URLSearchParams(fields); b.set('t', tok); b.set('l', 'ko');
     return fetch(EP, {method:'POST', mode:'no-cors', body:b});
@@ -68,6 +84,8 @@
     document.querySelectorAll('#ask button').forEach(function(x){x.disabled = true;});
     post({a:'unsub', r:r}).then(function(){
       $('ask').classList.add('hide'); $('done').classList.remove('hide');
+      if (r && LAB[r]) { $('pickedlab').textContent = LAB[r]; $('pickedline').classList.remove('hide'); }
+      window.scrollTo(0, 0);
     }).catch(function(){
       $('fail').classList.remove('hide');
       document.querySelectorAll('#ask button').forEach(function(x){x.disabled = false;});
@@ -76,11 +94,20 @@
   document.querySelectorAll('#ask button').forEach(function(b){
     b.addEventListener('click', function(){ go(b.getAttribute('data-r') || ''); });
   });
+  $('openx').addEventListener('click', function(){
+    $('openx').classList.add('hide'); $('note').classList.remove('hide'); $('x').focus();
+  });
+  $('x').addEventListener('input', function(){
+    $('n').textContent = $('x').value.length; $('sendx').disabled = !$('x').value.trim();
+  });
   $('sendx').addEventListener('click', function(){
     var x = $('x').value.trim(); if (!x) return;
-    $('sendx').disabled = true;
-    post({a:'reason', r:picked, x:x}).then(function(){ $('sent').classList.remove('hide'); })
-      .catch(function(){ $('sendx').disabled = false; $('fail').classList.remove('hide'); });
+    $('sendx').disabled = true; $('sendx').textContent = '보내는 중…';
+    post({a:'reason', r:picked, x:x}).then(function(){
+      $('note').classList.add('hide'); $('sent').classList.remove('hide');
+    }).catch(function(){
+      $('sendx').disabled = false; $('sendx').textContent = '보내기'; $('fail').classList.remove('hide');
+    });
   });
 })();
 </script>
