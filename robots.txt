@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /bye.html
+Disallow: /en/bye.html
+Disallow: /r.html
+
+Sitemap: https://zekirex.com/sitemap.xml
