@@ -3,5 +3,6 @@ Allow: /
 Disallow: /bye.html
 Disallow: /en/bye.html
 Disallow: /r.html
+Disallow: /editions.html
 
 Sitemap: https://zekirex.com/sitemap.xml

@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>받을 신문 바꾸기 — ZekiRex</title>
+<link rel="icon" href="/assets/logo.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="/assets/site.css">
+<style>
+.bye{max-width:560px}
+.bye .now{display:block;width:100%;padding:16px;font-size:18px;font-weight:700;border:0;border-radius:10px;background:#171A23;color:#fff;cursor:pointer;margin:18px 0 8px}
+.bye .why{color:#565D6E;font-size:14px;margin:22px 0 10px}
+.bye .rs{display:flex;flex-wrap:wrap;gap:8px}
+.bye .r{padding:10px 14px;font-size:15px;border:1px solid #C9CFDA;border-radius:999px;background:#fff;color:#171A23;cursor:pointer}
+.bye .r:hover,.bye .now:hover{opacity:.85}
+.bye textarea{width:100%;min-height:90px;font:inherit;font-size:15px;padding:10px;border:1px solid #C9CFDA;border-radius:8px;box-sizing:border-box}
+.bye .send{margin-top:8px;padding:10px 18px;border:0;border-radius:8px;background:#171A23;color:#fff;font-size:15px;cursor:pointer}
+.bye .muted{color:#565D6E;font-size:14px}
+.bye .card{display:flex;gap:14px;align-items:flex-start;padding:18px 20px;border:1px solid #CFE3D6;background:#F3FAF5;border-radius:12px;margin:8px 0 6px}
+.bye .ck{flex:0 0 32px;height:32px;border-radius:50%;background:#1F7A4D;color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center;font-size:18px}
+.bye .card h1{margin:0 0 4px;font-size:26px}
+.bye .card p{margin:2px 0}
+.bye .toggle{display:block;background:none;border:0;padding:0;color:#171A23;font-size:15px;font-weight:600;cursor:pointer;text-decoration:underline;margin-top:22px}
+.bye .cnt{text-align:right;color:#8A90A0;font-size:12px;margin-top:4px}
+.bye .send[disabled]{opacity:.4;cursor:default}
+.bye .again{display:inline-block;margin-top:30px;padding:10px 16px;border:1px solid #C9CFDA;border-radius:8px;color:#171A23;text-decoration:none;font-size:14px}
+.hide{display:none !important}
+.ed{display:flex;flex-direction:column;gap:10px;margin:18px 0}
+.ed label{display:flex;gap:12px;align-items:flex-start;padding:14px 16px;border:1px solid #C9CFDA;border-radius:10px;cursor:pointer;font-size:16px}
+.ed input{width:20px;height:20px;margin-top:2px}
+.ed small{display:block;color:#565D6E;font-size:13px;margin-top:2px}
+</style>
+<!--zx-seo-->
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#000C24">
+<!--/zx-seo-->
+</head>
+<body>
+<header class="site"><div class="wrap">
+<a class="brand" href="/"><img src="/assets/logo.png" alt=""><b class="wm">Zeki<span>Rex</span></b></a>
+<div class="hdr-right"><a href="/en/">English</a></div>
+</div></header>
+<main class="page"><div class="wrap bye">
+<section id="ask">
+<h1>받을 신문 바꾸기</h1>
+<p>받고 싶은 판에 체크하고 <b>저장</b>을 누르세요. 다음 발송부터 바뀝니다.</p>
+<div class="ed">
+<label><input type="checkbox" id="kr" checked><span><b>한국판</b><small>한국 장 일간 · 토요일 주말판 — 07:30 KST</small></span></label>
+<label><input type="checkbox" id="us" checked><span><b>미국판</b><small>미국 장 일간 · 토요일 주말판 — 07:30 ET</small></span></label>
+</div>
+<p class="muted">일요일판은 고르신 판을 따라갑니다. 둘 다 끄시려면 <a id="byelink" href="/bye.html">구독 해지</a>를 이용해 주세요.</p>
+<p id="need" class="muted hide" style="color:#B3261E">하나 이상 골라 주세요.</p>
+<button class="now" id="save">저장</button>
+</section>
+<section id="done" class="hide">
+<div class="card"><div class="ck">✓</div><div>
+<h1>저장되었습니다</h1>
+<p>다음 발송부터 <b id="picked"></b> 받으십니다.</p>
+</div></div>
+<p class="muted">언제든 편지 맨 끝의 「받을 신문 바꾸기」로 다시 바꾸실 수 있습니다.</p>
+</section>
+<section id="bad" class="hide"><h1>받을 신문 바꾸기</h1><p>링크가 완전하지 않습니다. 받으신 메일 맨 끝의 「받을 신문 바꾸기」를 다시 눌러 주시거나, <a href="mailto:newsletter@zekirex.com?subject=editions">newsletter@zekirex.com</a> 로 원하시는 판(한국판·미국판)을 적어 보내 주세요.</p></section>
+<p id="fail" class="muted hide">저장하지 못했습니다. 잠시 뒤 다시 누르시거나 newsletter@zekirex.com 로 원하시는 판을 적어 보내 주세요.</p>
+</div></main>
+<footer class="site"><div class="wrap">
+<div class="brandf">Zeki<span>Rex</span></div>
+<div class="links"><a href="/">홈</a><a href="/privacy.html">개인정보처리방침</a></div>
+<div class="mono" style="color:#AEB8CF;font-size:13px">© 2025–2026 ZekiRex™ · 2025년 6월 20일 설립</div>
+</div></footer>
+<script>
+(function(){
+  var EP = 'https://script.google.com/macros/s/AKfycbx6WVS3oVKRtgoGWDHZrqp-rk5OEvBvodjFzIP4pl_g41OBy4_sPhZnEh5H8kureGeP/exec';
+  var tok = (new URLSearchParams(location.search).get('t') || '').trim();
+  var $ = function(id){return document.getElementById(id);};
+  if (!/^[A-Za-z0-9_-]{8,64}$/.test(tok)) { $('ask').classList.add('hide'); $('bad').classList.remove('hide'); return; }
+  $('byelink').href = '/bye.html?t=' + encodeURIComponent(tok);
+  $('save').addEventListener('click', function(){
+    var kr = $('kr').checked, us = $('us').checked;
+    if (!kr && !us) { $('need').classList.remove('hide'); return; }
+    $('need').classList.add('hide');
+    var r = kr && us ? 'kr,us' : (kr ? 'kr' : 'us');
+    $('save').disabled = true; $('save').textContent = '저장하는 중…';
+    var b = new URLSearchParams({a:'editions', t:tok, r:r, l:'ko'});
+    fetch(EP, {method:'POST', mode:'no-cors', body:b}).then(function(){
+      $('picked').textContent = kr && us ? '한국판과 미국판 둘 다' : (kr ? '한국판만' : '미국판만');
+      $('ask').classList.add('hide'); $('done').classList.remove('hide'); window.scrollTo(0,0);
+    }).catch(function(){
+      $('save').disabled = false; $('save').textContent = '저장'; $('fail').classList.remove('hide');
+    });
+  });
+})();
+</script>
+</body>
+</html>

@@ -57,7 +57,7 @@
   <div class="wrap">
     <div>
       <div class="eyebrow mono">무료 한·미 주식 뉴스레터 · 매일판 6분 · 주말판 15분</div>
-      <h1>오늘 무엇을 할지,<br>매일 아침 6분.<br><em>주말엔 저희가 채점받습니다.</em></h1><div class="upd mono" data-upd="1" style="font-size:13px;opacity:.72;margin-top:10px">마지막 갱신 2026-10-18 13:31 PDT</div>
+      <h1>오늘 무엇을 할지,<br>매일 아침 6분.<br><em>주말엔 저희가 채점받습니다.</em></h1><div class="upd mono" data-upd="1" style="font-size:13px;opacity:.72;margin-top:10px">마지막 갱신 2026-10-19 06:59 PDT</div>
       <p class="lead">매일판은 시장 신호등과 <b>오늘의 대응</b>(현금 확보·관망·분할 매수·비중 확대)으로 오늘 할 일을 정리합니다. 주말판 ZekiRex™ Weekly는 지난 한 주 저희의 예고와 대응, 실은 종목이 맞았는지를 그대로 채점합니다 — 맞은 것도 틀린 것도.</p><div class="diff" style="margin-top:26px;max-width:520px"><p style="margin:0 0 12px;font-size:17px;font-weight:800;color:#fff">장중 속보는 다른 곳에서. 저희는 하루 한 번, 근거와 채점.</p><ul style="margin:0;padding:0;list-style:none;display:grid;gap:10px"><li style="font-size:15px;line-height:1.5;color:#D5DBE8;border-left:3px solid var(--peach);padding-left:12px"><b style="color:#fff">근거와 반대 신호까지</b> — 왜 오를 수 있는지와 함께, 무엇이 이 판단을 틀리게 할지, 운영자 보유 여부까지 적습니다.</li><li style="font-size:15px;line-height:1.5;color:#D5DBE8;border-left:3px solid var(--peach);padding-left:12px"><b style="color:#fff">빠짐없이 채점</b> — 실린 종목은 모두 5·20·60거래일 뒤 지수와 비교해 공개합니다. 판정 규칙은 미리 정해 둡니다.</li><li style="font-size:15px;line-height:1.5;color:#D5DBE8;border-left:3px solid var(--peach);padding-left:12px"><b style="color:#fff">한국·미국을 한국어로</b> — 두 시장을 같은 규칙, 같은 채점표로. 무료.</li></ul></div>
     </div>
     <form class="card-form" method="post" action="https://buttondown.com/api/emails/embed-subscribe/zekirex">
@@ -70,10 +70,37 @@
         <label><input type="radio" name="metadata__lang" value="ko" checked> 한국어</label>
         <label><input type="radio" name="metadata__lang" value="en"> English</label>
       </fieldset>
+      <fieldset id="zx-ed">
+        <legend>받을 신문</legend>
+        <label><input type="checkbox" id="zx-kr" checked> 한국판</label>
+        <label><input type="checkbox" id="zx-us" checked> 미국판</label>
+      </fieldset>
+      <p class="fine" id="zx-ed-need" style="display:none;color:#B3261E">받을 신문을 하나 이상 골라 주세요.</p>
+      <input type="hidden" name="metadata__editions" id="zx-editions" value="kr,us">
       <input type="hidden" name="embed" value="1">
       <button class="btn btn-cta" type="submit">무료로 구독하기</button>
-      <p class="fine">확인 메일의 링크를 누르면 구독이 시작됩니다. 모든 메일 하단에서 한 번에 해지할 수 있습니다.</p>
+      <p class="fine">확인 메일의 링크를 누르면 구독이 시작됩니다. 받을 신문은 모든 메일 하단에서 언제든 바꾸거나 한 번에 해지할 수 있습니다. 영어는 미국판만 나갑니다.</p>
     </form>
+    <script>
+    (function(){
+      var f = document.getElementById('zx-ed'); if (!f) return;
+      var form = f.form || f.closest('form');
+      var kr = document.getElementById('zx-kr'), us = document.getElementById('zx-us'),
+          hid = document.getElementById('zx-editions'), need = document.getElementById('zx-ed-need');
+      function en(){ var r = form.querySelector('input[name="metadata__lang"]:checked'); return r && r.value === 'en'; }
+      function sync(){
+        f.style.display = en() ? 'none' : '';
+        hid.value = en() ? 'us' : [kr.checked ? 'kr' : '', us.checked ? 'us' : ''].filter(Boolean).join(',');
+      }
+      form.addEventListener('change', sync);
+      form.addEventListener('submit', function(e){
+        sync();
+        if (!hid.value) { e.preventDefault(); need.style.display = ''; return; }
+        need.style.display = 'none';
+      });
+      sync();
+    })();
+    </script>
   </div>
 </section>
 
