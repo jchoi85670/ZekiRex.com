@@ -10,10 +10,10 @@
 <link rel="stylesheet" href="/assets/site.css">
 <style>
 .bye{max-width:560px}
-.bye .now{display:block;width:100%;padding:16px;font-size:18px;font-weight:700;border:0;border-radius:10px;background:#171A23;color:#fff;cursor:pointer;margin:18px 0 8px}
-.bye .why{color:#565D6E;font-size:14px;margin:22px 0 10px}
+.bye .now{display:inline;background:none;border:0;padding:0;margin:0;color:#565D6E;font-size:14px;text-decoration:underline;cursor:pointer}
+.bye .why{color:#565D6E;font-size:14px;margin:26px 0 0}
 .bye .rs{display:flex;flex-wrap:wrap;gap:8px}
-.bye .r{padding:10px 14px;font-size:15px;border:1px solid #C9CFDA;border-radius:999px;background:#fff;color:#171A23;cursor:pointer}
+.bye .r{padding:12px 16px;font-size:16px;border:1px solid #C9CFDA;border-radius:999px;background:#fff;color:#171A23;cursor:pointer}
 .bye .r:hover,.bye .now:hover{opacity:.85}
 .bye textarea{width:100%;min-height:90px;font:inherit;font-size:15px;padding:10px;border:1px solid #C9CFDA;border-radius:8px;box-sizing:border-box}
 .bye .send{margin-top:8px;padding:10px 18px;border:0;border-radius:8px;background:#171A23;color:#fff;font-size:15px;cursor:pointer}
@@ -43,10 +43,9 @@
 <main class="page"><div class="wrap bye">
 <section id="ask">
 <h1>구독 해지</h1>
-<p>아래 단추 <b>하나만 누르시면</b> 바로 해지됩니다.</p>
-<button class="now" data-r="">바로 해지하기</button>
-<p class="why">이유를 골라 누르셔도 그 한 번으로 해지됩니다. 고쳐 나가는 데 씁니다 (선택).</p>
+<p>그만 받으시는 이유를 <b>하나만 누르시면</b> 그 한 번으로 바로 해지됩니다. 더 나은 뉴스레터를 만드는 데 씁니다.</p>
 <div class="rs"><button class="r" data-r="often">너무 자주 와요</button><button class="r" data-r="long">너무 길어요</button><button class="r" data-r="fit">내용이 저와 안 맞아요</button><button class="r" data-r="hard">읽기 어려워요</button><button class="r" data-r="lang">언어가 맞지 않아요</button><button class="r" data-r="else">다른 곳에서 봐요</button><button class="r" data-r="just">그냥요</button></div>
+<p class="why">이유를 고르고 싶지 않으시면 <button class="now" data-r="">이유 없이 바로 해지하기</button></p>
 </section>
 <section id="done" class="hide">
 <div class="card"><div class="ck">✓</div><div>

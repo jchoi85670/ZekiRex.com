@@ -10,10 +10,10 @@
 <link rel="stylesheet" href="/assets/site.css">
 <style>
 .bye{max-width:560px}
-.bye .now{display:block;width:100%;padding:16px;font-size:18px;font-weight:700;border:0;border-radius:10px;background:#171A23;color:#fff;cursor:pointer;margin:18px 0 8px}
-.bye .why{color:#565D6E;font-size:14px;margin:22px 0 10px}
+.bye .now{display:inline;background:none;border:0;padding:0;margin:0;color:#565D6E;font-size:14px;text-decoration:underline;cursor:pointer}
+.bye .why{color:#565D6E;font-size:14px;margin:26px 0 0}
 .bye .rs{display:flex;flex-wrap:wrap;gap:8px}
-.bye .r{padding:10px 14px;font-size:15px;border:1px solid #C9CFDA;border-radius:999px;background:#fff;color:#171A23;cursor:pointer}
+.bye .r{padding:12px 16px;font-size:16px;border:1px solid #C9CFDA;border-radius:999px;background:#fff;color:#171A23;cursor:pointer}
 .bye .r:hover,.bye .now:hover{opacity:.85}
 .bye textarea{width:100%;min-height:90px;font:inherit;font-size:15px;padding:10px;border:1px solid #C9CFDA;border-radius:8px;box-sizing:border-box}
 .bye .send{margin-top:8px;padding:10px 18px;border:0;border-radius:8px;background:#171A23;color:#fff;font-size:15px;cursor:pointer}
@@ -43,10 +43,9 @@
 <main class="page"><div class="wrap bye">
 <section id="ask">
 <h1>Unsubscribe</h1>
-<p><b>One tap</b> on any button below and you are off the list.</p>
-<button class="now" data-r="">Unsubscribe now</button>
-<p class="why">Picking a reason also unsubscribes you in that one tap. It helps us improve (optional).</p>
+<p><b>Tap one reason</b> and you are unsubscribed in that single tap. It helps us make a better newsletter.</p>
 <div class="rs"><button class="r" data-r="often">Too often</button><button class="r" data-r="long">Too long</button><button class="r" data-r="fit">Not relevant to me</button><button class="r" data-r="hard">Hard to read</button><button class="r" data-r="lang">Wrong language</button><button class="r" data-r="else">I get this elsewhere</button><button class="r" data-r="just">No reason</button></div>
+<p class="why">Prefer not to say? <button class="now" data-r="">Unsubscribe without a reason</button></p>
 </section>
 <section id="done" class="hide">
 <div class="card"><div class="ck">✓</div><div>
