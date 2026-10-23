@@ -89,3 +89,7 @@ footer.site .brandf{font-size:21px;font-weight:700;color:#fff}footer.site .brand
  nav.main{gap:6px 4px}
  nav.main a{font-size:12px}
 }
+
+/* ZekiRex™ 표시 (2026-10-23) */
+sup.tm{font-size:.42em;vertical-align:super;margin-left:1px;font-weight:600;color:inherit;letter-spacing:0}
+
