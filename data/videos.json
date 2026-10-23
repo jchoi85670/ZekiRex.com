@@ -3,11 +3,25 @@
  "updated": "2026-10-19",
  "series": [
   {
+   "key": "brand",
+   "ko": "ZekiRex™가 가는 길",
+   "en": "Where ZekiRex™ is going",
+   "lead_ko": "회사가 나아가는 방향을 로고송에 담았습니다.",
+   "lead_en": "Where the company is heading, set to our logo song."
+  },
+  {
    "key": "deepdive",
    "ko": "심층편 · 반도체 4부작",
    "en": "Deep dive · Semiconductors (4 parts)",
    "lead_ko": "매주 화요일. 돈이 움직이는 산업 하나를 숫자로 해부하고, 강세·반대 논리와 볼 지표까지 정리합니다.",
    "lead_en": "Every Tuesday. One industry where money is moving, taken apart in numbers — the bull case, the bear case and what to watch."
+  },
+  {
+   "key": "longshort",
+   "ko": "긴 쇼츠 — 실제 데이터 계산",
+   "en": "Long shorts — real-data calculations",
+   "lead_ko": "질문 하나를 실제 지수·환율 종가로 계산합니다. 가정과 한계도 함께 밝힙니다.",
+   "lead_en": "One question, calculated with real index and FX closing prices — assumptions and limits stated."
   },
   {
    "key": "dissect",
@@ -32,6 +46,69 @@
   }
  ],
  "videos": [
+  {
+   "id": "5lRG8IZnNBg",
+   "series": "longshort",
+   "public_at": "2026-10-19T16:00:00-07:00",
+   "secs": 229,
+   "title_ko": "코스피 −39%, 폭락 때 판 사람 vs 버틴 사람 — 20년 뒤 2억 4천만 원 차이",
+   "title_en": "KOSPI −39%: the one who sold vs the one who held — a ₩240 million gap after 20 years",
+   "sum_ko": [
+    "코스피가 넉 달 새 −39%(6/22 9,114.55 → 10/15 5,554.22).",
+    "20년 동안 꾸준히 산 사람, 최악의 날·최고의 날에만 산 사람, 떨어질 때 겁나서 판 사람 — 네 계좌를 실제 코스피로 계산했습니다.",
+    "2005–2025년 해마다 1,200만 원, 코스피 가격지수(배당 제외), 세금·수수료 제외."
+   ],
+   "sum_en": [
+    "The KOSPI fell 39% in four months (9,114.55 on 6/22 → 5,554.22 on 10/15).",
+    "Four accounts over 20 years — steady buyer, worst-days-only, best-days-only, and the one who sold in fear — calculated on the actual KOSPI.",
+    "₩12 million a year 2005–2025, price index (no dividends), before tax and fees."
+   ],
+   "hold_ko": "이 영상은 특정 종목을 다루지 않습니다. 추천이 아니라 해부입니다.",
+   "hold_en": "This video covers no individual stock. Not a recommendation.",
+   "date": "2026-10-19"
+  },
+  {
+   "id": "i7sPerfsY5U",
+   "series": "longshort",
+   "public_at": "2026-10-21T16:00:00-07:00",
+   "secs": 286,
+   "title_ko": "매달 100만 원 20년, 한국 vs 미국 — 누가 더 벌었을까? (실제 계산)",
+   "title_en": "₩1 million a month for 20 years, Korea vs the US — who earned more? (real calculation)",
+   "sum_ko": [
+    "지난 영상의 네 사람(꾸준히·최고점만·최저점만·−20%에 판 사람)을 같은 기간 미국 S&P 500에도 세웠습니다.",
+    "2005–2025년 해마다 1,200만 원, 그날 환율로 달러 환전 — 2026-10-16 종가로 평가했습니다.",
+    "양도세·배당세까지 떼고 손에 쥐는 돈으로 비교합니다."
+   ],
+   "sum_en": [
+    "The same four investors (steady, only-at-highs, only-at-lows, sold in fear at −20%) placed in the US S&P 500 over the same years.",
+    "₩12 million a year 2005–2025, converted at each day's FX rate, valued at the 2026-10-16 close.",
+    "Compared on money in hand after capital-gains and dividend taxes."
+   ],
+   "hold_ko": "이 영상은 특정 종목을 다루지 않습니다. 추천이 아니라 해부입니다.",
+   "hold_en": "This video covers no individual stock. Not a recommendation.",
+   "date": "2026-10-21"
+  },
+  {
+   "id": "YG6EG8mEdgg",
+   "series": "longshort",
+   "public_at": "2026-10-22T16:00:00-07:00",
+   "secs": 229,
+   "title_ko": "대통령 당이 지면 폭락? 미국 중간선거 뒤 주가, 76년 실제 계산",
+   "title_en": "Does the market crash when the president's party loses? 76 years of US midterms, calculated",
+   "sum_ko": [
+    "11월 3일 미국 중간선거 — 대통령 당이 지면 주가가 떨어질까?",
+    "S&P 500(1950–2022, 19번)과 나스닥(1974–2022, 13번)의 실제 종가로 선거일부터 1년 뒤, 임기 말까지 계산했습니다.",
+    "가격지수(배당 제외), 세금·환율 제외 — 가정과 한계를 함께 밝힙니다."
+   ],
+   "sum_en": [
+    "The US midterms on Nov 3 — does the market fall when the president's party loses?",
+    "Calculated from actual closes of the S&P 500 (1950–2022, 19 elections) and Nasdaq (1974–2022, 13): one year after election day and to the end of the term.",
+    "Price index (no dividends), before tax and FX — assumptions and limits stated."
+   ],
+   "hold_ko": "이 영상은 특정 종목을 다루지 않습니다. 추천이 아니라 해부입니다.",
+   "hold_en": "This video covers no individual stock. Not a recommendation.",
+   "date": "2026-10-22"
+  },
   {
    "id": "pdQXntfyrlE",
    "series": "deepdive",
@@ -452,7 +529,7 @@
   },
   {
    "id": "X-8gF8T5G2A",
-   "series": "intro",
+   "series": "intro_old",
    "secs": 62,
    "title_ko": "ZekiRex™ 채널 소개 — 주식, 이제 감 말고 근거로",
    "title_en": "ZekiRex channel intro — stocks on evidence, not hunches",
@@ -464,7 +541,8 @@
    ],
    "hold_ko": "",
    "hold_en": "",
-   "date": "2026-10-11"
+   "date": "2026-10-11",
+   "note": "2026-10-23 Rex: 옛 소개 — 삭제 금지·보관, 홈·영상 페이지에서 뺌(새 소개 v5로 교체)"
   }
  ]
 }
