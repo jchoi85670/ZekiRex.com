@@ -13,8 +13,8 @@
    "key": "deepdive",
    "ko": "심층편 · 반도체 4부작",
    "en": "Deep dive · Semiconductors (4 parts)",
-   "lead_ko": "매주 화요일. 돈이 움직이는 산업 하나를 숫자로 해부하고, 강세·반대 논리와 볼 지표까지 정리합니다.",
-   "lead_en": "Every Tuesday. One industry where money is moving, taken apart in numbers — the bull case, the bear case and what to watch."
+   "lead_ko": "돈이 움직이는 산업 하나를 4부에 걸쳐 숫자로 해부하고, 강세·반대 논리와 지금 어디쯤인지 판정까지 정리합니다.",
+   "lead_en": "One industry where money is moving, taken apart in numbers over four parts — the bull case, the bear case, and where it stands now."
   },
   {
    "key": "longshort",
@@ -25,17 +25,17 @@
   },
   {
    "key": "dissect",
-   "ko": "종목 해부 (1분)",
-   "en": "One-minute stock dissections",
-   "lead_ko": "다이제스트에서 근거가 가장 단단했던 종목을 1분으로 해부하고, 다음 주에 지수와 비교해 채점합니다.",
-   "lead_en": "The stock with the firmest evidence in that week's digest, in one minute — then scored against its index the next week."
+   "ko": "종목 해부 (1분 · 10월 초까지)",
+   "en": "One-minute stock dissections (through early October)",
+   "lead_ko": "10월 초까지 낸 1분 종목 해부입니다. 지금은 긴 쇼츠(실제 데이터 계산)로 바뀌었습니다.",
+   "lead_en": "One-minute dissections we ran through early October; we now make longer real-data shorts instead."
   },
   {
    "key": "weekly",
-   "ko": "주간 채점",
-   "en": "Weekly scoring",
-   "lead_ko": "지난주 다이제스트에 실은 종목이 지수를 이겼는지, 맞은 것과 틀린 것을 그대로 채점했습니다.",
-   "lead_en": "Did the stocks in last week's digest beat their index? Hits and misses, as they were."
+   "ko": "주간 채점 (10/14 중단)",
+   "en": "Weekly scoring (ended Oct 14)",
+   "lead_ko": "10월 14일까지 낸 한·미 주간 채점 영상입니다. 지금 채점은 매일 편지와 공개 채점표에서 합니다.",
+   "lead_en": "Weekly scoring videos we ran through October 14; scoring now runs daily in the letter and on the public scorecard."
   },
   {
    "key": "intro",
