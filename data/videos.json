@@ -1,6 +1,6 @@
 {
  "_about": "ZekiRex 영상 모음 자료 — 사이트 videos.html / en/videos.html 과 홈 「이번 주 영상」 칸이 이 파일 하나에서 나온다 (Rex 10/17 승인). 새 영상 공개 때 항목을 맨 위에 더한다. 공개 전 영상은 public_at 이 미래면 페이지에 나오지 않는다.",
- "updated": "2026-10-19",
+ "updated": "2026-10-23",
  "series": [
   {
    "key": "brand",
@@ -34,7 +34,7 @@
    "key": "weekly",
    "ko": "주간 채점 (10/14 중단)",
    "en": "Weekly scoring (ended Oct 14)",
-   "lead_ko": "10월 14일까지 낸 한·미 주간 채점 영상입니다. 지금 채점은 매일 편지와 공개 채점표에서 합니다.",
+   "lead_ko": "10월 14일까지 낸 한·미 주간 채점 영상입니다. 지금 채점은 매일 신문과 공개 채점표에서 합니다.",
    "lead_en": "Weekly scoring videos we ran through October 14; scoring now runs daily in the letter and on the public scorecard."
   },
   {
@@ -46,6 +46,44 @@
   }
  ],
  "videos": [
+  {
+   "id": "TSExHEMNysU",
+   "series": "brand",
+   "public_at": "2026-10-23T19:35:00-07:00",
+   "secs": 180,
+   "title_ko": "왜 저희는 맞은 것도 틀린 것도 다 공개할까? — ZekiRex™ 로고송",
+   "title_en": "Why do we publish every hit and every miss? — the ZekiRex™ logo song",
+   "sum_ko": [
+    "ZekiRex™가 가는 길을 노래에 담았습니다.",
+    "감 말고, 근거로 — 5·20·60거래일 채점, 맞은 것도 틀린 것도 모두 공개."
+   ],
+   "sum_en": [
+    "Where ZekiRex™ is going, set to music.",
+    "Evidence, not gut feel — graded at 5, 20 and 60 trading days, every hit and miss public."
+   ],
+   "hold_ko": "음악과 일부 장면은 AI(Google Gemini)로 만들었습니다.",
+   "hold_en": "Music and some scenes were made with AI (Google Gemini).",
+   "date": "2026-10-23"
+  },
+  {
+   "id": "YyEblSA_vtg",
+   "series": "intro",
+   "public_at": "2026-10-23T19:45:00-07:00",
+   "secs": 46,
+   "title_ko": "그 주식, 왜 오르는지 알고 사셨나요? — ZekiRex™ 채널 소개",
+   "title_en": "Do you know why that stock is rising? — ZekiRex™ channel intro",
+   "sum_ko": [
+    "감으로 사지 마라. 해부하라.",
+    "매일 아침 6분 무료 신문, 그리고 저희가 한 말은 모두 채점합니다."
+   ],
+   "sum_en": [
+    "Don't buy on gut feel. Dissect.",
+    "A free 6-minute morning paper, and everything we say gets scored."
+   ],
+   "hold_ko": "일부 장면과 음악은 AI(Google Gemini)로 만들었습니다.",
+   "hold_en": "Some scenes and music were made with AI (Google Gemini).",
+   "date": "2026-10-23"
+  },
   {
    "id": "5lRG8IZnNBg",
    "series": "longshort",
