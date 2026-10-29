@@ -94,3 +94,35 @@ footer.site .brandf{font-size:21px;font-weight:700;color:#fff}footer.site .brand
 /* ZekiRex™ 표시 (2026-10-23) */
 sup.tm{font-size:.42em;vertical-align:super;margin-left:1px;font-weight:600;color:inherit;letter-spacing:0}
 
+
+/* ── 2026-10-28 Rex 승인 — 휴대폰 개선(발행 총괄). 되돌리기: site.css.bak_20261028_ux ── */
+/* ① 휴대폰에서 구독 양식을 제목 바로 아래로 */
+@media (max-width:860px){
+ .hero .wrap{gap:18px}
+ .hero .wrap > div:first-child{display:contents}
+ .hero .wrap > div:first-child > *{order:5}
+ .hero .wrap > div:first-child > .eyebrow{order:1}
+ .hero .wrap > div:first-child > h1{order:2}
+ .hero .wrap > div:first-child > .upd{order:3}
+ .hero .wrap > .card-form{order:4;margin:6px 0 10px}
+ .hero p.lead{margin-top:6px}
+}
+/* ⑥ 누르기 쉬운 크기 */
+@media (max-width:560px){
+ nav.main a{min-height:40px;display:flex;align-items:center;justify-content:center;padding:0}
+ .hdr-right .lang{display:inline-flex;align-items:center;min-height:44px}
+ footer.site .links a{display:inline-flex;align-items:center;min-height:40px}
+}
+/* ② 긴 칸 접기(fold.js) */
+.zx-fold{position:relative;overflow:hidden}
+.zx-fold::after{content:"";position:absolute;left:0;right:0;bottom:0;height:90px;background:linear-gradient(rgba(255,255,255,0),var(--fold-bg,#fff))}
+.zx-fold-btn{display:flex;width:100%;min-height:48px;margin-top:10px;align-items:center;justify-content:center;border:1px solid #C9CED8;border-radius:6px;background:#fff;font:600 15px/1 inherit;color:var(--navy);cursor:pointer}
+/* 2026-10-28 Rex — 미국·한국 실계좌 나란히 */
+.acct-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin:14px 0 6px}
+.acct-card{border:1px solid #E3E7EE;border-radius:10px;padding:16px 18px;background:#fff;display:flex;flex-direction:column;gap:4px}
+.acct-k{font:600 12px/1.2 'IBM Plex Mono',monospace;letter-spacing:.08em;color:#6B7891}
+.acct-n{font-weight:600;font-size:15px}
+.acct-big{font-size:34px;font-weight:800;font-variant-numeric:tabular-nums;line-height:1.15;margin-top:4px}
+.acct-sub{font-size:14px;color:#3F4650}.acct-asof{font-size:13px;color:#6B7891;margin-top:2px}
+.acct-more{margin-top:6px;font-weight:600;min-height:40px;display:inline-flex;align-items:center}
+.acct-card .pos,.acct-big.pos{color:#1f7a4d}.acct-card .neg,.acct-big.neg{color:#b23a2e}
