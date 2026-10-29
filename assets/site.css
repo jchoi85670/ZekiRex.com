@@ -29,6 +29,7 @@ nav.main a{text-decoration:none}
 .card-form .sub{margin:0;font-size:15px;color:var(--muted)}
 .card-form label.f{font-size:14px;font-weight:600;margin-top:6px}
 .card-form input[type=email]{height:48px;padding:0 14px;border:1px solid #9AA1AC;border-radius:6px;font-size:16px;font-family:inherit}
+.card-form select{height:48px;padding:0 10px;border:1px solid #9AA1AC;border-radius:6px;font-size:16px;font-family:inherit;background:#fff;color:inherit}
 .card-form input[type=email]:focus{outline:2px solid var(--navy);outline-offset:1px}
 .card-form fieldset{border:0;padding:0;margin:0;display:flex;flex-wrap:wrap;column-gap:24px}
 .card-form legend{font-size:14px;font-weight:600;padding:0;margin-bottom:2px}
