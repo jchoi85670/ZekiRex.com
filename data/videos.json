@@ -1,6 +1,6 @@
 {
  "_about": "ZekiRex 영상 모음 자료 — 사이트 videos.html / en/videos.html 과 홈 「이번 주 영상」 칸이 이 파일 하나에서 나온다 (Rex 10/17 승인). 새 영상 공개 때 항목을 맨 위에 더한다. 공개 전 영상은 public_at 이 미래면 페이지에 나오지 않는다.",
- "updated": "2026-10-23",
+ "updated": "2026-10-30T15:10:00-07:00",
  "series": [
   {
    "key": "brand",
@@ -46,6 +46,81 @@
   }
  ],
  "videos": [
+  {
+   "id": "TkiPnvVFK8o",
+   "series": "deepdive",
+   "public_at": "2026-10-30T15:00:00-07:00",
+   "secs": 450,
+   "title_ko": "구글 AI 1등인데 주가 하루 −12.7%, 왜? — 시장은 현금으로 채점한다 [ZekiRex™ 심층편]",
+   "title_en": "Google's AI is #1, so why did the stock fall 12.7% in a day? — the market scores in cash [ZekiRex™ deep dive]",
+   "sum_ko": [
+    "모델 점수는 구글이 1등이지만, 시장 점수는 현금이 매깁니다.",
+    "10월 29일 알파벳 하루 −12.7% — 3분기 실적 원문(보도자료·현금흐름표·분기 보고서)으로 마이크로소프트와 나란히 해부했습니다.",
+    "클라우드는 두 배, 그런데 설비투자가 번 돈보다 큽니다. 다음 분기에 볼 숫자 세 개로 끝냅니다."
+   ],
+   "sum_en": [
+    "Google tops the model scores, but the market scores in cash.",
+    "Alphabet fell 12.7% on Oct 29 — dissected side by side with Microsoft from the original Q3 filings.",
+    "Cloud doubled, but capex now exceeds the cash it earns. Three numbers to watch next quarter."
+   ],
+   "chapters": [
+    [
+     "0:00",
+     "들어가며 — 한 줄로 기억할 것",
+     "Intro — the one line to remember"
+    ],
+    [
+     "0:25",
+     "모델 성적표 — 구글 1등",
+     "Model scorecard — Google #1"
+    ],
+    [
+     "1:07",
+     "좋은 숫자 — 클라우드 두 배",
+     "The good number — cloud doubled"
+    ],
+    [
+     "1:36",
+     "시장이 걱정한 숫자 세 개",
+     "Three numbers the market worried about"
+    ],
+    [
+     "2:45",
+     "마이크로소프트와 나란히",
+     "Side by side with Microsoft"
+    ],
+    [
+     "3:20",
+     "왜 구글이 현금을 먼저, 더 많이 쓰나",
+     "Why Google spends cash first and more"
+    ],
+    [
+     "4:25",
+     "시장의 채점",
+     "How the market scored it"
+    ],
+    [
+     "5:15",
+     "한국 투자자에게 — HBM·장비",
+     "For Korean investors — HBM and equipment"
+    ],
+    [
+     "6:32",
+     "앞으로 확인할 숫자 세 개",
+     "Three numbers to watch"
+    ],
+    [
+     "7:04",
+     "정리",
+     "Wrap-up"
+    ]
+   ],
+   "sources_ko": "Alphabet 3Q26 보도자료·실적 설명회·10-Q · Microsoft FY27 1분기 보도자료·10-Q · Amazon 3분기 보도자료 · blog.google · Artificial Analysis · Robinhood 시세 · Yahoo Finance · SK하이닉스·삼성전자 3분기 실적 · Bosch 드레스덴 팹 영상",
+   "sources_en": "Alphabet Q3 2026 release, call and 10-Q · Microsoft FY27 Q1 release and 10-Q · Amazon Q3 release · blog.google · Artificial Analysis · Robinhood quotes · Yahoo Finance · SK hynix and Samsung Q3 results · Bosch Dresden fab footage",
+   "hold_ko": "이 영상 제작자는 어플라이드 머티어리얼즈 주식과 반도체 ETF를 보유하고 있습니다.",
+   "hold_en": "The creator holds Applied Materials shares and a semiconductor ETF.",
+   "date": "2026-10-30"
+  },
   {
    "id": "TSExHEMNysU",
    "series": "brand",
