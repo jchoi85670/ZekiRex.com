@@ -1,6 +1,6 @@
 {
  "_about": "ZekiRex 영상 모음 자료 — 사이트 videos.html / en/videos.html 과 홈 「이번 주 영상」 칸이 이 파일 하나에서 나온다 (Rex 10/17 승인). 새 영상 공개 때 항목을 맨 위에 더한다. 공개 전 영상은 public_at 이 미래면 페이지에 나오지 않는다.",
- "updated": "2026-10-30T15:10:00-07:00",
+ "updated": "2026-10-31T15:20:00-07:00",
  "series": [
   {
    "key": "brand",
@@ -46,6 +46,81 @@
   }
  ],
  "videos": [
+  {
+   "id": "M7Z_ntzRwo4",
+   "series": "deepdive",
+   "public_at": "2026-10-31T15:00:00-07:00",
+   "secs": 514,
+   "title_ko": "삼성전자·SK하이닉스 급락, 어떻게 보면 될까요? — 순서만 알면 덜 불안합니다 [ZekiRex™ 심층편]",
+   "title_en": "Samsung and SK hynix plunged — how should you read it? Know the order and worry less [ZekiRex™ deep dive]",
+   "sum_ko": [
+    "반도체가 불안하실 때, 순서를 기억하세요 — 메모리 값이 오르는 속도가 먼저, 그다음 주가, 실적은 마지막입니다.",
+    "10월 30일 인텔 하루 −28%, SK하이닉스 −7%·삼성전자 −3% — 조정일까, 진짜 꼭지일까를 과거 27년 실제 숫자(메모리 3종목 하락 99번, 진짜 꼭지 12번)로 해부했습니다.",
+    "앞으로 볼 숫자 네 개를 날짜순으로 정리합니다. 가장 중요한 것은 내년 1분기 D램 계약가격 전망입니다."
+   ],
+   "sum_en": [
+    "When chips make you nervous, remember the order — memory-price momentum first, then stocks, earnings last.",
+    "Intel fell 28% on Oct 30, SK hynix −7%, Samsung −3% — correction or real top? Dissected with 27 years of real data (99 memory-stock drawdowns, 12 real tops).",
+    "Four numbers to watch, by date. The most important: the Q1 2027 DRAM contract-price outlook."
+   ],
+   "chapters": [
+    [
+     "0:00",
+     "들어가며 — 순서 하나만 기억하세요",
+     "Intro — remember one thing: the order"
+    ],
+    [
+     "0:48",
+     "오늘 무슨 일이 — 인텔 원문·외국인 매도",
+     "What happened — Intel's filing, foreign selling"
+    ],
+    [
+     "1:42",
+     "무엇이 먼저였나 — 여섯 번의 꼭지",
+     "What came first — six tops"
+    ],
+    [
+     "2:30",
+     "이번에도 — 속도 4월, 주가 6월, 실적 지금",
+     "This time too — momentum April, stocks June, earnings now"
+    ],
+    [
+     "3:19",
+     "모든 하락이 꼭지는 아니다",
+     "Not every drop is a top"
+    ],
+    [
+     "3:55",
+     "10번 중 몇 번이 진짜 꼭지였나",
+     "Out of 10, how many were real tops"
+    ],
+    [
+     "4:47",
+     "내 계좌로 — 세 분의 이야기",
+     "Into your account — three buyers"
+    ],
+    [
+     "5:44",
+     "진단 (분석자 의견)",
+     "Diagnosis (analyst view)"
+    ],
+    [
+     "6:48",
+     "앞으로 볼 숫자 (날짜순)",
+     "Numbers to watch, by date"
+    ],
+    [
+     "7:47",
+     "정리",
+     "Wrap-up"
+    ]
+   ],
+   "sources_ko": "Intel 3Q26 실적 보도자료(SEC 8-K) · Micron FQ4 2026 보도자료(SEC 8-K) · NVIDIA 2Q FY27 보도자료(SEC 8-K) · SK하이닉스 3Q26 실적 · TrendForce 메모리 계약가격 발표 · 뉴스핌 · Google Finance · Robinhood·KRX 일봉 · Bosch 드레스덴 팹 영상",
+   "sources_en": "Intel Q3 2026 release (SEC 8-K) · Micron FQ4 2026 release (SEC 8-K) · NVIDIA Q2 FY27 release (SEC 8-K) · SK hynix Q3 2026 results · TrendForce memory contract-price releases · Newspim · Google Finance · Robinhood and KRX daily prices · Bosch Dresden fab footage",
+   "hold_ko": "이 영상 제작자는 삼성전자·SK하이닉스·어플라이드 머티리얼즈 주식과 반도체 ETF를 보유하고 있습니다.",
+   "hold_en": "The creator holds Samsung Electronics, SK hynix and Applied Materials shares and a semiconductor ETF.",
+   "date": "2026-10-31"
+  },
   {
    "id": "TkiPnvVFK8o",
    "series": "deepdive",
