@@ -1,6 +1,6 @@
 {
  "_about": "ZekiRex 영상 모음 자료 — 사이트 videos.html / en/videos.html 과 홈 「이번 주 영상」 칸이 이 파일 하나에서 나온다 (Rex 10/17 승인). 새 영상 공개 때 항목을 맨 위에 더한다. 공개 전 영상은 public_at 이 미래면 페이지에 나오지 않는다.",
- "updated": "2026-10-31T15:20:00-07:00",
+ "updated": "2026-11-03",
  "series": [
   {
    "key": "brand",
@@ -46,6 +46,87 @@
   }
  ],
  "videos": [
+  {
+   "id": "OZf_vlBiXH0",
+   "series": "deepdive",
+   "part": 4,
+   "public_at": "2026-11-03T15:00:00-08:00",
+   "secs": 424,
+   "title_ko": "샌디스크 사상 최대 실적에도 13% 급락, 어떻게 보면 될까요? — 속도와 공장 [ZekiRex™ 심층편 4부]",
+   "title_en": "Sandisk fell 13% after record results — how should you read it? Speed and new fabs [ZekiRex™ deep dive part 4]",
+   "sum_ko": [
+    "사상 최대 실적보다, 오르는 속도와 새 공장을 보세요.",
+    "샌디스크는 데이터센터 매출이 1년 사이 18배·이익률 85%로 사상 최대였지만 다음 날 13% 넘게 떨어졌습니다. 석 달 매출 증가율은 51% → 23% → 12%(전망)으로 꺾이고, 삼성전자·SK하이닉스는 새 공장을 늘립니다.",
+    "다만 SK하이닉스 장기 계약이 2027·2028년 생산 능력의 절반을 넘어, 갑자기 꺼지기보다 천천히 식을 가능성에 무게를 둡니다(분석자 의견). AI 메모리 공급망 4부작의 마지막 편."
+   ],
+   "sum_en": [
+    "Look past the record results — watch how fast growth is rising, and the new fabs.",
+    "Sandisk's data-center revenue rose 18-fold in a year with an 85% margin, yet the stock fell more than 13% the next day. Quarterly revenue growth went 51% → 23% → about 12% (guidance), while Samsung and SK hynix add new fabs.",
+    "SK hynix's long-term contracts cover more than half of its 2027–28 capacity, so we lean toward a gradual cool-down rather than a sudden break (analyst view). The last part of the AI memory supply-chain series."
+   ],
+   "chapters": [
+    [
+     "0:00",
+     "들어가며 — 사상 최대인데 왜 떨어졌나",
+     "Intro — record results, so why the drop"
+    ],
+    [
+     "0:33",
+     "4부작의 마지막",
+     "The last of four parts"
+    ],
+    [
+     "0:53",
+     "데이터가 머무는 두 창고",
+     "Two warehouses for data"
+    ],
+    [
+     "1:17",
+     "하드디스크 — 공장을 아낀다 (씨게이트)",
+     "Hard drives — holding back on fabs (Seagate)"
+    ],
+    [
+     "1:51",
+     "낸드 — 속도가 줄어든다 (샌디스크)",
+     "NAND — growth is slowing (Sandisk)"
+    ],
+    [
+     "2:36",
+     "두 창고는 이어져 있다",
+     "The two warehouses are linked"
+    ],
+    [
+     "2:59",
+     "두 번째 신호 — 새 공장",
+     "Second signal — new fabs"
+    ],
+    [
+     "3:52",
+     "반대 목소리 — 장기 계약",
+     "The other side — long-term contracts"
+    ],
+    [
+     "4:23",
+     "우리 채점 기록",
+     "Our scorecard"
+    ],
+    [
+     "5:11",
+     "정리·진단(분석자 의견)·앞으로 볼 숫자",
+     "Summary, diagnosis (analyst view), numbers to watch"
+    ],
+    [
+     "6:22",
+     "정리",
+     "Wrap-up"
+    ]
+   ],
+   "sources_ko": "Sandisk FQ1 FY27·FQ4 FY26 보도자료(SEC 8-K) · Seagate FQ1 FY27 보도자료(SEC 8-K) · 삼성전자 2026년 3분기 실적 발표 · SK하이닉스 2026년 3분기 실적 발표 · TrendForce 낸드 보도자료(7/21) · Google Finance · ZekiRex 채점 장부 · Texas Instruments·Bosch 팹 영상(예시)",
+   "sources_en": "Sandisk FQ1 FY27 and FQ4 FY26 releases (SEC 8-K) · Seagate FQ1 FY27 release (SEC 8-K) · Samsung Electronics Q3 2026 results · SK hynix Q3 2026 results · TrendForce NAND release (Jul 21) · Google Finance · ZekiRex scorecard · Texas Instruments and Bosch fab footage (illustrative)",
+   "hold_ko": "이 영상 제작자는 삼성전자·SK하이닉스·어플라이드 머티리얼즈 주식과 반도체 ETF를 보유하고 있습니다.",
+   "hold_en": "The creator holds Samsung Electronics, SK hynix and Applied Materials shares and a semiconductor ETF.",
+   "date": "2026-11-03"
+  },
   {
    "id": "M7Z_ntzRwo4",
    "series": "deepdive",
