@@ -1,0 +1,36 @@
+{
+ "us": {
+  "asof": "2026-11-09",
+  "compass": "red",
+  "ai_m": 74.4,
+  "ai_q": 77.3,
+  "ai": "red",
+  "ai_month": "2026-09",
+  "gauge_n": 0,
+  "gauge": "green",
+  "compass_since": "2026-10-30",
+  "ai_since": "2026-08-03",
+  "gauge_since": "2026-05-11"
+ },
+ "kr": {
+  "asof": "2026-11-09",
+  "compass": "red",
+  "ai_m": 80.8,
+  "ai_q": 77.3,
+  "ai": "red",
+  "signals_on": 0,
+  "s1": false,
+  "s2": false,
+  "s3": false,
+  "exp_yoy": 288.4,
+  "gap": -34.4,
+  "dd": -56.6,
+  "exp_month": "2026-09",
+  "px_week": "2026-11-13",
+  "ai_month": "2026-09",
+  "compass_since": "2026-10-07"
+ },
+ "us_stance": "red",
+ "kr_stance": "red",
+ "built": "2026-11-10T10:31"
+}
