@@ -30,7 +30,14 @@
   "ai_month": "2026-09",
   "compass_since": "2026-10-07"
  },
+ "us_rate2y": {
+  "month": "2026-10",
+  "value": 4.74,
+  "ch12": 1.22,
+  "hi12": 4.74,
+  "color": "yellow"
+ },
  "us_stance": "red",
  "kr_stance": "red",
- "built": "2026-11-10T16:59"
+ "built": "2026-11-10T22:38"
 }
