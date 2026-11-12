@@ -23,8 +23,8 @@
   "s2": false,
   "s3": false,
   "exp_yoy": 288.4,
-  "gap": -26.3,
-  "dd": -51.0,
+  "gap": -27.1,
+  "dd": -51.6,
   "exp_month": "2026-09",
   "px_week": "2026-11-13",
   "ai_month": "2026-09",
@@ -39,5 +39,5 @@
  },
  "us_stance": "red",
  "kr_stance": "red",
- "built": "2026-11-11T16:34"
+ "built": "2026-11-11T16:43"
 }
