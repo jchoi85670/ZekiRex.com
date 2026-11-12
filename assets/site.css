@@ -126,3 +126,5 @@ sup.tm{font-size:.42em;vertical-align:super;margin-left:1px;font-weight:600;colo
 .acct-sub{font-size:14px;color:#3F4650}.acct-asof{font-size:13px;color:#6B7891;margin-top:2px}
 .acct-more{margin-top:6px;font-weight:600;min-height:40px;display:inline-flex;align-items:center}
 .acct-card .pos,.acct-big.pos{color:#1f7a4d}.acct-card .neg,.acct-big.neg{color:#b23a2e}
+
+/* zx-nav-nowrap 2026-11-11 */ nav.main a{white-space:nowrap} @media (min-width:1100px){nav.main{gap:22px}}
