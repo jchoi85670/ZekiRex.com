@@ -75,6 +75,92 @@
  ],
  "videos": [
   {
+   "id": "IN7Cw2sJ06A",
+   "series": "news",
+   "part": null,
+   "public_at": null,
+   "secs": 221,
+   "title_ko": "타이거일렉 11개월 새 5배… 지금이 최고점일까?",
+   "title_en": "타이거일렉 11개월 새 5배… 지금이 최고점일까?",
+   "sum_ko": [
+    "11개월 만에 5.5배 오른 타이거일렉(219130). 지금이 최고점일까요?",
+    "세 가지 질문으로 숫자를 따져 봤습니다 — 실적이 주가를 따라오나, 누가 사고 있나, 무엇이 깨지면 끝인가."
+   ],
+   "sum_en": [
+    "11개월 만에 5.5배 오른 타이거일렉(219130). 지금이 최고점일까요?",
+    "세 가지 질문으로 숫자를 따져 봤습니다 — 실적이 주가를 따라오나, 누가 사고 있나, 무엇이 깨지면 끝인가."
+   ],
+   "chapters": [
+    [
+     "0:00",
+     "들어가며 — 11개월 만에 5.5배",
+     "들어가며 — 11개월 만에 5.5배"
+    ],
+    [
+     "0:17",
+     "무엇을 만드는 회사인가",
+     "무엇을 만드는 회사인가"
+    ],
+    [
+     "0:57",
+     "① 실적이 주가를 따라오나",
+     "① 실적이 주가를 따라오나"
+    ],
+    [
+     "1:24",
+     "① 이익에 비해 얼마나 비싼가",
+     "① 이익에 비해 얼마나 비싼가"
+    ],
+    [
+     "1:53",
+     "② 누가 사고 있나",
+     "② 누가 사고 있나"
+    ],
+    [
+     "2:23",
+     "③ 무엇이 깨지면 끝인가",
+     "③ 무엇이 깨지면 끝인가"
+    ],
+    [
+     "3:03",
+     "정리 — 확인할 숫자 세 개",
+     "정리 — 확인할 숫자 세 개"
+    ]
+   ],
+   "sources_ko": "",
+   "sources_en": "",
+   "hold_ko": "",
+   "hold_en": "",
+   "date": "2026-10-22",
+   "auto": true,
+   "hidden": true
+  },
+  {
+   "id": "TSExHEMNysU",
+   "series": "brand",
+   "part": null,
+   "public_at": null,
+   "secs": 180,
+   "title_ko": "왜 저희는 맞은 것도 틀린 것도 다 공개할까? — ZekiRex™",
+   "title_en": "왜 저희는 맞은 것도 틀린 것도 다 공개할까? — ZekiRex™",
+   "sum_ko": [
+    "ZekiRex™가 가는 길을 노래에 담았습니다.",
+    "· 감 말고, 근거로"
+   ],
+   "sum_en": [
+    "ZekiRex™가 가는 길을 노래에 담았습니다.",
+    "· 감 말고, 근거로"
+   ],
+   "chapters": [],
+   "sources_ko": "",
+   "sources_en": "",
+   "hold_ko": "",
+   "hold_en": "",
+   "date": "2026-10-24",
+   "auto": true,
+   "hidden": false
+  },
+  {
    "id": "5lEfjEvagqY",
    "series": "memory",
    "part": 5,
@@ -140,7 +226,8 @@
    "sources_en": "",
    "hold_ko": "",
    "hold_en": "",
-   "date": "2026-12-17"
+   "date": "2026-12-17",
+   "hidden": false
   },
   {
    "id": "HpQTT3EmJRE",
@@ -213,7 +300,8 @@
    "sources_en": "",
    "hold_ko": "",
    "hold_en": "",
-   "date": "2026-12-10"
+   "date": "2026-12-10",
+   "hidden": false
   },
   {
    "id": "t0O9tyNjTJE",
@@ -291,7 +379,8 @@
    "sources_en": "",
    "hold_ko": "",
    "hold_en": "",
-   "date": "2026-12-03"
+   "date": "2026-12-03",
+   "hidden": false
   },
   {
    "id": "WEtkUOUXud4",
@@ -314,7 +403,8 @@
    "sources_en": "",
    "hold_ko": "",
    "hold_en": "",
-   "date": "2026-10-27"
+   "date": "2026-10-27",
+   "hidden": false
   },
   {
    "id": "ZPmVJATK6kU",
@@ -380,7 +470,8 @@
    "sources_en": "",
    "hold_ko": "",
    "hold_en": "",
-   "date": "2026-10-29"
+   "date": "2026-10-29",
+   "hidden": true
   },
   {
    "id": "UbnkEbtTcIg",
@@ -456,7 +547,8 @@
    "sources_en": "",
    "hold_ko": "",
    "hold_en": "",
-   "date": "2026-11-06"
+   "date": "2026-11-06",
+   "hidden": true
   },
   {
    "id": "p5r2vZ9WGd0",
@@ -512,7 +604,8 @@
    "sources_en": "",
    "hold_ko": "",
    "hold_en": "",
-   "date": "2026-11-08"
+   "date": "2026-11-08",
+   "hidden": true
   },
   {
    "id": "-HC6ESCp7VU",
@@ -537,7 +630,8 @@
    "sources_en": "",
    "hold_ko": "",
    "hold_en": "",
-   "date": "2026-11-07"
+   "date": "2026-11-07",
+   "hidden": false
   },
   {
    "id": "MFsKiKeyINE",
@@ -562,7 +656,8 @@
    "sources_en": "",
    "hold_ko": "",
    "hold_en": "",
-   "date": "2026-11-07"
+   "date": "2026-11-07",
+   "hidden": true
   },
   {
    "id": "wvts3ybj2nY",
@@ -638,7 +733,8 @@
    "sources_en": "",
    "hold_ko": "",
    "hold_en": "",
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "hidden": true
   },
   {
    "id": "d31ikYzMljA",
@@ -719,7 +815,8 @@
    "sources_en": "",
    "hold_ko": "",
    "hold_en": "",
-   "date": "2026-11-19"
+   "date": "2026-11-19",
+   "hidden": false
   },
   {
    "id": "mhNQX2iYhS4",
@@ -780,7 +877,8 @@
    "sources_en": "",
    "hold_ko": "",
    "hold_en": "",
-   "date": "2026-11-12"
+   "date": "2026-11-12",
+   "hidden": false
   },
   {
    "id": "hzDu3Z3jUQA",
@@ -841,7 +939,8 @@
    "sources_en": "",
    "hold_ko": "",
    "hold_en": "",
-   "date": "2026-11-14"
+   "date": "2026-11-14",
+   "hidden": false
   },
   {
    "id": "ATyChLGRQTU",
@@ -932,7 +1031,8 @@
    "sources_en": "",
    "hold_ko": "",
    "hold_en": "",
-   "date": "2026-11-15"
+   "date": "2026-11-15",
+   "hidden": false
   },
   {
    "id": "aEnItg9maJo",
@@ -1083,7 +1183,8 @@
    "sources_en": "",
    "hold_ko": "",
    "hold_en": "",
-   "date": "2026-11-18"
+   "date": "2026-11-18",
+   "hidden": false
   },
   {
    "id": "OZf_vlBiXH0",
@@ -1164,7 +1265,8 @@
    "sources_en": "Sandisk FQ1 FY27 and FQ4 FY26 releases (SEC 8-K) · Seagate FQ1 FY27 release (SEC 8-K) · Samsung Electronics Q3 2026 results · SK hynix Q3 2026 results · TrendForce NAND release (Jul 21) · Google Finance · ZekiRex scorecard · Texas Instruments and Bosch fab footage (illustrative)",
    "hold_ko": "이 영상 제작자는 삼성전자·SK하이닉스·어플라이드 머티리얼즈 주식과 반도체 ETF를 보유하고 있습니다.",
    "hold_en": "The creator holds Samsung Electronics, SK hynix and Applied Materials shares and a semiconductor ETF.",
-   "date": "2026-11-03"
+   "date": "2026-11-03",
+   "hidden": true
   },
   {
    "id": "M7Z_ntzRwo4",
@@ -1239,7 +1341,8 @@
    "sources_en": "Intel Q3 2026 release (SEC 8-K) · Micron FQ4 2026 release (SEC 8-K) · NVIDIA Q2 FY27 release (SEC 8-K) · SK hynix Q3 2026 results · TrendForce memory contract-price releases · Newspim · Google Finance · Robinhood and KRX daily prices · Bosch Dresden fab footage",
    "hold_ko": "이 영상 제작자는 삼성전자·SK하이닉스·어플라이드 머티리얼즈 주식과 반도체 ETF를 보유하고 있습니다.",
    "hold_en": "The creator holds Samsung Electronics, SK hynix and Applied Materials shares and a semiconductor ETF.",
-   "date": "2026-10-31"
+   "date": "2026-10-31",
+   "hidden": true
   },
   {
    "id": "TkiPnvVFK8o",
@@ -1314,7 +1417,8 @@
    "sources_en": "Alphabet Q3 2026 release, call and 10-Q · Microsoft FY27 Q1 release and 10-Q · Amazon Q3 release · blog.google · Artificial Analysis · Robinhood quotes · Yahoo Finance · SK hynix and Samsung Q3 results · Bosch Dresden fab footage",
    "hold_ko": "이 영상 제작자는 어플라이드 머티어리얼즈 주식과 반도체 ETF를 보유하고 있습니다.",
    "hold_en": "The creator holds Applied Materials shares and a semiconductor ETF.",
-   "date": "2026-10-30"
+   "date": "2026-10-30",
+   "hidden": true
   },
   {
    "id": "VLe3Surv92Y",
@@ -1333,7 +1437,8 @@
    ],
    "hold_ko": "음원은 AI 음악 생성 도구로 만들었습니다. 영상은 실제 촬영 스톡 영상(Pexels)입니다.",
    "hold_en": "The music was made with an AI music tool; all footage is real stock video (Pexels).",
-   "date": "2026-11-07"
+   "date": "2026-11-07",
+   "hidden": false
   },
   {
    "id": "YyEblSA_vtg",
@@ -1352,7 +1457,8 @@
    ],
    "hold_ko": "일부 장면과 음악은 AI(Google Gemini)로 만들었습니다.",
    "hold_en": "Some scenes and music were made with AI (Google Gemini).",
-   "date": "2026-10-23"
+   "date": "2026-10-23",
+   "hidden": false
   },
   {
    "id": "5lRG8IZnNBg",
@@ -1373,7 +1479,8 @@
    ],
    "hold_ko": "이 영상은 특정 종목을 다루지 않습니다. 추천이 아니라 해부입니다.",
    "hold_en": "This video covers no individual stock. Not a recommendation.",
-   "date": "2026-10-19"
+   "date": "2026-10-19",
+   "hidden": false
   },
   {
    "id": "i7sPerfsY5U",
@@ -1394,7 +1501,8 @@
    ],
    "hold_ko": "이 영상은 특정 종목을 다루지 않습니다. 추천이 아니라 해부입니다.",
    "hold_en": "This video covers no individual stock. Not a recommendation.",
-   "date": "2026-10-21"
+   "date": "2026-10-21",
+   "hidden": false
   },
   {
    "id": "YG6EG8mEdgg",
@@ -1415,7 +1523,8 @@
    ],
    "hold_ko": "이 영상은 특정 종목을 다루지 않습니다. 추천이 아니라 해부입니다.",
    "hold_en": "This video covers no individual stock. Not a recommendation.",
-   "date": "2026-10-22"
+   "date": "2026-10-22",
+   "hidden": true
   },
   {
    "id": "pdQXntfyrlE",
@@ -1528,7 +1637,8 @@
    "sources_en": "JEDEC · SK hynix newsroom and filings · TechInsights (reported) · Hot Chips 2026 · TrendForce (Oct 5) · TSMC · Ajinomoto · Samsung Electro-Mechanics · SKC · JPMorgan, Goldman Sachs (reported)",
    "hold_ko": "이 영상 제작자는 어플라이드 머티어리얼즈, SK하이닉스, 삼성전자 주식을 보유하고 있습니다.",
    "hold_en": "The creator holds Applied Materials, SK hynix and Samsung Electronics shares.",
-   "date": "2026-10-20"
+   "date": "2026-10-20",
+   "hidden": false
   },
   {
    "id": "u02qE30XOeE",
@@ -1625,7 +1735,8 @@
    "sources_en": "SEMI equipment forecast (Jul 14, 2026) · Applied Materials FQ3 2026 · Lam Research and KLA June-quarter results · Micron FQ4 2026 · TrendForce · Korea Exchange",
    "hold_ko": "운영자는 영상에 나온 어플라이드 머티어리얼즈, 마이크론, 삼성전자, SK하이닉스 주식과 반도체 지수 3배 ETF를 보유하고 있습니다(10/9 확인). 램리서치·KLA는 보유하지 않습니다.",
    "hold_en": "The publisher held Applied Materials, Micron, Samsung Electronics, SK hynix and a 3x semiconductor-index ETF (as of Oct 9). Not Lam Research or KLA.",
-   "date": "2026-10-13"
+   "date": "2026-10-13",
+   "hidden": false
   },
   {
    "id": "rOsgdEIpkw8",
@@ -1717,7 +1828,8 @@
    "sources_en": "Micron FQ4 2026 results · NVIDIA product specs · TrendForce · Counterpoint · SK hynix Q2 2026 results · industry reports. Forecasts are the publishers' estimates.",
    "hold_ko": "운영자는 영상에 나온 마이크론, 삼성전자, SK하이닉스 주식을 보유하고 있습니다.",
    "hold_en": "The publisher holds Micron, Samsung Electronics and SK hynix shares.",
-   "date": "2026-10-06"
+   "date": "2026-10-06",
+   "hidden": false
   },
   {
    "id": "L4tdtf4uptU",
@@ -1737,7 +1849,8 @@
    ],
    "hold_ko": "저희는 이 종목을 갖고 있지 않으며, 공개 전후 매매하지 않습니다.",
    "hold_en": "We do not hold this stock and do not trade it around publication.",
-   "date": "2026-10-11"
+   "date": "2026-10-11",
+   "hidden": true
   },
   {
    "id": "DazMISBOLH4",
@@ -1757,7 +1870,8 @@
    ],
    "hold_ko": "저희는 이 종목을 갖고 있지 않으며, 공개 전후 매매하지 않습니다.",
    "hold_en": "We do not hold this stock and do not trade it around publication.",
-   "date": "2026-10-10"
+   "date": "2026-10-10",
+   "hidden": true
   },
   {
    "id": "3Y35p-Pi-Do",
@@ -1777,7 +1891,8 @@
    ],
    "hold_ko": "제키렉스는 이 종목을 보유하지 않으며, 공개 전후 매매하지 않습니다.",
    "hold_en": "ZekiRex does not hold this stock and does not trade it around publication.",
-   "date": "2026-10-04"
+   "date": "2026-10-04",
+   "hidden": true
   },
   {
    "id": "y9mFLVDLdes",
@@ -1797,7 +1912,8 @@
    ],
    "hold_ko": "제키렉스는 이 종목을 보유하지 않으며, 공개 전후 매매하지 않습니다.",
    "hold_en": "ZekiRex does not hold this stock and does not trade it around publication.",
-   "date": "2026-10-04"
+   "date": "2026-10-04",
+   "hidden": true
   },
   {
    "id": "hH-wMTViLQo",
@@ -1815,7 +1931,8 @@
    ],
    "hold_ko": "",
    "hold_en": "",
-   "date": "2026-10-10"
+   "date": "2026-10-10",
+   "hidden": true
   },
   {
    "id": "2ai_e19ChXU",
@@ -1833,7 +1950,8 @@
    ],
    "hold_ko": "",
    "hold_en": "",
-   "date": "2026-10-02"
+   "date": "2026-10-02",
+   "hidden": true
   },
   {
    "id": "X-8gF8T5G2A",
@@ -1850,7 +1968,9 @@
    "hold_ko": "",
    "hold_en": "",
    "date": "2026-10-11",
-   "note": "2026-10-23 Rex: 옛 소개 — 삭제 금지·보관, 홈·영상 페이지에서 뺌(새 소개 v5로 교체)"
+   "note": "2026-10-23 Rex: 옛 소개 — 삭제 금지·보관, 홈·영상 페이지에서 뺌(새 소개 v5로 교체)",
+   "hidden": true
   }
- ]
+ ],
+ "_curation": "2026-11-17 Rex: 사이트를 대표하는 영상만 싣는다. hidden=true 는 유튜브에만 둔다(주간 채점·종목 해부 등 중단·시기성 영상). 새 영상은 build·memory 시리즈만 자동 공개, 나머지는 hidden 으로 들어와 선별 후 공개."
 }
