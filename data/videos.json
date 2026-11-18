@@ -3,6 +3,34 @@
  "updated": "2026-11-03",
  "series": [
   {
+   "key": "build",
+   "ko": "코딩 0줄 — 나만의 트레이딩 플랫폼 만들기",
+   "en": "Zero code — build your own trading platform",
+   "lead_ko": "AI에게 한국어로 말만 해서 차트·스크리너·백테스트를 직접 만듭니다. 실제 작업 화면 그대로, 코드는 무료.",
+   "lead_en": "Build charts, a screener and a backtest just by talking to AI — real screen recordings, free code."
+  },
+  {
+   "key": "memory",
+   "ko": "AI 추론 메모리 해부 (5부작)",
+   "en": "AI inference memory teardown (5 parts)",
+   "lead_ko": "AI 속도를 정하는 메모리를 실물 사진·실제 공장 영상·그림으로 해부합니다.",
+   "lead_en": "The memory that sets AI speed, taken apart with real photos, factory footage and diagrams."
+  },
+  {
+   "key": "signals",
+   "ko": "Rex 시장 신호",
+   "en": "Rex market signals",
+   "lead_ko": "지금 사야 하나, 기다려야 하나 — 미리 정한 규칙과 과거 기록으로 답합니다.",
+   "lead_en": "Buy now or wait? Answered with pre-set rules and the historical record."
+  },
+  {
+   "key": "news",
+   "ko": "지금 시장 해부",
+   "en": "Market teardown",
+   "lead_ko": "큰 뉴스가 나온 날, 숫자로 따져 봅니다.",
+   "lead_en": "When big news hits, we check it with numbers."
+  },
+  {
    "key": "brand",
    "ko": "ZekiRex™가 가는 길",
    "en": "Where ZekiRex™ is going",
@@ -46,6 +74,1017 @@
   }
  ],
  "videos": [
+  {
+   "id": "5lEfjEvagqY",
+   "series": "memory",
+   "part": 5,
+   "public_at": "2026-12-17T23:00:00+00:00",
+   "secs": 381,
+   "title_ko": "3D D램·M램·칩 위 메모리 — 다섯 후보 최종 스코어카드 | AI 추론 메모리 해부 5부(완결) [ZekiRex™]",
+   "title_en": "3D DRAM, MRAM, on-chip memory — final scorecard of five candidates | AI inference memory, part 5 (final) [ZekiRex™]",
+   "sum_ko": [
+    "한 줄로 기억하세요 — 효과가 클수록 멀다.",
+    "5부작의 5부."
+   ],
+   "sum_en": [
+    "Part 5 of five."
+   ],
+   "chapters": [
+    [
+     "0:00",
+     "들어가며",
+     "들어가며"
+    ],
+    [
+     "0:30",
+     "3D D램",
+     "3D D램"
+    ],
+    [
+     "1:25",
+     "3D D램의 벽",
+     "3D D램의 벽"
+    ],
+    [
+     "1:54",
+     "M램·Re램",
+     "M램·Re램"
+    ],
+    [
+     "2:39",
+     "칩 위 메모리",
+     "칩 위 메모리"
+    ],
+    [
+     "3:30",
+     "최종 스코어카드",
+     "최종 스코어카드"
+    ],
+    [
+     "4:04",
+     "의사결정의 틀",
+     "의사결정의 틀"
+    ],
+    [
+     "4:54",
+     "제조 전략",
+     "제조 전략"
+    ],
+    [
+     "5:33",
+     "마무리",
+     "마무리"
+    ]
+   ],
+   "sources_ko": "",
+   "sources_en": "",
+   "hold_ko": "",
+   "hold_en": "",
+   "date": "2026-12-17"
+  },
+  {
+   "id": "HpQTT3EmJRE",
+   "series": "memory",
+   "part": 4,
+   "public_at": "2026-12-10T23:00:00+00:00",
+   "secs": 421,
+   "title_ko": "강유전체 메모리, 재료는 공장에 있는데 왜 제품이 없을까요? | AI 추론 메모리 해부 4부 [ZekiRex™]",
+   "title_en": "Ferroelectric memory — the materials are in the fab, so why no product? | AI inference memory, part 4 [ZekiRex™]",
+   "sum_ko": [
+    "한 줄로 기억하세요 — 재료는 공장에 있지만 결정이 숙제.",
+    "5부작의 4부."
+   ],
+   "sum_en": [
+    "Part 4 of five."
+   ],
+   "chapters": [
+    [
+     "0:00",
+     "들어가며",
+     "들어가며"
+    ],
+    [
+     "0:41",
+     "원리: 분극",
+     "원리: 분극"
+    ],
+    [
+     "1:12",
+     "재료: HZO",
+     "재료: HZO"
+    ],
+    [
+     "1:49",
+     "세 가지 모양",
+     "세 가지 모양"
+    ],
+    [
+     "2:32",
+     "실물 증거",
+     "실물 증거"
+    ],
+    [
+     "3:24",
+     "왜 어려운가",
+     "왜 어려운가"
+    ],
+    [
+     "4:25",
+     "핵심 공정",
+     "핵심 공정"
+    ],
+    [
+     "5:06",
+     "선수들",
+     "선수들"
+    ],
+    [
+     "5:42",
+     "스코어카드",
+     "스코어카드"
+    ],
+    [
+     "6:22",
+     "다음 편",
+     "다음 편"
+    ]
+   ],
+   "sources_ko": "",
+   "sources_en": "",
+   "hold_ko": "",
+   "hold_en": "",
+   "date": "2026-12-10"
+  },
+  {
+   "id": "t0O9tyNjTJE",
+   "series": "memory",
+   "part": 3,
+   "public_at": "2026-12-03T23:00:00+00:00",
+   "secs": 426,
+   "title_ko": "HBM을 낸드로 지으면? SK하이닉스와 삼성, 두 갈래의 길 | AI 추론 메모리 해부 3부 [ZekiRex™]",
+   "title_en": "What if HBM were built from NAND? Two paths for SK hynix and Samsung | AI inference memory, part 3 [ZekiRex™]",
+   "sum_ko": [
+    "한 줄로 기억하세요 — HBF는 용량, 대가는 속도와 수명.",
+    "5부작의 3부."
+   ],
+   "sum_en": [
+    "Part 3 of five."
+   ],
+   "chapters": [
+    [
+     "0:00",
+     "들어가며",
+     "들어가며"
+    ],
+    [
+     "0:44",
+     "낸드의 원리",
+     "낸드의 원리"
+    ],
+    [
+     "1:31",
+     "왜 낸드?",
+     "왜 낸드?"
+    ],
+    [
+     "2:07",
+     "어려움① 쌓기",
+     "어려움① 쌓기"
+    ],
+    [
+     "2:46",
+     "어려움② 속도",
+     "어려움② 속도"
+    ],
+    [
+     "3:26",
+     "어려움③ 닳음·열",
+     "어려움③ 닳음·열"
+    ],
+    [
+     "3:55",
+     "실물 확인",
+     "실물 확인"
+    ],
+    [
+     "4:33",
+     "왜 두 회사",
+     "왜 두 회사"
+    ],
+    [
+     "5:08",
+     "삼성의 길",
+     "삼성의 길"
+    ],
+    [
+     "5:51",
+     "스코어카드",
+     "스코어카드"
+    ],
+    [
+     "6:24",
+     "다음 편",
+     "다음 편"
+    ]
+   ],
+   "sources_ko": "",
+   "sources_en": "",
+   "hold_ko": "",
+   "hold_en": "",
+   "date": "2026-12-03"
+  },
+  {
+   "id": "WEtkUOUXud4",
+   "series": "longshort",
+   "part": null,
+   "public_at": null,
+   "secs": 141,
+   "title_ko": "한국 주식 딱 두 개, 14년 들고 있었더니 미국 S&P 500의 5배 — 어떤 두 개? #shorts",
+   "title_en": "Two Korean stocks held 14 years — 5x the S&P 500. Which two?",
+   "sum_ko": [
+    "2012년 2월 한국 주식 두 종목을 반씩 샀다면? 같은 돈으로 S&P 500·나스닥100이라면?",
+    "14년을 실제 숫자로 — 한 번에 산 경우, 매달 산 경우, 「떨어지면 사겠다」를 지킨 경우."
+   ],
+   "sum_en": [
+    "What if you split money across two Korean stocks in Feb 2012 — versus the S&P 500 and Nasdaq-100?",
+    "Fourteen years in real numbers — lump sum, monthly buying, and \"buy the dip\"."
+   ],
+   "chapters": [],
+   "sources_ko": "",
+   "sources_en": "",
+   "hold_ko": "",
+   "hold_en": "",
+   "date": "2026-10-27"
+  },
+  {
+   "id": "ZPmVJATK6kU",
+   "series": "news",
+   "part": null,
+   "public_at": null,
+   "secs": 532,
+   "title_ko": "페이컴 6개월 2.3배, 고용 식는다는데 왜 최고가?",
+   "title_en": "Paycom 2.3x in six months — why a record high while hiring cools?",
+   "sum_ko": [
+    "6개월 만에 2.3배가 된 급여 소프트웨어 회사 페이컴.",
+    "고용은 식는데 왜 최고가인가 — 반은 이익, 반은 주식 수.",
+    "11월 4일 실적에서 볼 숫자 세 개."
+   ],
+   "sum_en": [
+    "Payroll-software maker Paycom more than doubled in six months.",
+    "Hiring is cooling, so why a record high? Half earnings, half share count.",
+    "Three numbers to check in the Nov 4 results."
+   ],
+   "chapters": [
+    [
+     "0:00",
+     "들어가며 — 6개월 만에 2.3배",
+     "들어가며 — 6개월 만에 2.3배"
+    ],
+    [
+     "0:36",
+     "무엇을 하는 회사인가",
+     "무엇을 하는 회사인가"
+    ],
+    [
+     "1:45",
+     "① 왜 반토막 났었나",
+     "① 왜 반토막 났었나"
+    ],
+    [
+     "2:55",
+     "② 왜 2.3배가 됐나 — 반은 이익, 반은 주식 수",
+     "② 왜 2.3배가 됐나 — 반은 이익, 반은 주식 수"
+    ],
+    [
+     "4:35",
+     "③ 고용이 식는데 왜 최고가인가",
+     "③ 고용이 식는데 왜 최고가인가"
+    ],
+    [
+     "5:44",
+     "지금 값은 비싼가",
+     "지금 값은 비싼가"
+    ],
+    [
+     "6:37",
+     "11월 4일에 볼 것 하나와 위험 세 가지",
+     "11월 4일에 볼 것 하나와 위험 세 가지"
+    ],
+    [
+     "8:01",
+     "정리 — 확인할 숫자 세 개",
+     "정리 — 확인할 숫자 세 개"
+    ]
+   ],
+   "sources_ko": "",
+   "sources_en": "",
+   "hold_ko": "",
+   "hold_en": "",
+   "date": "2026-10-29"
+  },
+  {
+   "id": "UbnkEbtTcIg",
+   "series": "news",
+   "part": null,
+   "public_at": null,
+   "secs": 516,
+   "title_ko": "선거 후 뉴욕증시 폭락!! 반도체 −11% 공포 확대, 대처는 어떻게? [ZekiRex™ 해부]",
+   "title_en": "Post-election crash: chips −11% in a day — how to respond? [ZekiRex™ teardown]",
+   "sum_ko": [
+    "2000년 이후 반도체 ETF 하루 −8% 폭락 9번 중 7번은 1년 뒤 더 올라 있었습니다(가운데 값 +37%).",
+    "하지만 그 전에 가운데 값으로 −24% 더 빠지는 구간이 먼저 왔습니다.",
+    "아직 닷컴은 아닙니다 — 실적이 판정합니다."
+   ],
+   "sum_en": [
+    "Of nine one-day chip-ETF drops worse than −8% since 2000, seven were higher a year later (median +37%).",
+    "But a further median −24% fall came first.",
+    "Not the dot-com bust yet — earnings will decide."
+   ],
+   "chapters": [
+    [
+     "0:00",
+     "들어가며 — 답부터 세 줄",
+     "들어가며 — 답부터 세 줄"
+    ],
+    [
+     "0:56",
+     "11월 5일 무슨 일이",
+     "11월 5일 무슨 일이"
+    ],
+    [
+     "2:03",
+     "닷컴 때는 — −83%, 17년",
+     "닷컴 때는 — −83%, 17년"
+    ],
+    [
+     "2:43",
+     "지금은 — 같은 자로 재 보기",
+     "지금은 — 같은 자로 재 보기"
+    ],
+    [
+     "3:31",
+     "경고 두 가지 — 가격 모양·메모리의 함정",
+     "경고 두 가지 — 가격 모양·메모리의 함정"
+    ],
+    [
+     "4:27",
+     "과거 9번 — 1년 뒤 7번 상승, 그 전 −24%",
+     "과거 9번 — 1년 뒤 7번 상승, 그 전 −24%"
+    ],
+    [
+     "5:23",
+     "세 갈래 길 (몇 번이었나)",
+     "세 갈래 길 (몇 번이었나)"
+    ],
+    [
+     "6:33",
+     "경고등 4개",
+     "경고등 4개"
+    ],
+    [
+     "7:10",
+     "앞으로 볼 날짜",
+     "앞으로 볼 날짜"
+    ],
+    [
+     "7:52",
+     "정리",
+     "정리"
+    ]
+   ],
+   "sources_ko": "",
+   "sources_en": "",
+   "hold_ko": "",
+   "hold_en": "",
+   "date": "2026-11-06"
+  },
+  {
+   "id": "p5r2vZ9WGd0",
+   "series": "news",
+   "part": null,
+   "public_at": null,
+   "secs": 200,
+   "title_ko": "UBS '데이터센터 30% 위험' 경고 — 반도체 수요는 사라질까, 밀릴까?",
+   "title_en": "UBS warns 30% of data centers at risk — will chip demand vanish or just slip?",
+   "sum_ko": [
+    "데이터센터 30% 경고는 끝이 아니라 지연입니다.",
+    "2027년 물량의 약 3/4은 이미 공사 중 — 핵심 위험은 취소가 아니라 지연.",
+    "AI 수요 온도계 77.3 과열 — 60 아래로 식을 때 다시 봅니다."
+   ],
+   "sum_en": [
+    "The 30% data-center warning means delay, not the end.",
+    "About three quarters of 2027 capacity is already under construction — the risk is delay, not cancellation.",
+    "AI demand thermometer at 77.3 (overheated); we revisit when it cools below 60."
+   ],
+   "chapters": [
+    [
+     "0:00",
+     "답부터 — 끝이 아니라 지연",
+     "답부터 — 끝이 아니라 지연"
+    ],
+    [
+     "0:28",
+     "① 30% — UBS 경고 · 텍사스 승인 멈춤",
+     "① 30% — UBS 경고 · 텍사스 승인 멈춤"
+    ],
+    [
+     "1:02",
+     "② 2027년 — 이미 짓는 중, 싸움은 2028년",
+     "② 2027년 — 이미 짓는 중, 싸움은 2028년"
+    ],
+    [
+     "1:41",
+     "③ 77.3 — AI 수요 온도계",
+     "③ 77.3 — AI 수요 온도계"
+    ],
+    [
+     "2:22",
+     "반대쪽 시각 — AI 골디락스",
+     "반대쪽 시각 — AI 골디락스"
+    ],
+    [
+     "2:40",
+     "정리 · 볼 날짜 3개",
+     "정리 · 볼 날짜 3개"
+    ]
+   ],
+   "sources_ko": "",
+   "sources_en": "",
+   "hold_ko": "",
+   "hold_en": "",
+   "date": "2026-11-08"
+  },
+  {
+   "id": "-HC6ESCp7VU",
+   "series": "signals",
+   "part": null,
+   "public_at": null,
+   "secs": 500,
+   "title_ko": "반도체 −18%, 경고는 미리 울렸다? AI 온도계 과열 3번 모두 급락… 지금 사야 하나, 기다려야 하나 [ZekiRex™ 해부]",
+   "title_en": "Chips −18% — did the warning sound early? The AI thermometer called 3 of 3 overheats",
+   "sum_ko": [
+    "AI 수요 온도계 과열 판독 세 번(2008·2011·2026) 모두 반도체 ETF가 17% 넘게 내렸습니다.",
+    "유일한 매도 신호지만 세 번뿐이라 「주의(WARNING)」 등급입니다.",
+    "다음 판독은 2027년 2월 1일."
+   ],
+   "sum_en": [
+    "All three overheat readings of the AI demand thermometer (2008, 2011, 2026) were followed by chip-ETF drops of more than 17%.",
+    "Our only sell signal — but with just three cases it is graded WARNING.",
+    "Next reading: February 1, 2027."
+   ],
+   "chapters": [],
+   "sources_ko": "",
+   "sources_en": "",
+   "hold_ko": "",
+   "hold_en": "",
+   "date": "2026-11-07"
+  },
+  {
+   "id": "MFsKiKeyINE",
+   "series": "signals",
+   "part": null,
+   "public_at": null,
+   "secs": 481,
+   "title_ko": "반도체 −18% 공포지수 25 돌파! 지금 사야 하나, 기다려야 하나? [Rex 시장 신호 보드]",
+   "title_en": "Chips −18%, VIX above 25 — buy now or wait? [Rex Market Signal Board]",
+   "sum_ko": [
+    "지금 위치: 공포 VIX 25.6 켜짐 · AI 수요 온도계 77.3 과열 · 경제 스트레스 4개 중 1개.",
+    "AI·반도체 조정이지 경제 전체의 위기는 아닙니다.",
+    "공포엔 기회, 과열엔 경고 — 지금은 둘이 겹쳤습니다."
+   ],
+   "sum_en": [
+    "Where we are: VIX fear at 25.6, the AI demand thermometer at 77.3 (overheated), 1 of 4 economic stress gauges on.",
+    "An AI/chip correction, not an economy-wide crisis.",
+    "Fear is opportunity, overheating is a warning — right now both overlap."
+   ],
+   "chapters": [],
+   "sources_ko": "",
+   "sources_en": "",
+   "hold_ko": "",
+   "hold_en": "",
+   "date": "2026-11-07"
+  },
+  {
+   "id": "wvts3ybj2nY",
+   "series": "signals",
+   "part": null,
+   "public_at": null,
+   "secs": 206,
+   "title_ko": "삼성전자·SK하이닉스 지금 사야 하나, 기다려야 하나 — 답과 볼 신호 3개",
+   "title_en": "Samsung & SK hynix — buy now or wait? The answer and 3 signals to watch",
+   "sum_ko": [
+    "메모리 수출은 사상 최대인데 삼성전자·SK하이닉스는 고점 대비 반 토막.",
+    "주가는 메모리 수출을 3~5개월 먼저 압니다(상관계수 0.88).",
+    "수출 뉴스가 최고일 때는 현금, 최악일 때는 신호를 믿고 삽니다."
+   ],
+   "sum_en": [
+    "Memory exports are at a record, yet Samsung and SK hynix are down by half from their peaks.",
+    "Share prices lead memory exports by 3–5 months (correlation 0.88).",
+    "Cash when export news is best; buy on the signal when it is worst."
+   ],
+   "chapters": [
+    [
+     "0:00",
+     "결론: 지금은 현금, 신호 3개",
+     "결론: 지금은 현금, 신호 3개"
+    ],
+    [
+     "0:18",
+     "발견: 주가가 수출보다 5개월 먼저",
+     "발견: 주가가 수출보다 5개월 먼저"
+    ],
+    [
+     "0:42",
+     "왜 주가가 먼저일까",
+     "왜 주가가 먼저일까"
+    ],
+    [
+     "1:03",
+     "함정: 많이 떨어졌으니 사자?",
+     "함정: 많이 떨어졌으니 사자?"
+    ],
+    [
+     "1:28",
+     "매도 신호 = 현금(국채)",
+     "매도 신호 = 현금(국채)"
+    ],
+    [
+     "1:41",
+     "우리 신호는 얼마나 맞았나 (+1,392%)",
+     "우리 신호는 얼마나 맞았나 (+1,392%)"
+    ],
+    [
+     "2:10",
+     "내년 지도: 2027년 1분기",
+     "내년 지도: 2027년 1분기"
+    ],
+    [
+     "2:37",
+     "무엇이 다시 살릴까",
+     "무엇이 다시 살릴까"
+    ],
+    [
+     "2:56",
+     "확신을 가지고 산다",
+     "확신을 가지고 산다"
+    ],
+    [
+     "3:15",
+     "정리",
+     "정리"
+    ]
+   ],
+   "sources_ko": "",
+   "sources_en": "",
+   "hold_ko": "",
+   "hold_en": "",
+   "date": "2026-11-10"
+  },
+  {
+   "id": "d31ikYzMljA",
+   "series": "memory",
+   "part": 2,
+   "public_at": "2026-11-19T15:00:00-08:00",
+   "secs": 508,
+   "title_ko": "HBM은 어떻게 짓나 — 깎고, 뚫고, 쌓고, 붙이는 순서대로 | AI 추론 메모리 해부 2부 [ZekiRex™]",
+   "title_en": "How HBM is built — thin, drill, stack, bond | AI inference memory, part 2 [ZekiRex™]",
+   "sum_ko": [
+    "한 줄로 기억하세요 — HBM은 쌓고 붙이는 기술 싸움.",
+    "D램 원리, TSV, 깎기, 쌓고 붙이기, 베이스 다이, 수율과 열.",
+    "5부작의 2부."
+   ],
+   "sum_en": [
+    "Remember one line — HBM is a fight over stacking and bonding.",
+    "DRAM basics, TSVs, thinning, stacking and bonding, the base die, yield and heat.",
+    "Part 2 of five."
+   ],
+   "chapters": [
+    [
+     "0:00",
+     "들어가며",
+     "들어가며"
+    ],
+    [
+     "0:42",
+     "D램의 원리",
+     "D램의 원리"
+    ],
+    [
+     "1:25",
+     "왜 쌓나",
+     "왜 쌓나"
+    ],
+    [
+     "2:06",
+     "TSV 만들기",
+     "TSV 만들기"
+    ],
+    [
+     "2:57",
+     "깎기",
+     "깎기"
+    ],
+    [
+     "3:54",
+     "쌓고 붙이기",
+     "쌓고 붙이기"
+    ],
+    [
+     "4:47",
+     "베이스 다이",
+     "베이스 다이"
+    ],
+    [
+     "5:26",
+     "수율과 열",
+     "수율과 열"
+    ],
+    [
+     "6:22",
+     "길목",
+     "길목"
+    ],
+    [
+     "7:07",
+     "스코어카드",
+     "스코어카드"
+    ],
+    [
+     "7:42",
+     "다음 편",
+     "다음 편"
+    ]
+   ],
+   "sources_ko": "",
+   "sources_en": "",
+   "hold_ko": "",
+   "hold_en": "",
+   "date": "2026-11-19"
+  },
+  {
+   "id": "mhNQX2iYhS4",
+   "series": "memory",
+   "part": 1,
+   "public_at": null,
+   "secs": 390,
+   "title_ko": "AI가 느려지는 진짜 이유 — 계산이 아니라 메모리입니다 | AI 추론 메모리 해부 1부 [ZekiRex™]",
+   "title_en": "Why AI slows down — it is memory, not compute | AI inference memory, part 1 [ZekiRex™]",
+   "sum_ko": [
+    "한 줄로 기억하세요 — AI 속도는 메모리가 정한다.",
+    "AI 추론, 메모리 벽, 메모리 사다리, 다섯 후보 지도와 스코어카드.",
+    "실물 사진·실제 공장 영상·그림으로 천천히 해부하는 5부작의 1부."
+   ],
+   "sum_en": [
+    "Remember one line — memory sets AI speed.",
+    "AI inference, the memory wall, the memory ladder, a map of five candidates and a scorecard.",
+    "Part 1 of a five-part teardown with real photos, factory footage and diagrams."
+   ],
+   "chapters": [
+    [
+     "0:00",
+     "들어가며",
+     "들어가며"
+    ],
+    [
+     "0:38",
+     "AI 추론이란",
+     "AI 추론이란"
+    ],
+    [
+     "1:25",
+     "메모리 벽",
+     "메모리 벽"
+    ],
+    [
+     "2:17",
+     "메모리 사다리",
+     "메모리 사다리"
+    ],
+    [
+     "2:59",
+     "후보 지도",
+     "후보 지도"
+    ],
+    [
+     "4:15",
+     "스코어카드",
+     "스코어카드"
+    ],
+    [
+     "5:24",
+     "5부작 안내",
+     "5부작 안내"
+    ]
+   ],
+   "sources_ko": "",
+   "sources_en": "",
+   "hold_ko": "",
+   "hold_en": "",
+   "date": "2026-11-12"
+  },
+  {
+   "id": "hzDu3Z3jUQA",
+   "series": "build",
+   "part": 1,
+   "public_at": null,
+   "secs": 236,
+   "title_ko": "코딩 0줄, 말로 만든 나만의 주식 전쟁 상황실",
+   "title_en": "Zero lines of code — a stock war room built just by talking to AI",
+   "sum_ko": [
+    "코딩 한 줄 없이, AI에게 말만 해서 내 차트를 주식 전쟁 상황실로 바꿨습니다.",
+    "사야 할 때인지 팔아야 할 때인지 한 화면에서 — 미국·한국 주식 모두.",
+    "그대로 따라 할 요청 문장 10개를 설명란에 실었습니다."
+   ],
+   "sum_en": [
+    "No code — just talking to AI turned a chart into a stock war room.",
+    "Buy-or-sell stage at a glance, for US and Korean stocks.",
+    "The ten requests to copy are in the description."
+   ],
+   "chapters": [
+    [
+     "0:00",
+     "빅뱅 — 전과 후",
+     "빅뱅 — 전과 후"
+    ],
+    [
+     "0:17",
+     "트레이딩뷰, 뭐가 답답했나",
+     "트레이딩뷰, 뭐가 답답했나"
+    ],
+    [
+     "0:31",
+     "말로 만드는 과정 (실제 녹화)",
+     "말로 만드는 과정 (실제 녹화)"
+    ],
+    [
+     "0:52",
+     "맨 위 배너: 지금 무슨 단계?",
+     "맨 위 배너: 지금 무슨 단계?"
+    ],
+    [
+     "1:07",
+     "매수 조건 체크",
+     "매수 조건 체크"
+    ],
+    [
+     "1:21",
+     "점수와 매수·매도 상태",
+     "점수와 매수·매도 상태"
+    ],
+    [
+     "1:44",
+     "회사 체력과 실적",
+     "회사 체력과 실적"
+    ]
+   ],
+   "sources_ko": "",
+   "sources_en": "",
+   "hold_ko": "",
+   "hold_en": "",
+   "date": "2026-11-14"
+  },
+  {
+   "id": "ATyChLGRQTU",
+   "series": "build",
+   "part": 2,
+   "public_at": null,
+   "secs": 271,
+   "title_ko": "차트 신호 100개, 진짜는 몇 개? 94%를 버렸더니 생긴 일 | ZekiRex EP2",
+   "title_en": "100 chart signals — how many are real? We dropped 94% | ZekiRex EP2",
+   "sum_ko": [
+    "차트 매수 패턴을 교과서대로 다 사면 35%, ZekiRex 필터를 통과한 돌파만 남기면 43%.",
+    "매도 신호의 94%를 버렸더니 꼭대기를 맞힌 비율이 32% → 78%.",
+    "1962–2026년 · 503개 종목 · 패턴 신호 13,429개, 무료 데이터로 검증."
+   ],
+   "sum_en": [
+    "Buy every textbook pattern and 35% become big winners; keep only breakouts that pass the ZekiRex filter and it is 43%.",
+    "Dropping 94% of sell signals raised top-calling accuracy from 32% to 78%.",
+    "Tested on 1962–2026 data, 503 stocks, 13,429 pattern signals — all free data."
+   ],
+   "chapters": [
+    [
+     "0:00",
+     "매수 패턴 100개, 진짜 크게 오르는 건?",
+     "매수 패턴 100개, 진짜 크게 오르는 건?"
+    ],
+    [
+     "0:28",
+     "교과서 패턴 6개 (실제 차트)",
+     "교과서 패턴 6개 (실제 차트)"
+    ],
+    [
+     "0:56",
+     "교과서대로 다 사면 — 35%, +1.4%",
+     "교과서대로 다 사면 — 35%, +1.4%"
+    ],
+    [
+     "1:11",
+     "ZekiRex 필터 — 43%, +6.1%",
+     "ZekiRex 필터 — 43%, +6.1%"
+    ],
+    [
+     "1:25",
+     "GE버노바 — 컵앤핸들 $447 돌파 → $1,196",
+     "GE버노바 — 컵앤핸들 $447 돌파 → $1,196"
+    ],
+    [
+     "1:48",
+     "사는 건 절반, 더 중요한 건 언제 파느냐",
+     "사는 건 절반, 더 중요한 건 언제 파느냐"
+    ],
+    [
+     "1:55",
+     "매도 신호 — 32% → 78%, 클라이맥스 88%",
+     "매도 신호 — 32% → 78%, 클라이맥스 88%"
+    ],
+    [
+     "2:24",
+     "GE버노바 매도 — $837, 산 값 대비 +87%",
+     "GE버노바 매도 — $837, 산 값 대비 +87%"
+    ],
+    [
+     "2:38",
+     "인텔 — 매도 신호 2개, 그 뒤 고점 대비 −56%",
+     "인텔 — 매도 신호 2개, 그 뒤 고점 대비 −56%"
+    ],
+    [
+     "2:57",
+     "커맨드 센터 정보 패널 (ATR)",
+     "커맨드 센터 정보 패널 (ATR)"
+    ],
+    [
+     "3:12",
+     "11/13 스캔 — 미국 1개, 한국 0개",
+     "11/13 스캔 — 미국 1개, 한국 0개"
+    ],
+    [
+     "3:34",
+     "다음 편 예고 — 가상 10만 달러",
+     "다음 편 예고 — 가상 10만 달러"
+    ],
+    [
+     "3:57",
+     "정리 — 노이즈를 걷어내면",
+     "정리 — 노이즈를 걷어내면"
+    ]
+   ],
+   "sources_ko": "",
+   "sources_en": "",
+   "hold_ko": "",
+   "hold_en": "",
+   "date": "2026-11-15"
+  },
+  {
+   "id": "aEnItg9maJo",
+   "series": "build",
+   "part": 3,
+   "public_at": "2026-11-18T04:00:00-08:00",
+   "secs": 780,
+   "title_ko": "Claude Code로 나만의 트레이딩 플랫폼 처음부터 만들기 | 코딩 0줄, 코드 전체 무료 (HLC 차트·스크리너·백테스트)",
+   "title_en": "Build your own trading platform from scratch with Claude Code — zero lines of code, full code free (HLC charts · screener · backtest)",
+   "sum_ko": [
+    "요청 8번, 코딩 0줄로 나만의 트레이딩 플랫폼을 처음부터 끝까지 만듭니다.",
+    "HLC 바 차트·이동평균·RS·추세 템플릿 스크리너·매수매도 신호·백테스트까지. 교과서 규칙 백테스트는 $100K → $234K(SPY +55%).",
+    "실제 버그를 잡는 장면과 내 규칙으로 바꿔 검증하는 법까지 — 코드 전체는 zekirex.com/free/ep3 에서 무료."
+   ],
+   "sum_en": [
+    "Eight requests, zero lines of code — a personal trading platform built from scratch.",
+    "HLC bars, moving averages, RS, a trend-template screener, buy/sell signals and a backtest; the textbook rules turned $100K into $234K (SPY +55%).",
+    "Includes a real bug fix and how to test your own rules — the full code is free at zekirex.com/free/ep3."
+   ],
+   "chapters": [
+    [
+     "0:00",
+     "완성품 미리보기 — AI인 Zeki가 만든 영상",
+     "완성품 미리보기 — AI인 Zeki가 만든 영상"
+    ],
+    [
+     "0:26",
+     "준비물",
+     "준비물"
+    ],
+    [
+     "0:54",
+     "따라 하기 준비 (설치·데이터)",
+     "따라 하기 준비 (설치·데이터)"
+    ],
+    [
+     "1:05",
+     "STEP 1 계획 세우기",
+     "STEP 1 계획 세우기"
+    ],
+    [
+     "1:38",
+     "STEP 2 HLC 바 차트",
+     "STEP 2 HLC 바 차트"
+    ],
+    [
+     "2:42",
+     "코드 보기 ① HLC 바·build.py",
+     "코드 보기 ① HLC 바·build.py"
+    ],
+    [
+     "2:59",
+     "STEP 3 이동평균선·거래량",
+     "STEP 3 이동평균선·거래량"
+    ],
+    [
+     "3:40",
+     "STEP 4 RS선·RS 점수",
+     "STEP 4 RS선·RS 점수"
+    ],
+    [
+     "4:27",
+     "STEP 5 스크리너 (추세 템플릿)",
+     "STEP 5 스크리너 (추세 템플릿)"
+    ],
+    [
+     "5:13",
+     "STEP 6 매수·매도 신호",
+     "STEP 6 매수·매도 신호"
+    ],
+    [
+     "6:09",
+     "STEP 7 백테스트",
+     "STEP 7 백테스트"
+    ],
+    [
+     "6:53",
+     "코드 보기 ② 백테스트",
+     "코드 보기 ② 백테스트"
+    ],
+    [
+     "7:07",
+     "결과 $100K → $234K",
+     "결과 $100K → $234K"
+    ],
+    [
+     "7:31",
+     "결과 읽는 법 (총수익률·최대 낙폭·PF)",
+     "결과 읽는 법 (총수익률·최대 낙폭·PF)"
+    ],
+    [
+     "7:58",
+     "결과의 한계 3가지",
+     "결과의 한계 3가지"
+    ],
+    [
+     "8:20",
+     "STEP 8 지인 배포판",
+     "STEP 8 지인 배포판"
+    ],
+    [
+     "9:03",
+     "코드 전체 무료 받기",
+     "코드 전체 무료 받기"
+    ],
+    [
+     "9:19",
+     "지인 컴퓨터에서 열어 보기",
+     "지인 컴퓨터에서 열어 보기"
+    ],
+    [
+     "9:35",
+     "따라 하다 막히는 곳 3가지",
+     "따라 하다 막히는 곳 3가지"
+    ],
+    [
+     "10:12",
+     "보너스 ① 버그 잡기",
+     "보너스 ① 버그 잡기"
+    ],
+    [
+     "10:57",
+     "보너스 ② 내 규칙으로 바꾸기",
+     "보너스 ② 내 규칙으로 바꾸기"
+    ],
+    [
+     "11:38",
+     "보너스 ③ 밝은 화면으로",
+     "보너스 ③ 밝은 화면으로"
+    ],
+    [
+     "12:05",
+     "완성품 한 바퀴",
+     "완성품 한 바퀴"
+    ],
+    [
+     "12:17",
+     "정리 — 기억할 세 가지",
+     "정리 — 기억할 세 가지"
+    ],
+    [
+     "12:34",
+     "마무리",
+     "마무리"
+    ]
+   ],
+   "sources_ko": "",
+   "sources_en": "",
+   "hold_ko": "",
+   "hold_en": "",
+   "date": "2026-11-18"
+  },
   {
    "id": "OZf_vlBiXH0",
    "series": "deepdive",
