@@ -1035,6 +1035,158 @@
    "hidden": false
   },
   {
+   "id": "XGZahphKnSA",
+   "series": "build",
+   "part": 3,
+   "public_at": "2026-11-19T07:40:00-08:00",
+   "secs": 949,
+   "title_ko": "Claude Code로 나만의 트레이딩 플랫폼 처음부터 만들기 | 코딩 0줄 + \"좋은 것만 골랐나?\" 검증까지",
+   "title_en": "Build your own trading platform from scratch with Claude Code — zero code, plus an honest \"did we cherry-pick?\" check",
+   "sum_ko": [
+    "요청 8번, 코딩 0줄로 나만의 트레이딩 플랫폼을 처음부터 끝까지 만듭니다. 단계마다 왜 하는지부터 천천히.",
+    "교과서 규칙 백테스트 $100K → $235K(SPY +55%). 그런데 같은 48종목을 그냥 들고 있었으면 +151% — 규칙의 힘은 덜 잃는 데(최대 낙폭 −24% vs −35%) 있었습니다.",
+    "「좋은 것만 골랐나?」 댓글 질문을 Claude에게 그대로 던져 불리한 숫자까지 전부 공개 — 코드 전체는 zekirex.com/free/ep3 에서 무료."
+   ],
+   "sum_en": [
+    "Eight requests, zero lines of code — a personal trading platform built from scratch, step by step.",
+    "The textbook rules turned $100K into $235K (SPY +55%). But simply holding the same 48 names returned +151% — the rules won on drawdown (−24% vs −35%), not return.",
+    "We put the \"did you cherry-pick?\" comment straight to Claude and show every unfavorable number — full code free at zekirex.com/free/ep3."
+   ],
+   "chapters": [
+    [
+     "0:00",
+     "완성품 미리보기",
+     "완성품 미리보기"
+    ],
+    [
+     "0:31",
+     "여러분 댓글로 바뀐 것",
+     "여러분 댓글로 바뀐 것"
+    ],
+    [
+     "0:49",
+     "준비물",
+     "준비물"
+    ],
+    [
+     "1:18",
+     "따라 하기 준비 (설치·데이터)",
+     "따라 하기 준비 (설치·데이터)"
+    ],
+    [
+     "1:31",
+     "STEP 1 계획 세우기",
+     "STEP 1 계획 세우기"
+    ],
+    [
+     "2:20",
+     "STEP 2 HLC 바 차트",
+     "STEP 2 HLC 바 차트"
+    ],
+    [
+     "3:31",
+     "코드 보기 ① HLC 바·build.py",
+     "코드 보기 ① HLC 바·build.py"
+    ],
+    [
+     "3:50",
+     "STEP 3 이동평균선·거래량",
+     "STEP 3 이동평균선·거래량"
+    ],
+    [
+     "4:40",
+     "STEP 4 RS선·RS 점수",
+     "STEP 4 RS선·RS 점수"
+    ],
+    [
+     "5:46",
+     "STEP 5 스크리너 (추세 템플릿)",
+     "STEP 5 스크리너 (추세 템플릿)"
+    ],
+    [
+     "6:50",
+     "STEP 6 매수·매도 신호",
+     "STEP 6 매수·매도 신호"
+    ],
+    [
+     "7:54",
+     "STEP 7 백테스트",
+     "STEP 7 백테스트"
+    ],
+    [
+     "8:36",
+     "코드 보기 ② 백테스트 설정",
+     "코드 보기 ② 백테스트 설정"
+    ],
+    [
+     "8:48",
+     "결과 $100K → $235K",
+     "결과 $100K → $235K"
+    ],
+    [
+     "9:14",
+     "결과 읽는 법",
+     "결과 읽는 법"
+    ],
+    [
+     "9:50",
+     "검증 — 좋은 것만 골랐나?",
+     "검증 — 좋은 것만 골랐나?"
+    ],
+    [
+     "11:31",
+     "STEP 8 지인 배포판",
+     "STEP 8 지인 배포판"
+    ],
+    [
+     "12:22",
+     "코드 전체 무료 받기",
+     "코드 전체 무료 받기"
+    ],
+    [
+     "12:40",
+     "지인 컴퓨터에서 열어 보기",
+     "지인 컴퓨터에서 열어 보기"
+    ],
+    [
+     "12:56",
+     "따라 하다 막히는 곳",
+     "따라 하다 막히는 곳"
+    ],
+    [
+     "13:34",
+     "보너스 ① 내 규칙으로 바꾸기",
+     "보너스 ① 내 규칙으로 바꾸기"
+    ],
+    [
+     "14:18",
+     "보너스 ② 밝은 화면으로",
+     "보너스 ② 밝은 화면으로"
+    ],
+    [
+     "14:50",
+     "완성품 한 바퀴",
+     "완성품 한 바퀴"
+    ],
+    [
+     "15:03",
+     "정리 — 기억할 세 가지",
+     "정리 — 기억할 세 가지"
+    ],
+    [
+     "15:22",
+     "마무리",
+     "마무리"
+    ]
+   ],
+   "sources_ko": "",
+   "sources_en": "",
+   "hold_ko": "",
+   "hold_en": "",
+   "date": "2026-11-19",
+   "hidden": false
+  },
+  {
    "id": "aEnItg9maJo",
    "series": "build",
    "part": 3,

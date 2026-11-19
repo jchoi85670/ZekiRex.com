@@ -10,7 +10,7 @@
 <link rel="canonical" href="https://zekirex.com/free/ep3/">
 <meta name="description" content="유튜브 ZekiRex™ EP3에서 Claude Code로 만든 트레이딩 플랫폼 코드 전체를 무료로 드립니다. HLC 바 차트·스크리너·백테스트.">
 <meta property="og:title" content="무료 코드 — ZekiRex™ 플랫폼 키트 (EP3)">
-<meta property="og:description" content="코딩 0줄, 한국어 요청 8번으로 만든 나만의 트레이딩 플랫폼 — 코드 전체 무료.">
+<meta property="og:description" content="코딩 0줄, 한국어 요청으로 만든 나만의 트레이딩 플랫폼과 「좋은 것만 골랐나?」 검증 — 코드 전체 무료.">
 <meta property="og:image" content="https://zekirex.com/free/ep3/thumb.jpg">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary_large_image">
@@ -26,22 +26,24 @@
 <h1>무료 코드 — ZekiRex™ 플랫폼 키트</h1>
 <p>유튜브 EP3 「Claude Code로 나만의 트레이딩 플랫폼 처음부터 만들기」에서 실제로 만든 코드 전체입니다. 코드는 한 줄도 사람이 쓰지 않았고, Claude Code에게 한국어로 요청해서 만들었습니다. 무료로 쓰세요.</p>
 <p><img src="/free/ep3/thumb.jpg" alt="EP3 썸네일" style="width:100%;max-width:640px;border-radius:12px"></p>
-<p><a class="btn btn-navy" href="/free/ep3/ZekiRex_Platform_Kit_EP3.zip" download>⬇ 키트 받기 (ZIP · 24KB)</a> &nbsp; <a href="https://youtu.be/aEnItg9maJo">▶ 영상 보기</a></p>
+<p><a class="btn btn-navy" href="/free/ep3/ZekiRex_Platform_Kit_EP3.zip" download>⬇ 키트 받기 (ZIP · 32KB)</a> &nbsp; <a href="https://youtu.be/XGZahphKnSA">▶ 영상 보기</a></p>
 <h2>들어 있는 것</h2>
 <ul>
 <li><b>template.html</b> — 화면 코드: HLC 바 차트, 50/150/200일 이동평균, 거래량, SPY 대비 RS선·RS 점수, 미너비니 추세 템플릿 스크리너, 매수·매도 신호, 백테스트, 라이트/다크 테마</li>
-<li><b>build.py</b> — prices 폴더의 CSV를 읽어 화면 파일 하나로 만드는 프로그램 (파이썬 3, 표준 라이브러리만)</li>
+<li><b>build.py</b> — prices 폴더의 CSV를 읽고 백테스트까지 계산해 화면 파일 하나로 만드는 프로그램 (파이썬 3, 표준 라이브러리만)</li>
+<li><b>analysis/audit.py</b> — 「좋은 것만 골랐나?」 검증: 그냥 보유와 비교, 연도별 성적, 최악의 거래, 상위 종목 제외, 다음 날 시가 체결</li>
+<li><b>analysis/compare_rules.py</b> — 내 규칙 비교 (손절·돌파 기간을 바꿔 나란히 비교)</li>
 <li><b>Start-Mac.command / Start-Windows.bat</b> — 더블클릭 실행 파일</li>
 <li><b>요청문장.txt</b> — 영상에서 Claude Code에게 한 요청 11개 (그대로 복사해서 쓰세요)</li>
 <li><b>README_먼저읽기.txt</b> — 쉬운 한글 사용법</li>
 </ul>
 <h2>가격 데이터는 직접 넣으세요</h2>
-<p>영상에서 쓴 가격 데이터는 데이터 업체 약관상 다시 나눠 드릴 수 없어 키트에서 뺐습니다. <span class="mono">prices/종목코드.csv</span>, 첫 줄 <span class="mono">date,open,high,low,close,volume</span> 형식만 맞추면 어떤 종목이든 됩니다. SPY.csv는 꼭 넣으세요(RS와 백테스트 기준). 가장 쉬운 방법은 키트 폴더에서 Claude Code를 열고 "무료로 받을 수 있는 일봉 데이터를 prices 폴더에 이 형식으로 받아줘"라고 요청하는 것입니다. 받은 곳의 이용 약관은 꼭 확인하세요.</p>
+<p>영상에서 쓴 가격 데이터는 데이터 업체 약관상 다시 나눠 드릴 수 없어 키트에서 뺐습니다. <span class="mono">prices/종목코드.csv</span>, 첫 줄 <span class="mono">date,open,high,low,close,volume</span> 형식만 맞추면 어떤 종목이든 됩니다. SPY.csv는 꼭 넣으세요(RS와 백테스트 기준). 검증 스크립트를 쓰려면 QQQ.csv도 넣으세요. 가장 쉬운 방법은 키트 폴더에서 Claude Code를 열고 "무료로 받을 수 있는 일봉 데이터를 prices 폴더에 이 형식으로 받아줘"라고 요청하는 것입니다. 받은 곳의 이용 약관은 꼭 확인하세요.</p>
 <h2>실행</h2>
-<ol><li>prices 폴더에 CSV를 넣는다</li><li><span class="mono">python3 build.py</span> (또는 실행 파일 더블클릭)</li><li>생긴 zekirex.html을 브라우저로 연다</li></ol>
+<ol><li>prices 폴더에 CSV를 넣는다</li><li><span class="mono">python3 build.py</span> (또는 실행 파일 더블클릭)</li><li>생긴 platform.html을 브라우저로 연다</li></ol>
 <h2>꼭 읽어 주세요</h2>
 <p>이 키트와 영상은 교육용입니다. 투자 권유나 투자 자문이 아닙니다. 백테스트는 수수료·세금·슬리피지를 빼지 않은 계산이며, 과거 결과가 미래 수익을 보장하지 않습니다. 매수·매도 규칙은 널리 알려진 교과서 규칙을 예시로 쓴 것입니다. 코드는 있는 그대로(AS IS) 제공되며, 사용에 따른 책임은 사용자에게 있습니다.</p>
-<p class="mono" style="font-size:12px;opacity:.7">SHA-256: 66a6ba3d8f1b2355fb80667c3e9a80c130df4a9056f49109e7ab0d4e3b1fd787</p>
+<p class="mono" style="font-size:12px;opacity:.7">SHA-256: 70243c42ac8bed113b0c261fc1fd6e96c8af33c27f846f66a33fc4e150311110</p>
 </div></main>
 <footer class="site"><div class="wrap">
 <div class="brandf">Zeki<span>Rex</span><sup class="tm">™</sup></div>
