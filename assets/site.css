@@ -128,3 +128,23 @@ sup.tm{font-size:.42em;vertical-align:super;margin-left:1px;font-weight:600;colo
 .acct-card .pos,.acct-big.pos{color:#1f7a4d}.acct-card .neg,.acct-big.neg{color:#b23a2e}
 
 /* zx-nav-nowrap 2026-11-11 */ nav.main a{white-space:nowrap} @media (min-width:1100px){nav.main{gap:22px}}
+
+/* 2026-11-19 Rex 피드백: 금융 사이트답게 차분하게 — 휴대폰 메뉴는 한 줄(옆으로 넘김), 회색 알약 없음 */
+@media (max-width:560px){header.site .wrap{min-height:56px;row-gap:0}nav.main{display:flex!important;flex-wrap:nowrap!important;overflow-x:auto;gap:18px!important;padding:6px 0 8px!important;scrollbar-width:none;-webkit-overflow-scrolling:touch}nav.main::-webkit-scrollbar{display:none}nav.main a{background:none!important;min-height:0!important;padding:4px 0!important;font-size:14px!important;color:#344054;font-weight:500;flex:0 0 auto}}
+
+/* 2026-11-19 v2 — Rex 「파이낸셜 웹사이트다운 프로페셔널함」: 차분한 남색·회색, 고정폭(mono) 글꼴 대신 본문 글꼴, 제목 크기 정돈 */
+:root{--navy:#0B1F3A;--ink:#101828;--muted:#667085;--line:#E4E7EC;--soft:#F7F8FA}
+a{color:#0B1F3A}a:hover{color:#1D4ED8}
+.mono{font-family:inherit;font-variant-numeric:tabular-nums;letter-spacing:.01em}
+.eyebrow{font-size:12px!important;letter-spacing:.12em!important;color:#667085!important;font-weight:600}
+.page{padding:40px 0 64px}
+.page h1{font-size:36px;line-height:1.2;letter-spacing:-.02em;font-weight:700;color:#0B1F3A;margin:0 0 14px}
+.page h2{font-size:21px;font-weight:700;color:#0B1F3A;letter-spacing:-.01em}
+.page p,.page li{color:#344054}
+.btn-cta{background:#0B1F3A}.btn-cta:hover{background:#1D2939;color:#fff}
+.pill{border-color:#E4E7EC;color:#344054}
+footer.site{background:#0B1F3A}
+@media (max-width:560px){.wrap{padding:0 20px}.page{padding:24px 0 48px}.page h1{font-size:27px}.page h2{font-size:19px}.page p,.page li{font-size:15.5px}}
+.page p a,.page li a{text-decoration:underline;text-decoration-color:#C9CED6;text-underline-offset:3px}
+.page p a:hover,.page li a:hover{text-decoration-color:currentColor}
+a.vsub{background:#0B1F3A!important;color:#fff!important;border-radius:8px!important}
