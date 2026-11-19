@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>앱 사용 설명서 — ZekiRex™</title>
+<link rel="icon" href="/assets/logo.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="/assets/site.css">
+<!--zx-seo-->
+<link rel="canonical" href="https://zekirex.com/guide.html">
+<link rel="alternate" hreflang="ko" href="https://zekirex.com/guide.html">
+<link rel="alternate" hreflang="en" href="https://zekirex.com/en/guide.html">
+<link rel="alternate" hreflang="x-default" href="https://zekirex.com/guide.html">
+<meta name="description" content="ZekiRex 앱 사용 설명서 — 목표·철학·근거 데이터·화면 읽는 법(①②③·패턴 그림).">
+<meta property="og:title" content="앱 사용 설명서 — ZekiRex™">
+<meta property="og:description" content="목표·철학·근거 데이터·화면 읽는 법.">
+<meta property="og:image" content="https://zekirex.com/assets/share_kr.png?v=20261118">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://zekirex.com/guide.html">
+<meta property="og:site_name" content="ZekiRex™">
+<meta property="og:locale" content="ko_KR">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:site" content="@ZekiRex">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#000C24">
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "971bdfc557db42a6b8b93e82df915b99"}'></script>
+<!--/zx-seo-->
+</head>
+<body>
+<header class="site"><div class="wrap">
+<a class="brand" href="/"><img src="/assets/logo.png" alt=""><b class="wm">Zeki<span>Rex</span><sup class="tm">™</sup></b></a>
+<nav class="main" aria-label="주요 메뉴"><a href="/archive.html">알기 · 신문</a><a href="/signals.html">시장 신호</a><a href="/#app">불리기 · 앱</a><a href="/plan.html">지키기 · 누리기</a><a href="/live.html">실계좌 기록</a><a href="/videos.html">영상</a><a href="/about.html">소개</a></nav>
+<div class="hdr-right"><a class="lang" href="/en/guide.html" lang="en">English</a> <a class="btn btn-navy" href="/#subscribe">무료 구독</a></div>
+</div></header>
+<main class="page guide"><div class="wrap">
+<style>
+.guide .lead{font-size:18px;color:#3F4650;max-width:760px}
+.guide .toc{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 6px;padding:0;list-style:none}
+.guide .toc a{display:inline-block;padding:7px 12px;border-radius:999px;background:#EEF2F8;color:#000C24;font-weight:600;font-size:14px;text-decoration:none}
+.guide .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:14px 0;max-width:900px}
+.guide .card{background:#fff;border:1px solid #E3E7EE;border-radius:14px;padding:14px 16px}
+.guide .card b{display:block;font-size:16px;margin-bottom:4px;color:#000C24}
+.guide .card span{color:#3F4650;font-size:14.5px;line-height:1.5}
+.guide table{border-collapse:collapse;width:100%;max-width:900px;margin:12px 0 6px;font-size:15px}
+.guide th,.guide td{border-bottom:1px solid #E3E7EE;padding:9px 8px;text-align:left;vertical-align:top}
+.guide th{color:#6B7380;font-weight:600;font-size:13px}
+.guide .num{font-family:"IBM Plex Mono",monospace;white-space:nowrap}
+.guide figure{margin:16px 0;max-width:760px}
+.guide figure img{width:100%;height:auto;border-radius:14px;border:1px solid #E3E7EE}
+.guide figcaption{font-size:13.5px;color:#6B7380;margin-top:6px}
+.guide .two{display:grid;grid-template-columns:1fr 1fr;gap:16px;max-width:900px}
+.guide .note{background:#FFF8E6;border-radius:12px;padding:12px 14px;max-width:760px;color:#5A4500;font-size:14.5px;line-height:1.55}
+.guide .pill{display:inline-block;padding:1px 9px;border-radius:999px;font-weight:700;font-size:13px;color:#fff}
+@media (max-width:720px){.guide .two{grid-template-columns:1fr}.guide table{font-size:14px}.guide .num{white-space:normal}.guide th,.guide td{padding:8px 5px}}
+</style>
+
+<h1>ZekiRex™ 앱 사용 설명서</h1>
+<div class="upd mono" data-upd="1" style="font-size:13px;opacity:.72;margin-top:10px">마지막 갱신 2026-11-18</div>
+<p class="lead">ZekiRex 앱은 <b>강한 주식을, 정해진 때에, 정해진 기준으로</b> 보는 ZekiRex의 규칙을 매일 미국 약 2,400종목·한국 약 360종목에 똑같이 적용해 보여 주는 도구입니다. 이 쪽은 ① 앱이 무엇을 하려는지 ② 어떤 생각으로 만들었는지 ③ 무엇을 근거로 삼았는지 ④ 화면을 어떻게 읽고 쓰는지 순서로 설명합니다.</p>
+<ul class="toc">
+<li><a href="#goal">1. 목표</a></li><li><a href="#philosophy">2. 철학</a></li><li><a href="#evidence">3. 근거</a></li><li><a href="#start">4. 시작하기</a></li><li><a href="#menu">5. 메뉴 8개</a></li><li><a href="#stock">6. 종목 화면</a></li><li><a href="#chart">7. 차트 읽기 (①②③·그림)</a></li><li><a href="#habits">8. 잘 쓰는 법</a></li><li><a href="#faq">9. 자주 묻는 질문</a></li>
+</ul>
+
+<h2 id="goal">1. 이 앱이 이루려는 것</h2>
+<div class="cards">
+<div class="card"><b>🎯 시장보다 나은 장기 수익</b><span>기준은 S&amp;P 500(VOO)과 나스닥 100(QQQM)입니다. 이 둘을 꾸준히 이기지 못하면 지수를 사는 게 낫습니다.</span></div>
+<div class="card"><b>🛡️ 큰 손실은 작게</b><span>한 번 크게 잃으면 되찾기 어렵습니다(−50%는 +100%가 있어야 원래대로). 그래서 파는 선을 먼저 정합니다.</span></div>
+<div class="card"><b>🧭 감정 대신 규칙</b><span>"더 오를 것 같아서", "아까워서"를 빼고, 누구에게나 같은 숫자로 같은 결론을 보여 줍니다.</span></div>
+<div class="card"><b>⏱️ 하루 몇 분</b><span>장 마감 뒤 매일 자동으로 다시 계산합니다. 사용자는 결과를 보고 판단만 하면 됩니다.</span></div>
+</div>
+
+<h2 id="philosophy">2. 철학 — 어떤 생각으로 만들었나</h2>
+<p>ZekiRex는 윌리엄 오닐(CAN SLIM)과 마크 미너비니(SEPA)로 이어지는 <b>추세·돌파 투자</b>의 큰 생각 위에 있습니다. 책의 규칙을 그대로 쓰지 않고, 우리만의 방식으로 하나하나 숫자로 시험해서 이긴 것만 남겼습니다. 구체적인 기준값과 계산식은 ZekiRex의 영업 비밀이라 공개하지 않습니다.</p>
+<div class="cards">
+<div class="card"><b>① 이미 강한 것을 본다</b><span>싸 보이는 약한 주식보다, 시장이 이미 고른 강한 주식을 봅니다. 앱의 <b>RS 점수</b>(1~99)가 그 강도를 보여 줍니다.</span></div>
+<div class="card"><b>② 쉬었다가 뚫는 날</b><span>충분히 쉰 뒤(바닥 다지기) 위로 뚫고 나오는 날을 신호로 봅니다. 이미 지나간 돌파는 쫓아가지 않습니다.</span></div>
+<div class="card"><b>③ 틀리면 빨리, 맞으면 길게</b><span>사기 전에 손절가를 먼저 정하고, 오른 뒤에는 정해 둔 매도선까지 들고 갑니다. 앱이 두 값을 함께 보여 줍니다.</span></div>
+<div class="card"><b>④ 과열은 조심</b><span>너무 빨리 오른 꼭지(과열 꼭지)는 경고로 표시합니다.</span></div>
+<div class="card"><b>⑤ 시장이 나쁘면 쉰다</b><span>시장 전체가 하락기면 새로 사지 않고 기다립니다.</span></div>
+<div class="card"><b>⑥ 숫자로 증명된 것만</b><span>그럴듯해도 시험에서 지는 규칙은 넣지 않습니다.</span></div>
+</div>
+
+<h2 id="evidence">3. 근거 — 어떻게 검증하나</h2>
+<p>모든 규칙은 채택 전에 오랜 기간의 미국·한국 주가 자료로 <b>반복 시뮬레이션과 짝 비교</b>를 거칩니다. 기준은 늘 같은 기간의 S&amp;P 500(VOO)과 나스닥 100(QQQM)입니다. 이기지 못하는 변경은 버립니다.</p>
+<p>그리고 백테스트보다 더 무겁게 보는 것은 <b>실제 기록</b>입니다. 앱의 <b>🧪 모델 포트폴리오</b>는 같은 규칙만으로 가상 $100,000을 굴리며, 2026-11-11부터 날마다 그대로 공개합니다(11/18까지 −0.8%, 같은 기간 VOO −3.9% · QQQ −4.5%).</p>
+<div class="note"><b>한계도 밝힙니다.</b> 과거 자료로 한 시험은 미래를 보장하지 않습니다. 수수료·세금·체결 차이도 일부만 반영됩니다. 그래서 모델 포트폴리오의 실제 기록으로 계속 확인합니다.</div>
+
+<h2 id="start">4. 시작하기</h2>
+<table>
+<tr><th style="width:18%">단계</th><th>하는 일</th></tr>
+<tr><td>① 가입</td><td><b>app.zekirex.com/join</b>에서 초대 코드와 이메일을 넣습니다(시험판은 초대제).</td></tr>
+<tr><td>② 로그인</td><td><b>app.zekirex.com</b>을 열고 이메일을 넣으면 1회용 코드가 메일로 옵니다. 비밀번호는 없습니다.</td></tr>
+<tr><td>③ 언어</td><td>오른쪽 아래 <b>한 | EN</b> 버튼으로 한국어·영어를 바꿉니다.</td></tr>
+<tr><td>④ 홈 화면에 추가</td><td>아이폰 Safari → 공유 → 「홈 화면에 추가」. 앱처럼 열립니다.</td></tr>
+<tr><td>⑤ 의견</td><td>아래 띠의 <b>의견 보내기</b>로 바로 보내 주세요. 시험판 기간에는 거의 매일 고칩니다.</td></tr>
+</table>
+
+<h2 id="menu">5. 메뉴 8개</h2>
+<figure><img src="/assets/guide_menu_ko.jpg" alt="ZekiRex 메뉴 8개" loading="lazy"><figcaption>휴대폰에서는 4×2 아이콘, PC에서는 위쪽 한 줄 막대로 보입니다.</figcaption></figure>
+<table>
+<tr><th style="width:24%">메뉴</th><th>무엇을 보여 주나</th><th style="width:30%">이렇게 쓰세요</th></tr>
+<tr><td>🏠 오늘</td><td>미국·한국 시장 상태, 오늘의 신호(급한 순서), 이번 주 일정·뉴스</td><td>하루에 한 번 먼저 여는 곳</td></tr>
+<tr><td>💼 내 자산</td><td>내가 「＋기록」한 매수·매도로 계산한 내 자산, VOO·QQQM·SMH와 비교 그래프</td><td>기록은 본인만 볼 수 있음(암호화)</td></tr>
+<tr><td>🧪 모델 포트폴리오</td><td>ZekiRex 규칙만으로 굴리는 가상 $100,000 계좌의 날마다 기록·보유 종목</td><td>규칙이 실제로 통하는지 보는 성적표</td></tr>
+<tr><td>🌤️ 시장 날씨</td><td>지수·금리·환율·원자재 한눈에, 상승장/조정/하락장 판정</td><td>「시장 하락기」면 새로 사지 않음</td></tr>
+<tr><td>🔥 돈의 흐름</td><td>업종 칸 지도(크기 = 시가총액, 색 = 등락), 1일~1년 기간 바꾸기, 3개월·1년 모두 강한 <b>주도 업종</b></td><td>매수 후보는 주도 업종에서 많이 나옴. 이름이 안 보이는 작은 칸은 누르면 이름이 뜸</td></tr>
+<tr><td>📰 뉴스</td><td>미국·한국 주요 뉴스(한국어판은 번역), 주제별 막대</td><td>보유·관심 종목 뉴스는 꼬리표로 표시</td></tr>
+<tr><td>⭐ 종목</td><td>규칙 통과(매수·매수 대기) · 패턴 · 보유 · 관심 네 탭</td><td>매일 장 마감 뒤 새 목록</td></tr>
+<tr><td>📈 차트</td><td>마지막에 본 종목 차트로 바로 이동</td><td>위쪽 찾기 칸에 이름·코드(한글·영어 모두)</td></tr>
+</table>
+<figure><img src="/assets/guide_list_ko.jpg" alt="종목 목록 카드" loading="lazy"><figcaption>⭐ 종목 → 규칙 통과. 1줄: 이름·최근 흐름·☆관심·＋기록 / 2줄: RS·가격·오늘 등락 / 3줄: 상태와 매수점까지 거리.</figcaption></figure>
+
+<h2 id="stock">6. 종목 화면 읽기</h2>
+<div>
+<table>
+<tr><th>자리</th><th>뜻</th></tr>
+<tr><td>◀ ▶ 🏠 🔍</td><td>뒤로·앞으로(본 종목 순서), 홈, 찾기</td></tr>
+<tr><td>☆ 관심 · ＋ 기록</td><td>관심 목록에 넣기 / 내가 사고판 것 적기(내 자산에 반영)</td></tr>
+<tr><td>● 상태 이름</td><td>아래 7단계 중 하나. ⓘ를 누르면 이유</td></tr>
+<tr><td>한 줄 설명</td><td>왜 그 상태인지, 매수점·손절가·바닥 다지기 정보</td></tr>
+<tr><td>신호 띠</td><td>최근(일봉 10일·주봉 3주) 새 신호. 없으면 「새 신호 없음」</td></tr>
+<tr><td>칸 4개</td><td>가격(장중 약 15분 지연) · RS(20일 전과 비교 ↑↓) · 52주 고점 대비</td></tr>
+</table>
+</div>
+<table>
+<tr><th style="width:26%">상태</th><th>뜻</th></tr>
+<tr><td><span class="pill" style="background:#1A7F37">매수</span></td><td>오늘 규칙의 매수 신호가 나옴. 손절가를 함께 표시</td></tr>
+<tr><td><span class="pill" style="background:#B26A00">매수 대기</span></td><td>조건은 맞고 매수점 가까이 있음. 돌파하는 날이 신호 날</td></tr>
+<tr><td><span class="pill" style="background:#0A84FF">보유</span></td><td>돌파 날이 지남 — 이미 가진 사람은 들고 가고, 새로 따라 사지는 않음</td></tr>
+<tr><td><span class="pill" style="background:#8E8E93">관찰</span></td><td>아직 조건이 덜 맞음</td></tr>
+<tr><td><span class="pill" style="background:#C77C02">줄이기</span></td><td>추세가 약해짐 — 새 매수 신호 없음</td></tr>
+<tr><td><span class="pill" style="background:#C62828">매도 · 회피</span></td><td>규칙의 매도선 아래, 과열 꼭지, 또는 약한 추세</td></tr>
+<tr><td><span class="pill" style="background:#6B7380">시장 하락기</span></td><td>시장 전체가 하락기 — 신규 매수 쉬기</td></tr>
+</table>
+
+<h2 id="chart">7. 차트 읽기 — ①②③과 작은 그림</h2>
+<figure><img src="/assets/guide_chart_ko.jpg" alt="차트" loading="lazy"><figcaption>표시는 모두 차트 맨 위 줄에 모여 있고, 가는 점선이 실제 자리를 가리킵니다. 가격·거래량은 아무것도 가리지 않습니다.</figcaption></figure>
+<h3>①②③ — 신호의 순서</h3>
+<table>
+<tr><th style="width:16%">번호</th><th>뜻</th><th>예</th></tr>
+<tr><td><b style="font-size:20px">①</b></td><td><b>시작</b> — 무언가가 시작된 날</td><td>주황 ① = 급등 시작(과열 꼭지로 가는 첫날)</td></tr>
+<tr><td><b style="font-size:20px">②</b></td><td><b>신호</b> — 규칙이 행동을 말하는 날. <span style="color:#1A7F37;font-weight:700">초록 = 매수</span>, <span style="color:#C62828;font-weight:700">빨강·분홍·갈색 = 매도·경고</span></td><td>초록 ② = 패턴 돌파 매수 · 분홍 ② = 과열 꼭지 매도 · ②+// = 위 채널선 · ②+# = 쌍둥이 장대</td></tr>
+<tr><td><b style="font-size:20px">③</b></td><td><b>끝</b> — 그 거래가 끝난 날</td><td>빨강 ③ = 손절가 또는 매도선 이탈</td></tr>
+</table>
+<p>표시를 <b>누르면</b>(PC는 마우스를 대면) 이름이 뜹니다. 예: 「② 매도 (위 채널선)」. 차트 아래 범례의 <b>🏷 글자 자세히 보기</b>를 누르면 예전처럼 글자로 모두 보입니다.</p>
+<h3>작은 그림 — 패턴 모양 그대로</h3>
+<figure><img src="/assets/guide_icons_ko.jpg" alt="패턴 그림 12개" loading="lazy"><figcaption>위 줄과 아래 줄 왼쪽 셋은 <b>바닥 다지기(매수 쪽)</b>, 오른쪽 셋은 <b>매도·경고</b>입니다. 점선 테두리 그림은 <b>지금 만들고 있는 패턴</b>입니다.</figcaption></figure>
+<h3>선과 색</h3>
+<table>
+<tr><th style="width:30%">보이는 것</th><th>뜻</th></tr>
+<tr><td>초록 점선 + 초록 가격표</td><td><b>매수점</b> — 이 값을 뚫고 올라서는 날이 신호 날</td></tr>
+<tr><td>빨강 선(가는 것)</td><td><b>매도선</b> — 규칙이 정한 매도 기준</td></tr>
+<tr><td>빨강·검정 굵은 선</td><td>50일선(주봉 10주선)·200일선(주봉 40주선). ⚙ 설정에서 바꿀 수 있음</td></tr>
+<tr><td>파란 점선 상자</td><td>지금 만드는 바닥 다지기(매수점까지)</td></tr>
+<tr><td>분홍 상자</td><td>과열 꼭지 구간 (경고)</td></tr>
+<tr><td>Ⓔ · Ⓓ</td><td>실적 발표일(EPS 전년비) · 배당락일. 주황 점선 = 다음 실적 예정일</td></tr>
+<tr><td>아래 RS 칸</td><td>파란 RS선(주가 ÷ 지수), 21·50 평균. 「RS 신고가」면 초록 글자</td></tr>
+<tr><td>맨 아래 거래량</td><td>평균 대비 % 표시. 돌파 날 거래량이 크면 더 믿을 만함</td></tr>
+</table>
+<h3>차트 움직이기</h3>
+<table>
+<tr><th style="width:30%">하고 싶은 것</th><th>방법</th></tr>
+<tr><td>기간 늘리기·줄이기</td><td>두 손가락 벌리기·오므리기, 또는 아래 날짜 눈금을 좌우로 끌기</td></tr>
+<tr><td>가격 범위 늘리기·줄이기</td><td>오른쪽 가격 눈금을 위아래로 끌기</td></tr>
+<tr><td>원래대로</td><td><b>A</b> (자동 맞춤) · 눈금 더블탭</td></tr>
+<tr><td>로그 눈금</td><td><b>L</b> (기본 켬 — 오래 오른 주식도 모양이 정확)</td></tr>
+<tr><td>주봉·일봉·월봉·시간봉·10분봉</td><td>차트 위 버튼. 매매 판단은 <b>일봉</b>, 큰 그림은 <b>주봉</b></td></tr>
+<tr><td>좋은 돌파만</td><td>조건을 모두 갖춘 돌파만 남겨 보기</td></tr>
+<tr><td>선 색·굵기·이동평균</td><td>⚙ 설정 또는 차트 더블탭</td></tr>
+</table>
+
+<h2 id="habits">8. 잘 쓰는 법 — 하루 5분</h2>
+<table>
+<tr><th style="width:8%">#</th><th>습관</th></tr>
+<tr><td>1</td><td><b>🌤️ 시장 날씨부터.</b> 「시장 하락기」면 새로 사지 않고 지켜만 봅니다.</td></tr>
+<tr><td>2</td><td><b>⭐ 종목 → 매수 대기</b>를 관심 목록(☆)에 넣어 둡니다. 매수점까지 거리가 가까운 순서로 봅니다.</td></tr>
+<tr><td>3</td><td><b>사는 날은 돌파하는 날 하루뿐.</b> 지나간 돌파를 쫓아가지 않습니다(「보유」 표시).</td></tr>
+<tr><td>4</td><td><b>사기 전에 손절가를 정합니다</b> — 앱이 그 값을 같이 보여 줍니다.</td></tr>
+<tr><td>5</td><td><b>＋ 기록</b>으로 사고판 것을 적으면 💼 내 자산에서 지수와 비교됩니다.</td></tr>
+<tr><td>6</td><td><b>🔥 돈의 흐름</b>에서 주도 업종을 보고, 그 안의 종목을 먼저 봅니다.</td></tr>
+<tr><td>7</td><td><b>🧪 모델 포트폴리오</b>로 규칙이 지금 통하는지 확인합니다. 규칙도 틀릴 수 있습니다.</td></tr>
+</table>
+
+<h2 id="faq">9. 자주 묻는 질문</h2>
+<p><b>Q. 「매수」면 사야 하나요?</b><br>아니요. 「매수」는 규칙이 계산한 결과일 뿐 추천이 아닙니다. 판단과 책임은 본인에게 있습니다.</p>
+<p><b>Q. 가격이 증권사와 조금 달라요.</b><br>장중 가격은 약 15분 늦습니다. 매수점 판정은 <b>종가</b> 기준이라 장 마감 뒤 다시 계산됩니다.</p>
+<p><b>Q. RS 점수는 무엇인가요?</b><br>다른 종목들과 비교한 주가 강도(1~99)입니다. 숫자가 클수록 강합니다.</p>
+<p><b>Q. 한국 종목도 영어로 찾을 수 있나요?</b><br>네. 「Samsung」처럼 영어로 쳐도, 「삼성」처럼 한글로 쳐도 찾습니다.</p>
+<p><b>Q. 내 기록은 누가 보나요?</b><br>본인만 봅니다. 로그인 이메일로 나뉘고 암호화되어 저장됩니다.</p>
+<div class="note">ZekiRex™는 투자자문업자가 아니며, 앱의 모든 표시는 정해진 규칙을 공개 자료에 기계적으로 적용한 결과입니다. 종목 추천이나 투자 권유가 아니고, 원금 손실이 날 수 있습니다. 자세한 내용은 <a href="/disclaimer.html">면책 고지</a>와 앱의 <a href="https://app.zekirex.com/out/legal.html">법적 고지</a>를 보세요.</div>
+</div></main>
+
+<footer class="site"><div class="wrap">
+<div class="brandf">Zeki<span>Rex</span><sup class="tm">™</sup></div>
+<div class="tagf" style="color:#FFD60A;font-weight:700;margin:6px 0 10px">알고, 불리고, 지키고, 누린다.</div>
+<div class="links"><a href="/">홈</a><a href="/en/guide.html">English</a><a href="/privacy.html">개인정보처리방침</a><a href="https://www.youtube.com/@TheZekiRex">YouTube</a><a href="https://x.com/ZekiRex">X</a><a href="/scorecard.html">공개 채점표</a><a href="/scorecard-prereg.html">채점 방식</a><a href="/disclaimer.html">면책 고지</a></div>
+<div class="mono" style="color:#AEB8CF;font-size:13px">© 2025–2026 ZekiRex™ · 2025년 6월 20일 설립</div>
+</div></footer>
+<script src="/assets/ref.js" defer></script>
+</body>
+</html>
