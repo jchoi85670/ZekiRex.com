@@ -158,7 +158,7 @@
    "hold_en": "",
    "date": "2026-10-24",
    "auto": true,
-   "hidden": true
+   "hidden": false
   },
   {
    "id": "5lEfjEvagqY",
@@ -1032,7 +1032,7 @@
    "hold_ko": "",
    "hold_en": "",
    "date": "2026-11-15",
-   "hidden": true
+   "hidden": false
   },
   {
    "id": "aEnItg9maJo",
@@ -1438,7 +1438,7 @@
    "hold_ko": "음원은 AI 음악 생성 도구로 만들었습니다. 영상은 실제 촬영 스톡 영상(Pexels)입니다.",
    "hold_en": "The music was made with an AI music tool; all footage is real stock video (Pexels).",
    "date": "2026-11-07",
-   "hidden": true
+   "hidden": false
   },
   {
    "id": "YyEblSA_vtg",
@@ -1458,7 +1458,7 @@
    "hold_ko": "일부 장면과 음악은 AI(Google Gemini)로 만들었습니다.",
    "hold_en": "Some scenes and music were made with AI (Google Gemini).",
    "date": "2026-10-23",
-   "hidden": true
+   "hidden": false
   },
   {
    "id": "5lRG8IZnNBg",
@@ -1480,7 +1480,7 @@
    "hold_ko": "이 영상은 특정 종목을 다루지 않습니다. 추천이 아니라 해부입니다.",
    "hold_en": "This video covers no individual stock. Not a recommendation.",
    "date": "2026-10-19",
-   "hidden": true
+   "hidden": false
   },
   {
    "id": "i7sPerfsY5U",
@@ -1502,7 +1502,7 @@
    "hold_ko": "이 영상은 특정 종목을 다루지 않습니다. 추천이 아니라 해부입니다.",
    "hold_en": "This video covers no individual stock. Not a recommendation.",
    "date": "2026-10-21",
-   "hidden": true
+   "hidden": false
   },
   {
    "id": "YG6EG8mEdgg",
