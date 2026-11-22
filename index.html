@@ -78,7 +78,9 @@
 .apc{display:block;position:relative;border:1px solid #E4E7EC;border-radius:12px;overflow:hidden;text-decoration:none;color:#0B1F3A;background:#fff;box-shadow:0 4px 14px rgba(16,24,40,.08)}
 .apc img{display:block;width:100%;height:190px;object-fit:cover;object-position:top left;border-bottom:1px solid #E4E7EC}
 .apt{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:12px 14px}.apt b{display:block;font-size:16px}.apt small{display:block;font-size:13px;color:#667085;margin-top:2px}
-.apc .go{background:#D92D20;color:#fff;font-weight:700;font-size:15px;border-radius:8px;padding:11px 14px;white-space:nowrap}
+.apc .go{background:#067647;color:#fff;font-weight:700;font-size:15px;border-radius:8px;padding:11px 14px;white-space:nowrap}
+.op{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:10px}.op label{display:inline-flex;align-items:center;gap:6px;border:1px solid #D0D5DD;border-radius:999px;padding:6px 12px;font-size:14px;color:#0B1F3A;cursor:pointer;background:#fff}.op label:has(input:checked){border-color:#067647;background:#ECFDF3}.op input{accent-color:#067647;margin:0}.op select{height:34px;border:1px solid #D0D5DD;border-radius:999px;padding:0 10px;font-size:13.5px;color:#475467;background:#fff;max-width:100%}.op .need{display:none;color:#B42318;font-size:13px;width:100%}
+.apc .go:hover{background:#05603A}
 .apc .seat{position:absolute;top:10px;right:10px;background:#0B1F3A;color:#fff;font-size:12px;font-weight:600;border-radius:999px;padding:4px 10px}
 .nlc{margin-top:16px}.mk2{display:flex;gap:14px;align-items:center;font-size:13px;color:#667085;border-bottom:1px solid #F2F4F7;padding-bottom:10px;margin-bottom:12px;flex-wrap:wrap}
 .mk2 b{color:#101828;font-size:14px}.mk2 i{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;vertical-align:1px}.mk2 a{margin-left:auto;color:#0B1F3A;font-weight:600;text-decoration:none}
@@ -88,17 +90,18 @@
 @media(min-width:861px){.hx .bd2{width:100%;max-width:1080px;display:grid;grid-template-columns:1.1fr .9fr;gap:14px 40px;align-items:start;padding-top:30px;padding-bottom:34px}.nlc{margin-top:0}.apc img{height:200px}.bd2 .dc{grid-column:1/-1;margin:4px 0 0}}
 </style><section class="hx" id="subscribe"><div class="hv"><video autoplay muted loop playsinline preload="auto" poster="/assets/zekirex_hero_poster.jpg" aria-hidden="true"><source src="/assets/zekirex_hero.mp4" type="video/mp4"></video><div class="ov"></div><div class="wrap">
 <p class="ey">ZEKIREX™ · 한·미 주식 리서치</p>
-<h1>감으로 사지 마라.<br>해부하라.</h1><div class="upd mono" data-upd="1" style="font-size:13px;opacity:.72;margin-top:10px">마지막 갱신 2026-11-22 07:13 PST</div>
+<h1>감으로 사지 마라.<br>해부하라.</h1><div class="upd mono" data-upd="1" style="font-size:13px;opacity:.72;margin-top:10px">마지막 갱신 2026-11-22 07:26 PST</div>
 <p class="l">한·미 시장의 소음은 걷어 내고, 데이터로 검증한 신호만 매일 아침.</p>
 </div></div><div class="wrap bd2">
 <a class="apc" href="https://app.zekirex.com/join?lang=ko&ref=home_app" rel="noopener"><img src="/assets/app_chart.jpg" alt="ZekiRex 앱 실제 화면" loading="lazy"><div class="apt"><div><b>ZekiRex™ 앱 · 무료 시험판</b><small>내 종목, 지금 사도 되는지 차트 한 화면으로</small></div><span class="go">무료로 써 보기 →</span></div><span class="seat">남은 자리 25</span></a>
 <div class="nlc"><div class="mk2"><span>오늘의 시장 자세</span><b><i style="background:#B42318"></i>미국 방어</b><b><i style="background:#B42318"></i>한국 방어</b><a href="/signals.html">자세히 →</a></div>
 <p class="nt">매일 아침 신문 · 한국판·미국판</p>
-<form method="post" action="https://buttondown.com/api/emails/embed-subscribe/zekirex">
+<form id="nlf" method="post" action="https://buttondown.com/api/emails/embed-subscribe/zekirex">
 <input type="email" name="email" required autocomplete="email" placeholder="이메일 주소" aria-label="이메일">
-<input type="hidden" name="metadata__lang" value="ko"><input type="hidden" name="metadata__editions" value="kr,us"><input type="hidden" name="embed" value="1">
+<input type="hidden" name="metadata__lang" value="ko"><input type="hidden" name="metadata__editions" id="zx-editions" value="kr,us"><input type="hidden" name="embed" value="1">
 <button type="submit">무료 신문 받기</button></form>
-<p class="fn">무료 · 언제든 해지</p></div>
+<div class="op"><label><input type="checkbox" id="zx-kr" checked> 한국판</label><label><input type="checkbox" id="zx-us" checked> 미국판</label><span class="need" id="zx-need">받을 신문을 하나 이상 골라 주세요.</span><script>(function(){var f=document.getElementById("nlf"),k=document.getElementById("zx-kr"),u=document.getElementById("zx-us"),h=document.getElementById("zx-editions"),n=document.getElementById("zx-need");if(!f||!k)return;function s(){h.value=[k.checked?"kr":"",u.checked?"us":""].filter(Boolean).join(",");}k.onchange=u.onchange=s;f.addEventListener("submit",function(e){s();if(!h.value){e.preventDefault();n.style.display="block";}});s();})();</script><select name="metadata__heard" form="nlf" aria-label="어떻게 알게 되셨나요"><option value="">어떻게 알게 되셨나요? (선택)</option><option value="youtube">유튜브</option><option value="search">검색 (구글·네이버)</option><option value="x">X</option><option value="friend">지인 소개</option><option value="other">기타</option></select></div>
+<p class="fn">무료 · 확인 메일의 링크를 눌러야 시작돼요 (안 보이면 스팸함·프로모션함) · 언제든 해지</p></div>
 <p class="dc">정보 제공 목적이며 투자 권유가 아닙니다. <a href="/disclaimer.html">면책 고지</a></p>
 </div></section><!--/HOME2-->
 
