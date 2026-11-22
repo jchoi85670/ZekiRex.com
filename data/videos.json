@@ -80,8 +80,8 @@
    "part": null,
    "public_at": null,
    "secs": 360,
-   "title_ko": "코스피 −47%, 바닥은 어디? 45년 전체 역사가 말하는 다음 길 3개 | 반도체 국민주의 끝",
-   "title_en": "코스피 −47%, 바닥은 어디? 45년 전체 역사가 말하는 다음 길 3개 | 반도체 국민주의 끝",
+   "title_ko": "코스피 전망: −47% 폭락, 바닥은 어디? 다음 길 3개와 볼 숫자",
+   "title_en": "코스피 전망: −47% 폭락, 바닥은 어디? 다음 길 3개와 볼 숫자",
    "sum_ko": [
     "코스피가 고점에서 47% 빠졌습니다. 바닥은 어디고, 여기서 어느 길로 갈까요? 코스피 45년 전체 역사(1981~지금)에서 −40% 폭락 6번이 그 뒤 간 길을 지금 수준으로 옮겨, 세 갈래 길과 각 길의 가능성, 그리고 길을 가르는 계기판과 날짜를 정리했습니다.",
     "0:00 코스피 −47%, 다음 길은?"
@@ -1890,7 +1890,7 @@
    "series": "brand",
    "public_at": "2026-11-07T17:00:00-08:00",
    "secs": 180,
-   "title_ko": "Turn it up! Higher! — ZekiRex™ 공식 로고송 (Official MV)",
+   "title_ko": "Turn it up! Higher! 🌊 여름 바다·댄스·축제 에너지 응원송 | ZekiRex Theme (Official MV)",
    "title_en": "Turn it up! Higher! — the official ZekiRex™ logo song (Official MV)",
    "sum_ko": [
     "파도 속 서퍼, 바다로 뛰어드는 친구들, 축제의 함성 — 다시 뛰어오르는 모든 사람을 위한 ZekiRex 응원송.",
@@ -2437,5 +2437,236 @@
    "hidden": true
   }
  ],
- "_curation": "2026-11-17 Rex: 사이트를 대표하는 영상만 싣는다. hidden=true 는 유튜브에만 둔다(주간 채점·종목 해부 등 중단·시기성 영상). 새 영상은 build·memory 시리즈만 자동 공개, 나머지는 hidden 으로 들어와 선별 후 공개."
+ "_curation": "2026-11-17 Rex: 사이트를 대표하는 영상만 싣는다. hidden=true 는 유튜브에만 둔다(주간 채점·종목 해부 등 중단·시기성 영상). 새 영상은 build·memory 시리즈만 자동 공개, 나머지는 hidden 으로 들어와 선별 후 공개.",
+ "popularity": {
+  "asof": "2026-11-21",
+  "window_days": 28,
+  "metric": "views",
+  "rows": {
+   "Y_9WxQ9wZJw": [
+    1224,
+    2
+   ],
+   "9B_PvFVcE50": [
+    1219,
+    2
+   ],
+   "8k5ls3_7Gdw": [
+    1180,
+    3
+   ],
+   "D9LLbs9I-7g": [
+    1023,
+    9
+   ],
+   "rQx8N947E9w": [
+    1013,
+    0
+   ],
+   "ZzodtxSYMXw": [
+    1009,
+    3
+   ],
+   "GyOG1_f_iLA": [
+    680,
+    0
+   ],
+   "WEtkUOUXud4": [
+    629,
+    3
+   ],
+   "YG6EG8mEdgg": [
+    366,
+    0
+   ],
+   "p5r2vZ9WGd0": [
+    350,
+    0
+   ],
+   "4vbsvFRDWVo": [
+    319,
+    0
+   ],
+   "M7Z_ntzRwo4": [
+    318,
+    0
+   ],
+   "OZf_vlBiXH0": [
+    282,
+    0
+   ],
+   "vidqlPizol0": [
+    273,
+    0
+   ],
+   "UbnkEbtTcIg": [
+    236,
+    0
+   ],
+   "TSExHEMNysU": [
+    234,
+    1
+   ],
+   "FDAhE002yVw": [
+    186,
+    0
+   ],
+   "VLe3Surv92Y": [
+    180,
+    0
+   ],
+   "IN7Cw2sJ06A": [
+    168,
+    1
+   ],
+   "hzDu3Z3jUQA": [
+    165,
+    1
+   ],
+   "TkiPnvVFK8o": [
+    146,
+    0
+   ],
+   "ncoeHJR1F7Y": [
+    146,
+    0
+   ],
+   "ATyChLGRQTU": [
+    143,
+    0
+   ],
+   "SoKNh9_6t1U": [
+    142,
+    0
+   ],
+   "wvts3ybj2nY": [
+    131,
+    0
+   ],
+   "ZPmVJATK6kU": [
+    118,
+    0
+   ],
+   "-HC6ESCp7VU": [
+    100,
+    0
+   ],
+   "mhNQX2iYhS4": [
+    84,
+    0
+   ],
+   "rOsgdEIpkw8": [
+    72,
+    1
+   ],
+   "MFsKiKeyINE": [
+    65,
+    0
+   ],
+   "rfhyz8Ggigo": [
+    51,
+    0
+   ],
+   "d31ikYzMljA": [
+    33,
+    0
+   ],
+   "IlffKUqt_vE": [
+    30,
+    -1
+   ],
+   "YyEblSA_vtg": [
+    27,
+    0
+   ],
+   "pdQXntfyrlE": [
+    25,
+    0
+   ],
+   "XGZahphKnSA": [
+    22,
+    0
+   ],
+   "u02qE30XOeE": [
+    18,
+    0
+   ],
+   "l276xYYJQkI": [
+    16,
+    0
+   ],
+   "5lRG8IZnNBg": [
+    15,
+    0
+   ],
+   "i7sPerfsY5U": [
+    12,
+    0
+   ],
+   "hH-wMTViLQo": [
+    9,
+    0
+   ],
+   "y9mFLVDLdes": [
+    9,
+    0
+   ],
+   "2ai_e19ChXU": [
+    7,
+    0
+   ],
+   "rMraBbjOwG8": [
+    7,
+    0
+   ],
+   "DazMISBOLH4": [
+    6,
+    0
+   ],
+   "wdxSLG-qqPk": [
+    6,
+    0
+   ],
+   "30ggRVhQROc": [
+    5,
+    0
+   ],
+   "62oE92NSTm0": [
+    4,
+    0
+   ],
+   "3Y35p-Pi-Do": [
+    3,
+    0
+   ],
+   "RRKdEHUsqnY": [
+    3,
+    0
+   ],
+   "HY9iNqGYDy4": [
+    2,
+    0
+   ],
+   "L4tdtf4uptU": [
+    2,
+    0
+   ],
+   "y_ieVwoyWA8": [
+    2,
+    0
+   ],
+   "X-8gF8T5G2A": [
+    1,
+    0
+   ],
+   "gGoX5e1db5I": [
+    1,
+    0
+   ],
+   "hUelmSGZJxQ": [
+    1,
+    0
+   ]
+  }
+ }
 }
