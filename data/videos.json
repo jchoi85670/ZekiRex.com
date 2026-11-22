@@ -252,8 +252,8 @@
    "part": null,
    "public_at": "2026-11-23T22:00:00+00:00",
    "secs": 155,
-   "title_ko": "왜 주식만 이렇게 어려워야 할까 — ZekiRex를 만든 이유",
-   "title_en": "왜 주식만 이렇게 어려워야 할까 — ZekiRex를 만든 이유",
+   "title_ko": "왜 주식만 이렇게 어려워야 할까 — ZekiRex™를 만든 이유",
+   "title_en": "왜 주식만 이렇게 어려워야 할까 — ZekiRex™를 만든 이유",
    "sum_ko": [
     "다른 건 다 쉬워졌는데, 왜 주식만 이렇게 어려워야 할까요. ZekiRex를 만든 사람이 직접 이야기합니다 — 주식을 도박이라 배우며 자란 사람이, 물리학과 밤의 공부 끝에 배운 한 가지: 주식은 기술이 아니라 감정이고, 그래서 규칙이 필요하다는 것.",
     "자료: 버크셔 해서웨이 연평균 수익률 19.9%, S&P 500 10.4% (1965–2024, 버크셔 해서웨이 주주 서한). 아이작 뉴턴의 1720년 남해회사 버블 손실은 널리 알려진 역사 기록입니다."
@@ -2452,7 +2452,7 @@
     2
    ],
    "8k5ls3_7Gdw": [
-    1180,
+    1183,
     3
    ],
    "D9LLbs9I-7g": [
@@ -2491,12 +2491,20 @@
     318,
     0
    ],
+   "lVj2M7NRlUw": [
+    310,
+    1
+   ],
+   "vidqlPizol0": [
+    302,
+    0
+   ],
    "OZf_vlBiXH0": [
     282,
     0
    ],
-   "vidqlPizol0": [
-    273,
+   "ncoeHJR1F7Y": [
+    279,
     0
    ],
    "UbnkEbtTcIg": [
@@ -2508,11 +2516,11 @@
     1
    ],
    "FDAhE002yVw": [
-    186,
+    188,
     0
    ],
    "VLe3Surv92Y": [
-    180,
+    183,
     0
    ],
    "IN7Cw2sJ06A": [
@@ -2520,14 +2528,10 @@
     1
    ],
    "hzDu3Z3jUQA": [
-    165,
+    167,
     1
    ],
    "TkiPnvVFK8o": [
-    146,
-    0
-   ],
-   "ncoeHJR1F7Y": [
     146,
     0
    ],
@@ -2547,8 +2551,16 @@
     118,
     0
    ],
+   "XGZahphKnSA": [
+    108,
+    0
+   ],
    "-HC6ESCp7VU": [
     100,
+    0
+   ],
+   "j8lE4A4u-80": [
+    87,
     0
    ],
    "mhNQX2iYhS4": [
@@ -2563,16 +2575,20 @@
     65,
     0
    ],
-   "rfhyz8Ggigo": [
-    51,
+   "d31ikYzMljA": [
+    56,
     0
    ],
-   "d31ikYzMljA": [
-    33,
+   "rfhyz8Ggigo": [
+    53,
+    0
+   ],
+   "30ggRVhQROc": [
+    39,
     0
    ],
    "IlffKUqt_vE": [
-    30,
+    33,
     -1
    ],
    "YyEblSA_vtg": [
@@ -2581,10 +2597,6 @@
    ],
    "pdQXntfyrlE": [
     25,
-    0
-   ],
-   "XGZahphKnSA": [
-    22,
     0
    ],
    "u02qE30XOeE": [
@@ -2625,10 +2637,6 @@
    ],
    "wdxSLG-qqPk": [
     6,
-    0
-   ],
-   "30ggRVhQROc": [
-    5,
     0
    ],
    "62oE92NSTm0": [
@@ -2714,7 +2722,7 @@
  },
  "views": {
   "l40s0a2hre4": 119,
-  "m9Td3lPKew0": 920,
+  "m9Td3lPKew0": 1140,
   "gQVWGCdBwXc": 0,
   "30ggRVhQROc": 48,
   "IlffKUqt_vE": 51,
@@ -2732,13 +2740,13 @@
   "wvts3ybj2nY": 131,
   "d31ikYzMljA": 147,
   "mhNQX2iYhS4": 84,
-  "hzDu3Z3jUQA": 170,
+  "hzDu3Z3jUQA": 171,
   "ATyChLGRQTU": 146,
-  "XGZahphKnSA": 255,
+  "XGZahphKnSA": 278,
   "OZf_vlBiXH0": 282,
   "M7Z_ntzRwo4": 318,
   "TkiPnvVFK8o": 146,
-  "VLe3Surv92Y": 197,
+  "VLe3Surv92Y": 199,
   "YyEblSA_vtg": 41,
   "5lRG8IZnNBg": 336,
   "i7sPerfsY5U": 138,
