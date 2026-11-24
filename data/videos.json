@@ -2540,7 +2540,7 @@
  ],
  "_curation": "2026-11-17 Rex: 사이트를 대표하는 영상만 싣는다. hidden=true 는 유튜브에만 둔다(주간 채점·종목 해부 등 중단·시기성 영상). 새 영상은 build·memory 시리즈만 자동 공개, 나머지는 hidden 으로 들어와 선별 후 공개.",
  "popularity": {
-  "asof": "2026-11-22",
+  "asof": "2026-11-23",
   "window_days": 28,
   "metric": "views",
   "rows": {
@@ -2620,17 +2620,9 @@
     282,
     0
    ],
-   "YG6EG8mEdgg": [
-    249,
-    0
-   ],
    "UbnkEbtTcIg": [
     236,
     0
-   ],
-   "TSExHEMNysU": [
-    191,
-    1
    ],
    "VLe3Surv92Y": [
     190,
@@ -2664,8 +2656,8 @@
     131,
     0
    ],
-   "IN7Cw2sJ06A": [
-    127,
+   "TSExHEMNysU": [
+    129,
     1
    ],
    "ZPmVJATK6kU": [
@@ -2680,12 +2672,16 @@
     100,
     0
    ],
+   "IN7Cw2sJ06A": [
+    87,
+    1
+   ],
    "mhNQX2iYhS4": [
     84,
     0
    ],
-   "4vbsvFRDWVo": [
-    83,
+   "YG6EG8mEdgg": [
+    77,
     0
    ],
    "l40s0a2hre4": [
@@ -2693,7 +2689,7 @@
     1
    ],
    "rOsgdEIpkw8": [
-    70,
+    69,
     0
    ],
    "MFsKiKeyINE": [
@@ -2713,7 +2709,7 @@
     -1
    ],
    "YyEblSA_vtg": [
-    25,
+    23,
     0
    ],
    "l276xYYJQkI": [
@@ -2724,8 +2720,12 @@
     16,
     0
    ],
+   "4vbsvFRDWVo": [
+    15,
+    0
+   ],
    "5lRG8IZnNBg": [
-    14,
+    13,
     0
    ],
    "y9mFLVDLdes": [
@@ -2733,10 +2733,6 @@
     0
    ],
    "hH-wMTViLQo": [
-    8,
-    0
-   ],
-   "i7sPerfsY5U": [
     8,
     0
    ],
@@ -2753,6 +2749,10 @@
     0
    ],
    "DazMISBOLH4": [
+    6,
+    0
+   ],
+   "i7sPerfsY5U": [
     6,
     0
    ],
@@ -2839,10 +2839,10 @@
   "aEnItg9maJo": "deleted"
  },
  "views": {
-  "bgZ--tRqni0": 182,
-  "l40s0a2hre4": 306,
-  "m9Td3lPKew0": 3263,
-  "gQVWGCdBwXc": 24,
+  "bgZ--tRqni0": 186,
+  "l40s0a2hre4": 308,
+  "m9Td3lPKew0": 3298,
+  "gQVWGCdBwXc": 43,
   "30ggRVhQROc": 61,
   "IlffKUqt_vE": 53,
   "IN7Cw2sJ06A": 314,
@@ -2860,12 +2860,12 @@
   "d31ikYzMljA": 173,
   "mhNQX2iYhS4": 84,
   "hzDu3Z3jUQA": 173,
-  "ATyChLGRQTU": 148,
-  "XGZahphKnSA": 323,
+  "ATyChLGRQTU": 149,
+  "XGZahphKnSA": 326,
   "OZf_vlBiXH0": 282,
   "M7Z_ntzRwo4": 318,
   "TkiPnvVFK8o": 146,
-  "VLe3Surv92Y": 215,
+  "VLe3Surv92Y": 216,
   "YyEblSA_vtg": 41,
   "5lRG8IZnNBg": 339,
   "i7sPerfsY5U": 138,
