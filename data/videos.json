@@ -75,6 +75,31 @@
  ],
  "videos": [
   {
+   "id": "jFB7cP18M14",
+   "series": "news",
+   "part": null,
+   "public_at": null,
+   "secs": 177,
+   "title_ko": "왜 주식만 이렇게 어려워야 할까 — ZekiRex™를 만든 이유",
+   "title_en": "왜 주식만 이렇게 어려워야 할까 — ZekiRex™를 만든 이유",
+   "sum_ko": [
+    "📈 매일 갱신 시장 신호판: https://zekirex.com/signals.html?ref=yt1123s",
+    "다른 건 다 쉬워졌는데, 왜 주식만 이렇게 어려워야 할까요. ZekiRex™를 만든 사람이 직접 이야기합니다 — 주식을 도박이라 배우며 자란 사람이, 물리학과 밤의 공부 끝에 배운 한 가지: 주식은 기술이 아니라 감정이고, 그래서 규칙이 필요하다는 것."
+   ],
+   "sum_en": [
+    "📈 매일 갱신 시장 신호판: https://zekirex.com/signals.html?ref=yt1123s",
+    "다른 건 다 쉬워졌는데, 왜 주식만 이렇게 어려워야 할까요. ZekiRex™를 만든 사람이 직접 이야기합니다 — 주식을 도박이라 배우며 자란 사람이, 물리학과 밤의 공부 끝에 배운 한 가지: 주식은 기술이 아니라 감정이고, 그래서 규칙이 필요하다는 것."
+   ],
+   "chapters": [],
+   "sources_ko": "",
+   "sources_en": "",
+   "hold_ko": "",
+   "hold_en": "",
+   "date": "2026-11-24",
+   "auto": true,
+   "hidden": true
+  },
+  {
    "id": "bgZ--tRqni0",
    "series": "news",
    "part": null,
@@ -2795,10 +2820,11 @@
   }
  },
  "privacy": {
+  "jFB7cP18M14": "public",
   "bgZ--tRqni0": "public",
   "l40s0a2hre4": "public",
   "m9Td3lPKew0": "public",
-  "gQVWGCdBwXc": "public",
+  "gQVWGCdBwXc": "private",
   "30ggRVhQROc": "public",
   "IlffKUqt_vE": "public",
   "IN7Cw2sJ06A": "private",
@@ -2839,9 +2865,10 @@
   "aEnItg9maJo": "deleted"
  },
  "views": {
+  "jFB7cP18M14": 3,
   "bgZ--tRqni0": 186,
   "l40s0a2hre4": 308,
-  "m9Td3lPKew0": 3307,
+  "m9Td3lPKew0": 3331,
   "gQVWGCdBwXc": 45,
   "30ggRVhQROc": 61,
   "IlffKUqt_vE": 54,
@@ -2860,8 +2887,8 @@
   "d31ikYzMljA": 174,
   "mhNQX2iYhS4": 84,
   "hzDu3Z3jUQA": 173,
-  "ATyChLGRQTU": 150,
-  "XGZahphKnSA": 326,
+  "ATyChLGRQTU": 151,
+  "XGZahphKnSA": 329,
   "OZf_vlBiXH0": 282,
   "M7Z_ntzRwo4": 318,
   "TkiPnvVFK8o": 146,
