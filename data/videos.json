@@ -2569,6 +2569,10 @@
   "window_days": 28,
   "metric": "views",
   "rows": {
+   "m9Td3lPKew0": [
+    2145,
+    26
+   ],
    "Y_9WxQ9wZJw": [
     1224,
     2
@@ -2577,16 +2581,16 @@
     1219,
     2
    ],
-   "8k5ls3_7Gdw": [
-    1185,
-    4
-   ],
    "2mdAsfe-97I": [
-    1164,
+    1210,
     1
    ],
+   "8k5ls3_7Gdw": [
+    1186,
+    4
+   ],
    "kpiHtqkQa5A": [
-    1037,
+    1045,
     2
    ],
    "D9LLbs9I-7g": [
@@ -2602,7 +2606,7 @@
     3
    ],
    "lVj2M7NRlUw": [
-    951,
+    978,
     3
    ],
    "GyOG1_f_iLA": [
@@ -2614,15 +2618,23 @@
     3
    ],
    "ncoeHJR1F7Y": [
-    533,
+    534,
     0
    ],
    "j8lE4A4u-80": [
-    403,
+    508,
+    0
+   ],
+   "S40is_VpVhA": [
+    393,
     0
    ],
    "p5r2vZ9WGd0": [
-    350,
+    351,
+    0
+   ],
+   "XGZahphKnSA": [
+    328,
     0
    ],
    "M7Z_ntzRwo4": [
@@ -2633,44 +2645,40 @@
     297,
     1
    ],
-   "m9Td3lPKew0": [
-    293,
-    7
-   ],
-   "S40is_VpVhA": [
-    284,
-    0
-   ],
    "OZf_vlBiXH0": [
     282,
     0
+   ],
+   "l40s0a2hre4": [
+    239,
+    7
    ],
    "UbnkEbtTcIg": [
     236,
     0
    ],
    "VLe3Surv92Y": [
-    190,
+    209,
     0
    ],
    "FDAhE002yVw": [
     188,
     0
    ],
-   "XGZahphKnSA": [
-    170,
-    0
+   "d31ikYzMljA": [
+    174,
+    1
    ],
    "hzDu3Z3jUQA": [
-    168,
+    171,
     1
+   ],
+   "ATyChLGRQTU": [
+    148,
+    0
    ],
    "TkiPnvVFK8o": [
     146,
-    0
-   ],
-   "ATyChLGRQTU": [
-    144,
     0
    ],
    "SoKNh9_6t1U": [
@@ -2682,15 +2690,11 @@
     0
    ],
    "TSExHEMNysU": [
-    129,
+    130,
     1
    ],
    "ZPmVJATK6kU": [
     118,
-    0
-   ],
-   "d31ikYzMljA": [
-    102,
     0
    ],
    "-HC6ESCp7VU": [
@@ -2709,10 +2713,6 @@
     77,
     0
    ],
-   "l40s0a2hre4": [
-    76,
-    1
-   ],
    "rOsgdEIpkw8": [
     69,
     0
@@ -2721,17 +2721,17 @@
     65,
     0
    ],
-   "rfhyz8Ggigo": [
-    54,
-    0
-   ],
    "30ggRVhQROc": [
-    45,
+    55,
     0
    ],
    "IlffKUqt_vE": [
-    45,
+    55,
     -1
+   ],
+   "rfhyz8Ggigo": [
+    55,
+    0
    ],
    "YyEblSA_vtg": [
     23,
@@ -2747,6 +2747,10 @@
    ],
    "4vbsvFRDWVo": [
     15,
+    0
+   ],
+   "bgZ--tRqni0": [
+    14,
     0
    ],
    "5lRG8IZnNBg": [
@@ -2813,7 +2817,15 @@
     1,
     0
    ],
+   "_Ooc8f1824Q": [
+    1,
+    0
+   ],
    "hUelmSGZJxQ": [
+    1,
+    0
+   ],
+   "vkNq2uxwykk": [
     1,
     0
    ]
@@ -2865,10 +2877,10 @@
   "aEnItg9maJo": "deleted"
  },
  "views": {
-  "jFB7cP18M14": 14,
+  "jFB7cP18M14": 27,
   "bgZ--tRqni0": 189,
   "l40s0a2hre4": 310,
-  "m9Td3lPKew0": 3353,
+  "m9Td3lPKew0": 3361,
   "30ggRVhQROc": 63,
   "IlffKUqt_vE": 54,
   "IN7Cw2sJ06A": 314,
