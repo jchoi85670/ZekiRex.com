@@ -2641,7 +2641,7 @@
  ],
  "_curation": "2026-11-17 Rex: 사이트를 대표하는 영상만 싣는다. hidden=true 는 유튜브에만 둔다(주간 채점·종목 해부 등 중단·시기성 영상). 새 영상은 build·memory 시리즈만 자동 공개, 나머지는 hidden 으로 들어와 선별 후 공개.",
  "popularity": {
-  "asof": "2026-11-23",
+  "asof": "2026-11-24",
   "window_days": 28,
   "metric": "views",
   "rows": {
@@ -2690,8 +2690,8 @@
     0
    ],
    "WEtkUOUXud4": [
-    629,
-    3
+    564,
+    2
    ],
    "ncoeHJR1F7Y": [
     534,
@@ -2765,10 +2765,6 @@
     131,
     0
    ],
-   "TSExHEMNysU": [
-    130,
-    1
-   ],
    "ZPmVJATK6kU": [
     118,
     0
@@ -2777,23 +2773,23 @@
     100,
     0
    ],
-   "IN7Cw2sJ06A": [
-    87,
+   "TSExHEMNysU": [
+    85,
     1
    ],
    "mhNQX2iYhS4": [
     84,
     0
    ],
-   "YG6EG8mEdgg": [
-    77,
+   "IN7Cw2sJ06A": [
+    70,
+    1
+   ],
+   "MFsKiKeyINE": [
+    65,
     0
    ],
    "rOsgdEIpkw8": [
-    69,
-    0
-   ],
-   "MFsKiKeyINE": [
     65,
     0
    ],
@@ -2810,7 +2806,7 @@
     0
    ],
    "YyEblSA_vtg": [
-    23,
+    21,
     0
    ],
    "l276xYYJQkI": [
@@ -2821,16 +2817,20 @@
     16,
     0
    ],
-   "4vbsvFRDWVo": [
-    15,
+   "YG6EG8mEdgg": [
+    14,
     0
    ],
    "bgZ--tRqni0": [
     14,
     0
    ],
+   "4vbsvFRDWVo": [
+    11,
+    0
+   ],
    "5lRG8IZnNBg": [
-    13,
+    10,
     0
    ],
    "y9mFLVDLdes": [
@@ -2838,14 +2838,6 @@
     0
    ],
    "hH-wMTViLQo": [
-    8,
-    0
-   ],
-   "pdQXntfyrlE": [
-    8,
-    0
-   ],
-   "rMraBbjOwG8": [
     7,
     0
    ],
@@ -2853,11 +2845,11 @@
     6,
     0
    ],
-   "DazMISBOLH4": [
+   "pdQXntfyrlE": [
     6,
     0
    ],
-   "i7sPerfsY5U": [
+   "rMraBbjOwG8": [
     6,
     0
    ],
@@ -2865,7 +2857,15 @@
     6,
     0
    ],
+   "DazMISBOLH4": [
+    5,
+    0
+   ],
    "62oE92NSTm0": [
+    4,
+    0
+   ],
+   "i7sPerfsY5U": [
     4,
     0
    ],
@@ -2954,12 +2954,12 @@
   "aEnItg9maJo": "deleted"
  },
  "views": {
-  "iRU39-IV4ik": 24,
+  "iRU39-IV4ik": 27,
   "jFB7cP18M14": 31,
-  "bgZ--tRqni0": 201,
-  "l40s0a2hre4": 324,
-  "m9Td3lPKew0": 3373,
-  "30ggRVhQROc": 63,
+  "bgZ--tRqni0": 203,
+  "l40s0a2hre4": 341,
+  "m9Td3lPKew0": 3380,
+  "30ggRVhQROc": 65,
   "IlffKUqt_vE": 54,
   "IN7Cw2sJ06A": 314,
   "TSExHEMNysU": 414,
