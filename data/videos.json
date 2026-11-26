@@ -2641,7 +2641,7 @@
  ],
  "_curation": "2026-11-17 Rex: 사이트를 대표하는 영상만 싣는다. hidden=true 는 유튜브에만 둔다(주간 채점·종목 해부 등 중단·시기성 영상). 새 영상은 build·memory 시리즈만 자동 공개, 나머지는 hidden 으로 들어와 선별 후 공개.",
  "popularity": {
-  "asof": "2026-11-24",
+  "asof": "2026-11-25",
   "window_days": 28,
   "metric": "views",
   "rows": {
@@ -2689,10 +2689,6 @@
     676,
     0
    ],
-   "WEtkUOUXud4": [
-    564,
-    2
-   ],
    "ncoeHJR1F7Y": [
     527,
     0
@@ -2732,6 +2728,10 @@
    "UbnkEbtTcIg": [
     236,
     0
+   ],
+   "WEtkUOUXud4": [
+    234,
+    1
    ],
    "VLe3Surv92Y": [
     218,
@@ -2777,16 +2777,12 @@
     100,
     0
    ],
-   "TSExHEMNysU": [
-    87,
-    1
-   ],
    "mhNQX2iYhS4": [
     84,
     0
    ],
    "IN7Cw2sJ06A": [
-    70,
+    67,
     1
    ],
    "MFsKiKeyINE": [
@@ -2794,8 +2790,12 @@
     0
    ],
    "rOsgdEIpkw8": [
-    65,
+    64,
     0
+   ],
+   "TSExHEMNysU": [
+    63,
+    1
    ],
    "30ggRVhQROc": [
     61,
@@ -2810,7 +2810,7 @@
     -1
    ],
    "YyEblSA_vtg": [
-    21,
+    20,
     0
    ],
    "l276xYYJQkI": [
@@ -2826,7 +2826,7 @@
     0
    ],
    "5lRG8IZnNBg": [
-    13,
+    12,
     0
    ],
    "4vbsvFRDWVo": [
@@ -2837,15 +2837,11 @@
     9,
     0
    ],
-   "hH-wMTViLQo": [
-    7,
-    0
-   ],
    "2ai_e19ChXU": [
     6,
     0
    ],
-   "pdQXntfyrlE": [
+   "hH-wMTViLQo": [
     6,
     0
    ],
@@ -2858,6 +2854,10 @@
     0
    ],
    "DazMISBOLH4": [
+    5,
+    0
+   ],
+   "pdQXntfyrlE": [
     5,
     0
    ],
@@ -2958,7 +2958,7 @@
   "jFB7cP18M14": 38,
   "bgZ--tRqni0": 210,
   "l40s0a2hre4": 360,
-  "m9Td3lPKew0": 3407,
+  "m9Td3lPKew0": 3408,
   "30ggRVhQROc": 65,
   "IlffKUqt_vE": 54,
   "IN7Cw2sJ06A": 314,
@@ -2976,7 +2976,7 @@
   "d31ikYzMljA": 174,
   "mhNQX2iYhS4": 84,
   "hzDu3Z3jUQA": 173,
-  "ATyChLGRQTU": 151,
+  "ATyChLGRQTU": 152,
   "XGZahphKnSA": 331,
   "OZf_vlBiXH0": 282,
   "M7Z_ntzRwo4": 318,
