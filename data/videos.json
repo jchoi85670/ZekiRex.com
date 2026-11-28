@@ -75,56 +75,55 @@
  ],
  "videos": [
   {
-   "id": "VgKZ64ql5HQ",
+   "id": "loE-QBT9kCI",
    "series": "news",
    "part": null,
    "public_at": null,
-   "secs": 309,
-   "title_ko": "코스피 반토막, 꼭 볼 숫자 2개",
-   "title_en": "코스피 반토막, 꼭 볼 숫자 2개",
+   "secs": 864,
+   "title_ko": "코스피 전망: 반토막 회복, IMF는 1.9년 — 꼭 볼 숫자 2개",
+   "title_en": "KOSPI halved: Korea recovered in 1.9 years after the IMF crisis — 2 numbers to watch",
    "sum_ko": [
-    "코스피 반토막, 일본처럼 될까 IMF처럼 회복할까? 코스피가 156일 만에 −48.5%인데 상장사 이익은 사상 최대입니다. 갈림길은 두 가지, 금리 인상이 언제 멈추나, 내년 이익이 버티나.",
-    "챕터"
+    "이익은 사상 최대인데 주가는 반토막. 코스피는 IMF처럼 빨리 돌아올까, 일본처럼 오래 누울까? 100년 기록 네 개가 답한 기준은 두 가지 — 금리가 언제 멈추나, 내년 이익이 버티나."
    ],
    "sum_en": [
-    "코스피 반토막, 일본처럼 될까 IMF처럼 회복할까? 코스피가 156일 만에 −48.5%인데 상장사 이익은 사상 최대입니다. 갈림길은 두 가지, 금리 인상이 언제 멈추나, 내년 이익이 버티나.",
-    "챕터"
+    "Profits at a record, prices cut in half. Will KOSPI recover like Korea in 1997 or stall like Japan? Four 100-year records point to two tests: when rate hikes stop, and whether next year's earnings hold."
    ],
    "chapters": [
     [
      "0:00",
-     "156일 만에 반토막",
-     "156일 만에 반토막"
+     "이익은 사상 최대, 주가는 반토막"
     ],
     [
-     "0:32",
-     "회복 경로 4개 비교",
-     "회복 경로 4개 비교"
+     "1:11",
+     "기록 1 · 한국 1997"
     ],
     [
-     "0:55",
-     "갈림길을 만든 두 가지: 금리와 이익",
-     "갈림길을 만든 두 가지: 금리와 이익"
+     "3:48",
+     "기록 2 · 일본 1989"
     ],
     [
-     "1:44",
-     "2026년 한국 채점",
-     "2026년 한국 채점"
+     "6:01",
+     "기록 3 · 미국 1929·1937"
     ],
     [
-     "2:44",
-     "금리와 지켜볼 날짜",
-     "금리와 지켜볼 날짜"
+     "7:16",
+     "기록 4 · 닷컴 2000"
     ],
     [
-     "3:39",
-     "바닥 신호판 (켜진 신호 1개, 필요 3개)",
-     "바닥 신호판 (켜진 신호 1개, 필요 3개)"
+     "8:48",
+     "네 기록 한 장"
     ],
     [
-     "4:20",
-     "정리",
-     "정리"
+     "9:40",
+     "지금 한국 2026"
+    ],
+    [
+     "11:10",
+     "볼 숫자 · 날짜"
+    ],
+    [
+     "13:15",
+     "Zeki 의견 · 정리"
     ]
    ],
    "sources_ko": "",
@@ -132,7 +131,7 @@
    "hold_ko": "",
    "hold_en": "",
    "date": "2026-11-28",
-   "auto": true,
+   "auto": false,
    "hidden": true
   },
   {
@@ -2702,7 +2701,7 @@
  ],
  "_curation": "2026-11-17 Rex: 사이트를 대표하는 영상만 싣는다. hidden=true 는 유튜브에만 둔다(주간 채점·종목 해부 등 중단·시기성 영상). 새 영상은 build·memory 시리즈만 자동 공개, 나머지는 hidden 으로 들어와 선별 후 공개.",
  "popularity": {
-  "asof": "2026-11-26",
+  "asof": "2026-11-27",
   "window_days": 28,
   "metric": "views",
   "rows": {
@@ -2814,10 +2813,6 @@
     152,
     0
    ],
-   "TkiPnvVFK8o": [
-    146,
-    0
-   ],
    "SoKNh9_6t1U": [
     142,
     0
@@ -2828,6 +2823,10 @@
    ],
    "iRU39-IV4ik": [
     124,
+    0
+   ],
+   "TkiPnvVFK8o": [
+    109,
     0
    ],
    "-HC6ESCp7VU": [
@@ -2846,36 +2845,32 @@
     65,
     0
    ],
-   "ZPmVJATK6kU": [
-    65,
-    0
-   ],
    "rOsgdEIpkw8": [
-    64,
+    62,
     0
-   ],
-   "IN7Cw2sJ06A": [
-    60,
-    1
    ],
    "rfhyz8Ggigo": [
     60,
     0
+   ],
+   "IN7Cw2sJ06A": [
+    56,
+    1
    ],
    "IlffKUqt_vE": [
     55,
     -1
    ],
    "TSExHEMNysU": [
-    49,
+    43,
     1
    ],
    "jFB7cP18M14": [
     38,
     0
    ],
-   "YyEblSA_vtg": [
-    18,
+   "ZPmVJATK6kU": [
+    21,
     0
    ],
    "l276xYYJQkI": [
@@ -2886,16 +2881,20 @@
     15,
     0
    ],
-   "YG6EG8mEdgg": [
-    13,
+   "YyEblSA_vtg": [
+    14,
     0
    ],
    "5lRG8IZnNBg": [
     12,
     0
    ],
+   "YG6EG8mEdgg": [
+    12,
+    0
+   ],
    "4vbsvFRDWVo": [
-    10,
+    9,
     0
    ],
    "y9mFLVDLdes": [
@@ -2903,10 +2902,6 @@
     0
    ],
    "2ai_e19ChXU": [
-    6,
-    0
-   ],
-   "WEtkUOUXud4": [
     6,
     0
    ],
@@ -2918,7 +2913,7 @@
     6,
     0
    ],
-   "DazMISBOLH4": [
+   "WEtkUOUXud4": [
     5,
     0
    ],
@@ -2927,6 +2922,10 @@
     0
    ],
    "62oE92NSTm0": [
+    4,
+    0
+   ],
+   "DazMISBOLH4": [
     4,
     0
    ],
@@ -2954,10 +2953,6 @@
     2,
     0
    ],
-   "y_ieVwoyWA8": [
-    2,
-    0
-   ],
    "X-8gF8T5G2A": [
     1,
     0
@@ -2977,7 +2972,7 @@
   }
  },
  "privacy": {
-  "VgKZ64ql5HQ": "public",
+  "loE-QBT9kCI": "public",
   "iRU39-IV4ik": "public",
   "jFB7cP18M14": "public",
   "bgZ--tRqni0": "public",
@@ -3024,7 +3019,7 @@
   "aEnItg9maJo": "deleted"
  },
  "views": {
-  "VgKZ64ql5HQ": 44,
+  "loE-QBT9kCI": 4,
   "iRU39-IV4ik": 166,
   "jFB7cP18M14": 41,
   "bgZ--tRqni0": 211,
